@@ -75,6 +75,7 @@ List of recommendations for extremely online 4chan types to peruse.
 
 ## Feminism
 
++ Simone de Beauvoir. *The Second Sex: Facts and Myths*.
 + Andrea Dworkin. *Right-Wing Women: The Politics of Domesticated Females*.
 + Cameron Awkward-Rich. *Trans, Feminism: Or, Reading like a Depressed Transsexual*.
 + bell hooks. *Sisterhood: Political Solidarity between Women*.
@@ -93,7 +94,7 @@ List of recommendations for extremely online 4chan types to peruse.
 + Alyson Greaves. [*The Sisters of Dorley*](https://www.scribblehub.com/series/421879/the-sisters-of-dorley/).
 + Amanda Avila. [*Jennyffer*](https://youtu.be/a4-0YUQcca8).
 + *She-Ra and the Princesses of Power*.
-+ *The Matrix*.
++ Directors Lana Wachowski, Lilly Wachowski. *The Matrix*.
 
 ## Self-Help
 
