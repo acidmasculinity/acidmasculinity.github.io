@@ -1,0 +1,9 @@
+title: Acid Masculinity
+description: >-
+  in the subject who desires, desire can be made to desire its own repression
+baseurl: ""
+url: "https://acidmasculinity.github.io"
+
+theme: minima
+plugins:
+  - jekyll-feed
