@@ -24,7 +24,7 @@ Recommendations for extremely online 4chan types.
 + [*The Daily Former -- Accountability in the Church of No Forgiveness*](https://www.buzzsprout.com/2163760/13023245-accountability-in-the-church-of-no-forgiveness).
 + That Dang Dad. [*How Being a Cop Broke My Brain*](https://youtu.be/_nl5zMIwcmQ).
 + [*How a Neo-Nazi Found Their Identity as a Trans Woman*](https://video.vice.com/en_us/video/vice-how-a-neo-nazi-found-their-identity-as-a-trans-woman/5b34c997be4077208b663b2e) (documentary).
-+ *Pray Away*. (documentary).
++ *Pray Away*. (documentary)
 + Christian Picciolini. *Breaking Hate*.
 
 ## Former Biographies
@@ -109,7 +109,7 @@ Recommendations for extremely online 4chan types.
 
 ## Ability
 
-+ Hilla Kauppinen. [*Always Disabled: Navigating Grief over a Lost Childhood*](https://cripplemedia.com/me-autism-and-the-efforts-to-cure-us/)
++ Hilla Kauppinen. [*Always Disabled: Navigating Grief over a Lost Childhood*](https://cripplemedia.com/me-autism-and-the-efforts-to-cure-us/).
 + Devon Price. *Unmasking Autism: Discovering the New Faces of Neurodiversity*.
 
 ## Queer
