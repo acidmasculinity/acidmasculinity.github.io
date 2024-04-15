@@ -88,12 +88,9 @@ Recommendations for extremely online 4chan types.
 <!-- + Andrew Anglin. [*A Normie's Guide to the Alt-Right*](https://web.archive.org/web/20231210135756/https://dailystormer.in/a-normies-guide-to-the-alt-right/). -->
 <!-- + Andrew Mac Donald (William Pierce). [*The Turner Diaries*](https://archive.org/details/the-turner-diaries-andrew-mac-donald-william-pierce). -->
 
-## Literature
+## Media
 
 + James Baldwin. *Going to Meet the Man*.
-
-## Fun
-
 + Kabi Nagata. *My Lesbian Experience with Loneliness*.
 + gargulec. [*a prison, a body*](https://forums.sufficientvelocity.com/threads/a-prison-a-body-nsfw.63933/).
 + Alyson Greaves. [*The Sisters of Dorley*](https://www.scribblehub.com/series/421879/the-sisters-of-dorley/).
