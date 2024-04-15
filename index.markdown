@@ -124,8 +124,8 @@ Recommendations for extremely online 4chan types.
 ## Other
 
 <!-- + Albert Camus. *The Rebel*. -->
-<!-- + Devon Price. *Laziness Does Not Exist*. -->
 <!-- + Max Stirner. The Unique and Its Property -->
++ Devon Price. *Laziness Does Not Exist*.
 + [*An Interview With "Incel Whisperer" Mike Crumplar*](https://www.countere.com/home/mikecrumplarincels).
 + [*W(h)ither the Christian Right?*](https://post45.org/sections/contemporaries-essays/whither-the-christian-right/)
 
