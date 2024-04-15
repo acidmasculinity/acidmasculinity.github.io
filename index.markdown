@@ -3,13 +3,14 @@ layout: home
 title: "Acid Masculinity"
 ---
 
-List of recommendations for extremely online 4chan types to peruse.
+Recommendations for extremely online 4chan types.
 
 ## Psychology
 
 + Bob Altemeyer. [*The Authoritarians*](https://theauthoritarians.org/).
 + Karen Stenner. *The Authoritarian Dynamic*.
 + Leon Festinger, Henry Riecken, and Stanley Schachter. *When Prophecy Fails: Social and Psychological Study of a Modern Group That Predicted the Destruction of the World*.
+<!-- + Martin Kantor. *Distancing: Avoidant Personality Disorder*. -->
 
 ## Sociology
 
@@ -36,8 +37,10 @@ List of recommendations for extremely online 4chan types to peruse.
 
 ## Media Studies
 
++ Paul Perdijk. [*Database Consumption*](https://jmpc-utokyo.com/keyword/database-consumption/).
 + Hiroki Azuma. *Otaku: Japan’s Database Animals*
 + Saito Tamaki. *Beautiful Fighting Girl*.
++ George Landow. *Hypertext*.
 
 ## Porn Studies
 
@@ -50,7 +53,7 @@ List of recommendations for extremely online 4chan types to peruse.
 + Sayak Valencia. *Gore Capitalism*.
 + Kristian Williams. *Our Enemies in Blue: Police and Power in America*.
 
-## Masculinities
+## Men
 
 + Filipa Melo Lopes. [*What Do Incels Want? Explaining Incel Violence Using Beauvoirian Otherness*](https://www.cambridge.org/core/journals/hypatia/article/what-do-incels-want-explaining-incel-violence-using-beauvoirian-otherness/41705602E4C9B814BEEAE7825233BBD2)
 + Gregory Wayne Walker. [*Disciplining Protest Masculinity*](https://doi.org/10.1177/1097184X05284217).
@@ -60,13 +63,12 @@ List of recommendations for extremely online 4chan types to peruse.
 
 ## Theory
 
-+ Paul Perdijk. [*Database Consumption*](https://jmpc-utokyo.com/keyword/database-consumption/).
-+ George Landow. *Hypertext*.
 + Jean-Paul Sartre. *Anti-Semite and Jew*.
 + Wilhelm Reich. *The Mass Psychology of Fascism*.
 
 ## Lore
 
++ Benjamin R. Teitelbaum. [The Study of Far-Right Music](https://musicresearchannual.org/teitelbaum-the-study-of-far-right-music/).
 + Fielitz, Maik and Nick Thurston. *Post-Digital Cultures of the Far Right: Online Actions and Offline Consequences in Europe and the US*, Bielefeld: transcript Verlag, 2019. [https://doi.org/10.1515/9783839446706](https://doi.org/10.1515/9783839446706)
 + Askanius, Tina, and Nadine Keller. *Murder Fantasies in Memes: Fascist Aesthetics of Death Threats and the Banalization of White Supremacist Violence.* Information, Communication & Society 24, no. 16 (2021): 2522–39. doi:10.1080/1369118X.2021.1974517.
 + Dale Bernan. *It Came From Something Awful*.
@@ -80,15 +82,18 @@ List of recommendations for extremely online 4chan types to peruse.
 + Cameron Awkward-Rich. *Trans, Feminism: Or, Reading like a Depressed Transsexual*.
 + bell hooks. *Sisterhood: Political Solidarity between Women*.
 
-## Far-Right Canon
+<!-- ## Far-Right Canon -->
 
-+ J. R. R. Tolkien. *The Lord of the Rings*
-+ Andrew Anglin. [*A Normie's Guide to the Alt-Right*](https://web.archive.org/web/20231210135756/https://dailystormer.in/a-normies-guide-to-the-alt-right/).
-+ Andrew Mac Donald (William Pierce). [*The Turner Diaries*](https://archive.org/details/the-turner-diaries-andrew-mac-donald-william-pierce).
+<!-- + J. R. R. Tolkien. *The Lord of the Rings* -->
+<!-- + Andrew Anglin. [*A Normie's Guide to the Alt-Right*](https://web.archive.org/web/20231210135756/https://dailystormer.in/a-normies-guide-to-the-alt-right/). -->
+<!-- + Andrew Mac Donald (William Pierce). [*The Turner Diaries*](https://archive.org/details/the-turner-diaries-andrew-mac-donald-william-pierce). -->
+
+## Literature
+
++ James Baldwin. *Going to Meet the Man*.
 
 ## Fun
 
-+ James Baldwin. *Going to Meet the Man*.
 + Kabi Nagata. *My Lesbian Experience with Loneliness*.
 + gargulec. [*a prison, a body*](https://forums.sufficientvelocity.com/threads/a-prison-a-body-nsfw.63933/).
 + Alyson Greaves. [*The Sisters of Dorley*](https://www.scribblehub.com/series/421879/the-sisters-of-dorley/).
@@ -103,11 +108,28 @@ List of recommendations for extremely online 4chan types to peruse.
 + Henepola Gunaratana. [*Mindfulness in Plain English*](https://www.vipassana.com/meditation/mindfulness_in_plain_english.html).
 + Jeffrey M. Schwartz. *Brain Lock: Free Yourself from Obsessive-Compulsive Behavior*.
 + Edmund Bourne. *The Anxiety and Phobia Workbook*.
++ Martin E.P. Seligman. *Learned Optimism: How to Change Your Mind and Your Life*.
+
+## Ability
+
++ Hilla Kauppinen. [*Always Disabled: Navigating Grief over a Lost Childhood*](https://cripplemedia.com/me-autism-and-the-efforts-to-cure-us/)
++ Devon Price. *Unmasking Autism: Discovering the New Faces of Neurodiversity*.
+
+## Queer
+
++ gargulec. [Nerds, Catgirls, and Other Trans Potentialities](https://forums.sufficientvelocity.com/threads/nerds-catgirls-and-other-trans-potentialities-now-revised.104346/).
++ Julia Serano. *Whipping Girl: A Transsexual Woman on Sexism and the Scapegoating of Femininity*.
++ Alan Downs. *The Velvet Rage: Overcoming the Pain of Growing Up Gay in a Straight Man's World*.
 
 ## Other
 
+<!-- + Albert Camus. *The Rebel*. -->
+<!-- + Devon Price. *Laziness Does Not Exist*. -->
+<!-- + Max Stirner. The Unique and Its Property -->
 + [*An Interview With "Incel Whisperer" Mike Crumplar*](https://www.countere.com/home/mikecrumplarincels).
 + [*W(h)ither the Christian Right?*](https://post45.org/sections/contemporaries-essays/whither-the-christian-right/)
-+ Hilla Kauppinen. [*Always Disabled: Navigating Grief over a Lost Childhood*](https://cripplemedia.com/me-autism-and-the-efforts-to-cure-us/)
-+ Alan Downs. *The Velvet Rage: Overcoming the Pain of Growing Up Gay in a Straight Man's World*.
-+ Julia Serano. *Whipping Girl: A Transsexual Woman on Sexism and the Scapegoating of Femininity*.
+
+## Links
+
++ [Evolve Program](https://evolveprogram.ca)
++ [Life After Hate](https://lifeafterhate.org)
