@@ -129,7 +129,7 @@ Recommendations for extremely online 4chan types.
 <!-- + Albert Camus. *The Rebel*. -->
 <!-- + Max Stirner. The Unique and Its Property -->
 {% for category in site.data.sources %}
-<h2>category.name</h2>
+<h2>{{- category.name -}}</h2>
 <ul>
 {% for source in category.sources %}
   <li>
