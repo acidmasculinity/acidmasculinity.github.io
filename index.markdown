@@ -142,6 +142,9 @@ Recommendations for extremely online 4chan types.
     {%- if source.site != nil -%}
     . {{ source.site -}}
     {%- endif -%}
+    {%- if source.URL != nil -%}
+    . <a href="{{- source.URL | url_encode -}}">{{- source.URL -}}</a>
+    {%- endif -%}
   </li>
 {% endfor %}
 </ul>
