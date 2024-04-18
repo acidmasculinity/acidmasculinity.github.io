@@ -139,7 +139,7 @@ Recommendations for extremely online 4chan types.
     . {{ source.site -}}
     {%- endif -%}
     {%- if source.URL != nil -%}
-    . <a href="{{- source.URL | url_encode -}}">{{- source.URL -}}</a>
+    . <a href="{{- source.URL -}}">{{- source.URL -}}</a>
     {%- endif -%}
   </li>
 {% endfor %}
