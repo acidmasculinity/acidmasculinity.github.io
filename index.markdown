@@ -92,14 +92,14 @@ Recommendations for extremely online 4chan types.
 <ul>
 {% for source in category.sources %}
   <li>
-    {{- source.authors -}}
-    . <i>{{- source.title -}}</i>
-    {%- if source.site != nil -%}
-    . {{ source.site -}}
-    {%- endif -%}
-    {%- if source.URL != nil -%}
-    . <a href="{{- source.URL -}}">{{- source.URL -}}</a>
-    {%- endif -%}
+    {{ source.authors }}.
+    <i>{{ source.title }}</i>.
+    {% if source.site != nil %}
+    {{ source.site }}.
+    {% endif %}
+    {% if source.URL != nil %}
+    <a href="{{- source.URL -}}">{{- source.URL -}}</a>
+    {% endif %}
   </li>
 {% endfor %}
 </ul>
