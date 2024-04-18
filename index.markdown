@@ -3,14 +3,10 @@ layout: home
 title: "Bibliography"
 ---
 
-Bibliography of recommended sources for extremely online 4chan types.
+My recommendations for extremely online 4chan types.
+Mostly books I've found valuable or relatable.
 
 <!-- - Martin Kantor. *Distancing: Avoidant Personality Disorder*. -->
-<!-- - After Trans Studies -->
-<!-- Little Miss Dysphoria -->
-<!-- An Essay about Transgender Women and Madness -->
-<!-- by Leah Tigers -->
-<!-- http://www.trickymothernature.com/littlemissdysphoria.html -->
 <!-- ## Mad -->
 <!-- Seko, Yukari; Kikuchi, Minako (2023). Mentally Ill and Cute as Hell: Menhera Girls and Portrayals of Self-Injury in Japanese Popular Culture. Toronto Metropolitan University. Journal contribution. https://doi.org/10.32920/21950459.v1  -->
 
