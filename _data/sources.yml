@@ -89,7 +89,7 @@
       title: "My Lesbian Experience with Loneliness"
     - authors: gargulec
       title: "a prison, a body"
-      site: ""
+      site: "Sufficient Velocity"
       URL: "https://forums.sufficientvelocity.com/threads/a-prison-a-body-nsfw.63933"
     - authors: Alyson Greaves
       title: "The Sisters of Dorley"
@@ -104,7 +104,7 @@
     - authors: Directors Lana Wachowski, Lilly Wachowski
       title: "The Matrix"
 
-- name: Self-Help
+- name: "Self-Help"
   sources:
     - authors: Michael Tetley
       title: "Instinctive sleeping and resting postures: an anthropological and zoological approach to treatment of low back and joint pain"
@@ -120,19 +120,19 @@
     - authors: "Martin E.P. Seligman"
       title: "Learned Optimism: How to Change Your Mind and Your Life"
 
-- name: Queer
+- name: "Queer"
   source:
     - authors: gargulec
       title: "Nerds, Catgirls, and Other Trans Potentialities"
       site: "Sufficient Velocity"
       URL: "https://forums.sufficientvelocity.com/threads/nerds-catgirls-and-other-trans-potentialities-now-revised.104346"
-    - authors: Julia Serano
+    - authors: "Julia Serano"
       title: "Whipping Girl: A Transsexual Woman on Sexism and the Scapegoating of Femininity"
-    - authors: Alan Downs
+    - authors: "Alan Downs"
       title: "The Velvet Rage: Overcoming the Pain of Growing Up Gay in a Straight Man's World"
     - authors: "Andrea Long Chu, Emmett Harsin Drager"
       title: "After Trans Studies"
-      URL: https://doi.org/10.1215/23289252-7253524
+      URL: "https://doi.org/10.1215/23289252-7253524"
     - authors: "Leah Tigers"
       title: "Little Miss Dysphoria: An Essay about Transgender Women and Madness"
       site: "Tricky Mother Nature"

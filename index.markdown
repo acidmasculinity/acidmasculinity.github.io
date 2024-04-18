@@ -14,7 +14,7 @@ Mostly books I've found valuable or relatable.
 <!-- - J. R. R. Tolkien. *The Lord of the Rings* -->
 <!-- - Andrew Anglin. [*A Normie's Guide to the Alt-Right*](https://web.archive.org/web/20231210135756/https://dailystormer.in/a-normies-guide-to-the-alt-right/). -->
 <!-- - Andrew Mac Donald (William Pierce). [*The Turner Diaries*](https://archive.org/details/the-turner-diaries-andrew-mac-donald-william-pierce). -->
-
+<!-- Philosphy -->
 <!-- + Albert Camus. *The Rebel*. -->
 <!-- + Max Stirner. The Unique and Its Property -->
 {% for category in site.data.sources %}
