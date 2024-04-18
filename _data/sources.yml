@@ -1,3 +1,13 @@
+- name: Feminism
+  - authors: Simone de Beauvoir
+    title: "The Second Sex: Facts and Myths"
+  - authors: Andrea Dworkin
+    title: "Right-Wing Women: The Politics of Domesticated Females"
+  - authors: Cameron Awkward-Rich
+    title: "Trans, Feminism: Or, Reading like a Depressed Transsexual"
+  - authors: bell hooks
+    title: "Sisterhood: Political Solidarity between Women"
+
 - name: Former Biographies
   - authors: Eli Saslow
     title: "Rising Out of Hatred: The Awakening of a Former White Nationalist"

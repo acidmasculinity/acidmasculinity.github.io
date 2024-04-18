@@ -46,13 +46,6 @@ Recommendations for extremely online 4chan types.
 + Andrew Marantz. *Antisocial: Online Extremists, Techno-Utopians, and the Hijacking of the American Conversation*.
 + Laura Bates. *Men Who Hate Women: From Incels to Pickup Artist: The Truth about Extreme Misogyny and How it Affects Us All*.
 
-## Feminism
-
-+ Simone de Beauvoir. *The Second Sex: Facts and Myths*.
-+ Andrea Dworkin. *Right-Wing Women: The Politics of Domesticated Females*.
-+ Cameron Awkward-Rich. *Trans, Feminism: Or, Reading like a Depressed Transsexual*.
-+ bell hooks. *Sisterhood: Political Solidarity between Women*.
-
 <!-- ## Far-Right Canon -->
 
 <!-- + J. R. R. Tolkien. *The Lord of the Rings* -->
