@@ -1,3 +1,135 @@
+- name:  Psychology
+  sources:
+    - authors: Bob Altemeyer
+      title: "The Authoritarians"
+      URL: "https://theauthoritarians.org/"
+    - authors: Karen Stenner
+      title: "The Authoritarian Dynamic"
+    - authors: Leon Festinger, Henry Riecken, and Stanley Schachter
+      title: "When Prophecy Fails: Social and Psychological Study of a Modern Group That Predicted the Destruction of the World"
+
+- name: Former Docs/Writings
+  sources:
+    - authors: "Naama Kates"
+      title: "Incels Podcast -- 82: TRANSmaxxing w/ Nixie (@ManicPixJeepGrl)"
+      site: Spreaker
+      URL: "https://www.spreaker.com/user/16630550/emastered-ep82parta"
+    - authors: Ky Schevers
+      title: "Seeing Myself in the Stories of Other Conversion Therapy Survivors"
+      URL: "https://reclaimingtrans.com/2022/03/06/seeing-myself-in-the-stories-of-other-conversion-therapy-survivors/"
+    - authors: ""
+      title: "The Daily Former -- Accountability in the Church of No Forgiveness"
+      site: ""
+      URL: "https://www.buzzsprout.com/2163760/13023245-accountability-in-the-church-of-no-forgiveness"
+    - authors: That Dang Dad
+      title: "How Being a Cop Broke My Brain"
+      site: YouTube
+      URL: "https://youtu.be/_nl5zMIwcmQ"
+    - authors: "How a Neo-Nazi Found Their Identity as a Trans Woman"
+      site: "Vice News"
+      URL: "https://video.vice.com/en_us/video/vice-how-a-neo-nazi-found-their-identity-as-a-trans-woman/5b34c997be4077208b663b2e"
+    - authors: ""
+      title: "Pray Away"
+    - authors: Christian Picciolini
+      title: "Breaking Hate"
+
+- name: Media Studies
+  sources:
+    - authors: Paul Perdijk
+      title: "Database Consumption"
+      site: ""
+      URL: "https://jmpc-utokyo.com/keyword/database-consumption/"
+    - authors: Hiroki Azuma
+      site: Japanese Media and Popular Culture
+      title: "Otaku: Japan’s Database Animals"
+    - authors: Saito Tamaki
+      title: "Beautiful Fighting Girl"
+    - authors: George Landow
+      title: "Hypertext"
+
+- name: Men
+  sources:
+    - authors: Filipa Melo Lopes
+      title: "What Do Incels Want? Explaining Incel Violence Using Beauvoirian Otherness"
+      URL: "https://www.cambridge.org/core/journals/hypatia/article/what-do-incels-want-explaining-incel-violence-using-beauvoirian-otherness/41705602E4C9B814BEEAE7825233BBD2"
+    - authors: Gregory Wayne Walker
+      title: "Disciplining Protest Masculinity"
+      URL: "https://doi.org/10.1177/1097184X05284217"
+    - authors: Klaus Theweleit
+      title: "Male Fantasies"
+    - authors: Raewyn Connell
+      title: "Masculinities"
+    - authors: bell hooks
+      title: "The Will to Change: Men, Masculinity, and Love"
+
+- name: Lore
+  sources:
+    - authors: Benjamin R. Teitelbaum
+      title: "The Study of Far-Right Music"
+      URL: "https://musicresearchannual.org/teitelbaum-the-study-of-far-right-music/"
+    - authors: Fielitz, Maik and Nick Thurston
+      title: "Post-Digital Cultures of the Far Right: Online Actions and Offline Consequences in Europe and the US"
+      URL: "https://doi.org/10.1515/9783839446706"
+    - authors: Askanius, Tina, and Nadine Keller
+      title: "Murder Fantasies in Memes: Fascist Aesthetics of Death Threats and the Banalization of White Supremacist Violence."
+      URL: https://doi.org/10.1080/1369118X.2021.1974517
+    - authors: Dale Bernan
+      title: "It Came From Something Awful"
+    - authors: Andrew Marantz
+      title: "Antisocial: Online Extremists, Techno-Utopians, and the Hijacking of the American Conversation"
+    - authors: Laura Bates
+      title: "Men Who Hate Women: From Incels to Pickup Artist: The Truth about Extreme Misogyny and How it Affects Us All"
+
+- name: Media
+  sources:
+    - authors: James Baldwin
+      title: "Going to Meet the Man"
+    - authors: Kabi Nagata
+      title: "My Lesbian Experience with Loneliness"
+    - authors: gargulec
+      title: "a prison, a body"
+      site: ""
+      URL: "https://forums.sufficientvelocity.com/threads/a-prison-a-body-nsfw.63933/"
+    - authors: Alyson Greaves
+      title: "The Sisters of Dorley"
+      site: ""
+      URL: "https://www.scribblehub.com/series/421879/the-sisters-of-dorley/"
+    - authors: Amanda Avila
+      title: "Jennyffer"
+      site: YouTube
+      URL: "https://youtu.be/a4-0YUQcca8"
+    - authors: ""
+      title: "She-Ra and the Princesses of Power"
+    - authors: Directors Lana Wachowski, Lilly Wachowski
+      title: "The Matrix"
+
+- name: Self-Help
+  sources:
+    - authors: Michael Tetley
+      title: "Instinctive sleeping and resting postures: an anthropological and zoological approach to treatment of low back and joint pain"
+      URL: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1119282/"
+    - authors: Susan Pinsky
+      title: "Organizing Solutions for People with ADHD: Tips and Tools to Help You Take Charge of Your Life and Get Organized"
+    - authors: Henepola Gunaratana
+      title: "Mindfulness in Plain English"
+    - authors: Jeffrey M. Schwartz
+      title: "Brain Lock: Free Yourself from Obsessive-Compulsive Behavior"
+    - authors: Edmund Bourne
+      title: "The Anxiety and Phobia Workbook"
+    - authors: Martin E.P. Seligman
+      title: "Learned Optimism: How to Change Your Mind and Your Life"
+
+- name: Queer
+  source:
+    - authors: gargulec
+      title: Nerds, Catgirls, and Other Trans Potentialities
+      site: ""
+      URL: "https://forums.sufficientvelocity.com/threads/nerds-catgirls-and-other-trans-potentialities-now-revised.104346/"
+    - authors: Julia Serano
+      title: "Whipping Girl: A Transsexual Woman on Sexism and the Scapegoating of Femininity"
+    - authors: Alan Downs
+      title: "The Velvet Rage: Overcoming the Pain of Growing Up Gay in a Straight Man's World"
+
 - name: Feminism
   sources:
     - authors: "Simone de Beauvoir"
