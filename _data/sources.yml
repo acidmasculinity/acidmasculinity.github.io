@@ -2,7 +2,7 @@
   sources:
     - authors: Bob Altemeyer
       title: "The Authoritarians"
-      URL: "https://theauthoritarians.org/"
+      URL: "https://theauthoritarians.org"
     - authors: Karen Stenner
       title: "The Authoritarian Dynamic"
     - authors: Leon Festinger, Henry Riecken, and Stanley Schachter
@@ -16,7 +16,7 @@
       URL: "https://www.spreaker.com/user/16630550/emastered-ep82parta"
     - authors: Ky Schevers
       title: "Seeing Myself in the Stories of Other Conversion Therapy Survivors"
-      URL: "https://reclaimingtrans.com/2022/03/06/seeing-myself-in-the-stories-of-other-conversion-therapy-survivors/"
+      URL: "https://reclaimingtrans.com/2022/03/06/seeing-myself-in-the-stories-of-other-conversion-therapy-survivors"
     - authors: "Samantha and Angela"
       title: "The Daily Former -- Accountability in the Church of No Forgiveness"
       site: "Buzzsprout"
@@ -25,7 +25,8 @@
       title: "How Being a Cop Broke My Brain"
       site: YouTube
       URL: "https://youtu.be/_nl5zMIwcmQ"
-    - authors: "How a Neo-Nazi Found Their Identity as a Trans Woman"
+    - authors: "Director Olivera Milenkovic"
+      title: "How a Neo-Nazi Found Their Identity as a Trans Woman"
       site: "Vice News"
       URL: "https://video.vice.com/en_us/video/vice-how-a-neo-nazi-found-their-identity-as-a-trans-woman/5b34c997be4077208b663b2e"
     - authors: "Director Kristine Stolakis"
@@ -38,7 +39,7 @@
     - authors: Paul Perdijk
       title: "Database Consumption"
       site: ""
-      URL: "https://jmpc-utokyo.com/keyword/database-consumption/"
+      URL: "https://jmpc-utokyo.com/keyword/database-consumption"
     - authors: Hiroki Azuma
       site: Japanese Media and Popular Culture
       title: "Otaku: Japan’s Database Animals"
@@ -66,13 +67,13 @@
   sources:
     - authors: Benjamin R. Teitelbaum
       title: "The Study of Far-Right Music"
-      URL: "https://musicresearchannual.org/teitelbaum-the-study-of-far-right-music/"
+      URL: "https://musicresearchannual.org/teitelbaum-the-study-of-far-right-music"
     - authors: Fielitz, Maik and Nick Thurston
       title: "Post-Digital Cultures of the Far Right: Online Actions and Offline Consequences in Europe and the US"
       URL: "https://doi.org/10.1515/9783839446706"
     - authors: Askanius, Tina, and Nadine Keller
       title: "Murder Fantasies in Memes: Fascist Aesthetics of Death Threats and the Banalization of White Supremacist Violence."
-      URL: https://doi.org/10.1080/1369118X.2021.1974517
+      URL: "https://doi.org/10.1080/1369118X.2021.1974517"
     - authors: Dale Bernan
       title: "It Came From Something Awful"
     - authors: Andrew Marantz
@@ -89,11 +90,11 @@
     - authors: gargulec
       title: "a prison, a body"
       site: ""
-      URL: "https://forums.sufficientvelocity.com/threads/a-prison-a-body-nsfw.63933/"
+      URL: "https://forums.sufficientvelocity.com/threads/a-prison-a-body-nsfw.63933"
     - authors: Alyson Greaves
       title: "The Sisters of Dorley"
       site: "Scribble Hub"
-      URL: "https://www.scribblehub.com/series/421879/the-sisters-of-dorley/"
+      URL: "https://www.scribblehub.com/series/421879/the-sisters-of-dorley"
     - authors: Amanda Avila
       title: "Jennyffer"
       site: YouTube
@@ -107,7 +108,7 @@
   sources:
     - authors: Michael Tetley
       title: "Instinctive sleeping and resting postures: an anthropological and zoological approach to treatment of low back and joint pain"
-      URL: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1119282/"
+      URL: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1119282"
     - authors: Susan Pinsky
       title: "Organizing Solutions for People with ADHD: Tips and Tools to Help You Take Charge of Your Life and Get Organized"
     - authors: Henepola Gunaratana
@@ -124,7 +125,7 @@
     - authors: gargulec
       title: "Nerds, Catgirls, and Other Trans Potentialities"
       site: "Sufficient Velocity"
-      URL: "https://forums.sufficientvelocity.com/threads/nerds-catgirls-and-other-trans-potentialities-now-revised.104346/"
+      URL: "https://forums.sufficientvelocity.com/threads/nerds-catgirls-and-other-trans-potentialities-now-revised.104346"
     - authors: Julia Serano
       title: "Whipping Girl: A Transsexual Woman on Sexism and the Scapegoating of Femininity"
     - authors: Alan Downs
@@ -190,7 +191,7 @@
     - authors: Hilla Kauppinen
       title: "Always Disabled: Navigating Grief over a Lost Childhood"
       site: Cripple Media
-      URL: "https://cripplemedia.com/me-autism-and-the-efforts-to-cure-us/"
+      URL: "https://cripplemedia.com/me-autism-and-the-efforts-to-cure-us"
     - authors: Devon Price
       title: "Unmasking Autism: Discovering the New Faces of Neurodiversity"
 
@@ -206,5 +207,5 @@
     - authors: "Christopher Douglas and Matthew Mullins"
       title: "W(h)ither the Christian Right?"
       site: Post45
-      URL: "https://post45.org/sections/contemporaries-essays/whither-the-christian-right/"
+      URL: "https://post45.org/sections/contemporaries-essays/whither-the-christian-right"
 
