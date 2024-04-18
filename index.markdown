@@ -126,16 +126,12 @@ Recommendations for extremely online 4chan types.
 <!-- ## Mad -->
 <!-- Seko, Yukari; Kikuchi, Minako (2023). Mentally Ill and Cute as Hell: Menhera Girls and Portrayals of Self-Injury in Japanese Popular Culture. Toronto Metropolitan University. Journal contribution. https://doi.org/10.32920/21950459.v1  -->
 
-## Other
-
-
 <!-- + Albert Camus. *The Rebel*. -->
 <!-- + Max Stirner. The Unique and Its Property -->
-<!-- + Devon Price. *Laziness Does Not Exist*. -->
-<!-- + [*An Interview With "Incel Whisperer" Mike Crumplar*](https://www.countere.com/home/mikecrumplarincels). -->
-<!-- + [*W(h)ither the Christian Right?*](https://post45.org/sections/contemporaries-essays/whither-the-christian-right/) -->
+{% for category in site.data.sources %}
+<h2>category.name</h2>
 <ul>
-{% for source in site.data.sources %}
+{% for source in category.sources %}
   <li>
     {{- source.authors -}}
     . <i>{{- source.title -}}</i>
@@ -148,6 +144,7 @@ Recommendations for extremely online 4chan types.
   </li>
 {% endfor %}
 </ul>
+{% endfor %}
 
 ## Links
 
