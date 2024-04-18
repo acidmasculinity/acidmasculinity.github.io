@@ -137,7 +137,7 @@ Recommendations for extremely online 4chan types.
 <ul>
 {% for source in site.data.sources %}
   <li>
-    {{- source.author -}}
+    {{- source.authors -}}
     . <i>{{- source.title -}}</i>
     {%- if source.site != nil -%}
     . {{- source.site -}}
