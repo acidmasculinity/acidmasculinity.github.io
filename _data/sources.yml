@@ -1,3 +1,19 @@
+- name: Theory
+  sources:
+    - authors: Jean-Paul Sartre
+      title: Anti-Semite and Jew
+    - authors: Wilhelm Reich
+      title: The Mass Psychology of Fascism
+
+- name: Ability
+  sources:
+    - authors: Hilla Kauppinen
+      title: Always Disabled: Navigating Grief over a Lost Childhood
+      site: Cripple Media
+      URL: https://cripplemedia.com/me-autism-and-the-efforts-to-cure-us/
+    - authors: Devon Price
+      title: Unmasking Autism: Discovering the New Faces of Neurodiversity
+
 - name: Other
   sources:
     - authors: Devon Price

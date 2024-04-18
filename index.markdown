@@ -107,11 +107,6 @@ Recommendations for extremely online 4chan types.
 + Edmund Bourne. *The Anxiety and Phobia Workbook*.
 + Martin E.P. Seligman. *Learned Optimism: How to Change Your Mind and Your Life*.
 
-## Ability
-
-+ Hilla Kauppinen. [*Always Disabled: Navigating Grief over a Lost Childhood*](https://cripplemedia.com/me-autism-and-the-efforts-to-cure-us/).
-+ Devon Price. *Unmasking Autism: Discovering the New Faces of Neurodiversity*.
-
 ## Queer
 
 <!-- + After Trans Studies -->
