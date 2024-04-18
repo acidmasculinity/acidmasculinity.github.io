@@ -7,3 +7,6 @@ url: "https://acidmasculinity.github.io"
 theme: minima
 plugins:
   - jekyll-feed
+
+collections:
+  - sources

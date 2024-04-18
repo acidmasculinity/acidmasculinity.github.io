@@ -114,17 +114,37 @@ Recommendations for extremely online 4chan types.
 
 ## Queer
 
+<!-- + After Trans Studies -->
 + gargulec. [Nerds, Catgirls, and Other Trans Potentialities](https://forums.sufficientvelocity.com/threads/nerds-catgirls-and-other-trans-potentialities-now-revised.104346/).
 + Julia Serano. *Whipping Girl: A Transsexual Woman on Sexism and the Scapegoating of Femininity*.
 + Alan Downs. *The Velvet Rage: Overcoming the Pain of Growing Up Gay in a Straight Man's World*.
+<!-- Little Miss Dysphoria -->
+<!-- An Essay about Transgender Women and Madness -->
+<!-- by Leah Tigers -->
+<!-- http://www.trickymothernature.com/littlemissdysphoria.html -->
+
+<!-- ## Mad -->
+<!-- Seko, Yukari; Kikuchi, Minako (2023). Mentally Ill and Cute as Hell: Menhera Girls and Portrayals of Self-Injury in Japanese Popular Culture. Toronto Metropolitan University. Journal contribution. https://doi.org/10.32920/21950459.v1  -->
 
 ## Other
 
+
 <!-- + Albert Camus. *The Rebel*. -->
 <!-- + Max Stirner. The Unique and Its Property -->
-+ Devon Price. *Laziness Does Not Exist*.
-+ [*An Interview With "Incel Whisperer" Mike Crumplar*](https://www.countere.com/home/mikecrumplarincels).
-+ [*W(h)ither the Christian Right?*](https://post45.org/sections/contemporaries-essays/whither-the-christian-right/)
+<!-- + Devon Price. *Laziness Does Not Exist*. -->
+<!-- + [*An Interview With "Incel Whisperer" Mike Crumplar*](https://www.countere.com/home/mikecrumplarincels). -->
+<!-- + [*W(h)ither the Christian Right?*](https://post45.org/sections/contemporaries-essays/whither-the-christian-right/) -->
+<ul>
+{% for source in site.data.sources %}
+  <li>
+    {{- source.author -}}
+    . <i>{{- source.title -}}</i>
+    {%- if source.site != nil -%}
+    . {{- source.site -}}
+    {%- endif -%}
+  </li>
+{% endfor %}
+</ul>
 
 ## Links
 
