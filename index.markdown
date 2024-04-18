@@ -140,7 +140,7 @@ Recommendations for extremely online 4chan types.
     {{- source.authors -}}
     . <i>{{- source.title -}}</i>
     {%- if source.site != nil -%}
-    . {{- source.site -}}
+    . {{ source.site -}}
     {%- endif -%}
   </li>
 {% endfor %}
