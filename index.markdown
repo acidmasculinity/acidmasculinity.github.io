@@ -12,11 +12,6 @@ Recommendations for extremely online 4chan types.
 + Leon Festinger, Henry Riecken, and Stanley Schachter. *When Prophecy Fails: Social and Psychological Study of a Modern Group That Predicted the Destruction of the World*.
 <!-- + Martin Kantor. *Distancing: Avoidant Personality Disorder*. -->
 
-## Sociology
-
-+ Kathleen M. Blee. *Inside Organized Racism: Women in the Hate Movement*.
-+ Michael Kimmel. *Healing from Hate*.
-
 ## Former Docs/Writings
 
 + [*Incels Podcast -- 82: TRANSmaxxing w/ Nixie (@ManicPixJeepGrl)*](https://www.spreaker.com/user/16630550/emastered-ep82parta).
@@ -27,31 +22,12 @@ Recommendations for extremely online 4chan types.
 + *Pray Away*. (documentary)
 + Christian Picciolini. *Breaking Hate*.
 
-## Former Biographies
-
-+ Eli Saslow. *Rising Out of Hatred: The Awakening of a Former White Nationalist*.
-+ Tony McAleer. *The Cure for Hate: A Former White Supremacist’s Journey from Violent Extremism to Radical Compassion*.
-+ Christian Picciolini. *White American Youth: My Descent into America's Most Violent Hate Movement*.
-+ Ingo Hasselbach, Tom Reiss. *Führer Ex: Memoirs of a Former Neo-Nazi*.
-+ Frank Meeink, Jody M. Roy. *Autobiography of a Recovering Skinhead: The Frank Meeink Story as Told to Jody M. Roy, Ph. D.*.
-
 ## Media Studies
 
 + Paul Perdijk. [*Database Consumption*](https://jmpc-utokyo.com/keyword/database-consumption/).
 + Hiroki Azuma. *Otaku: Japan’s Database Animals*
 + Saito Tamaki. *Beautiful Fighting Girl*.
 + George Landow. *Hypertext*.
-
-## Porn Studies
-
-+ Laura Williams. *Hard Core: Power, Pleasure and the "Frenzy of the Visible"*.
-+ Ariane Cruz. *The Color of Kink: Black Women, BDSM, and Pornography*.
-+ Kimi Rito. *The History of Hentai Manga*.
-
-## Police and Crime
-
-+ Sayak Valencia. *Gore Capitalism*.
-+ Kristian Williams. *Our Enemies in Blue: Police and Power in America*.
 
 ## Men
 
@@ -60,11 +36,6 @@ Recommendations for extremely online 4chan types.
 + Klaus Theweleit. *Male Fantasies*.
 + Raewyn Connell. *Masculinities*.
 + bell hooks. *The Will to Change: Men, Masculinity, and Love*.
-
-## Theory
-
-+ Jean-Paul Sartre. *Anti-Semite and Jew*.
-+ Wilhelm Reich. *The Mass Psychology of Fascism*.
 
 ## Lore
 
