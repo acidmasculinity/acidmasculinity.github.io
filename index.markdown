@@ -1,9 +1,9 @@
 ---
 layout: home
-title: "Acid Masculinity"
+title: "Bibliography"
 ---
 
-Recommendations for extremely online 4chan types.
+Bibliography of recommended sources for extremely online 4chan types.
 
 <!-- - Martin Kantor. *Distancing: Avoidant Personality Disorder*. -->
 <!-- - After Trans Studies -->
@@ -23,9 +23,9 @@ Recommendations for extremely online 4chan types.
 <!-- + Max Stirner. The Unique and Its Property -->
 {% for category in site.data.sources %}
 <h2>{{- category.name -}}</h2>
-<ul>
+<ul class="bib-ul">
 {% for source in category.sources %}
-  <li>
+  <li class="bib-li">
     {{ source.authors }}.
     <i>{{ source.title }}</i>.
     {% if source.site != nil %}

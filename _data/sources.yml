@@ -2,7 +2,8 @@
   sources:
     - authors: Bob Altemeyer
       title: "The Authoritarians"
-      URL: "https://theauthoritarians.org"
+      site: "The Authoritarians"
+      URL: "https://theauthoritarians.org/options-for-getting-the-book"
     - authors: Karen Stenner
       title: "The Authoritarian Dynamic"
     - authors: Leon Festinger, Henry Riecken, and Stanley Schachter
@@ -72,7 +73,7 @@
       title: "Post-Digital Cultures of the Far Right: Online Actions and Offline Consequences in Europe and the US"
       URL: "https://doi.org/10.1515/9783839446706"
     - authors: Askanius, Tina, and Nadine Keller
-      title: "Murder Fantasies in Memes: Fascist Aesthetics of Death Threats and the Banalization of White Supremacist Violence."
+      title: "Murder Fantasies in Memes: Fascist Aesthetics of Death Threats and the Banalization of White Supremacist Violence"
       URL: "https://doi.org/10.1080/1369118X.2021.1974517"
     - authors: Dale Bernan
       title: "It Came From Something Awful"
