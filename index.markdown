@@ -7,8 +7,6 @@ My recommendations for extremely online 4chan types.
 Mostly books I've found valuable or relatable.
 
 <!-- - Martin Kantor. *Distancing: Avoidant Personality Disorder*. -->
-<!-- ## Mad -->
-<!-- Seko, Yukari; Kikuchi, Minako (2023). Mentally Ill and Cute as Hell: Menhera Girls and Portrayals of Self-Injury in Japanese Popular Culture. Toronto Metropolitan University. Journal contribution. https://doi.org/10.32920/21950459.v1  -->
 
 <!-- - name:  Far-Right Canon -->
 <!-- - J. R. R. Tolkien. *The Lord of the Rings* -->
