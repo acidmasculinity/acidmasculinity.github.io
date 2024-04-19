@@ -1,191 +1,91 @@
 ---
-authors: Christian Picciolini
-title: "Breaking Hate"
+authors: "Simone de Beauvoir"
+title: "The Second Sex: Facts and Myths"
 ---
-- name: Media Studies
-  sources:
-    - authors: Paul Perdijk
-      title: "Database Consumption"
-      site: Japanese Media and Popular Culture
-      URL: "https://jmpc-utokyo.com/keyword/database-consumption"
-    - authors: Hiroki Azuma
-      title: "Otaku: Japan’s Database Animals"
-    - authors: Saito Tamaki
-      title: "Beautiful Fighting Girl"
-    - authors: George Landow
-      title: "Hypertext"
+authors: Andrea Dworkin
+title: "Right-Wing Women: The Politics of Domesticated Females"
+---
+authors: Cameron Awkward-Rich
+title: "Trans, Feminism: Or, Reading like a Depressed Transsexual"
+---
+authors: bell hooks
+title: "Sisterhood: Political Solidarity between Women"
+---
 
-- name: Men
-  sources:
-    - authors: Filipa Melo Lopes
-      title: "What Do Incels Want? Explaining Incel Violence Using Beauvoirian Otherness"
-      URL: "https://www.cambridge.org/core/journals/hypatia/article/what-do-incels-want-explaining-incel-violence-using-beauvoirian-otherness/41705602E4C9B814BEEAE7825233BBD2"
-    - authors: Gregory Wayne Walker
-      title: "Disciplining Protest Masculinity"
-      URL: "https://doi.org/10.1177/1097184X05284217"
-    - authors: Klaus Theweleit
-      title: "Male Fantasies"
-    - authors: Raewyn Connell
-      title: "Masculinities"
-    - authors: bell hooks
-      title: "The Will to Change: Men, Masculinity, and Love"
+authors: Eli Saslow
+title: "Rising Out of Hatred: The Awakening of a Former White Nationalist"
+---
+authors: Tony McAleer
+title: "The Cure for Hate: A Former White Supremacist’s Journey from Violent Extremism to Radical Compassion"
+---
+authors: Christian Picciolini
+title: "White American Youth: My Descent into America's Most Violent Hate Movement"
+---
+authors: "Ingo Hasselbach, Tom Reiss"
+title: "Führer Ex: Memoirs of a Former Neo-Nazi"
+---
+authors: "Frank Meeink, Jody M. Roy"
+title: "Autobiography of a Recovering Skinhead: The Frank Meeink Story as Told to Jody M. Roy, Ph. D."
+---
 
-- name: Lore
-  sources:
-    - authors: Benjamin R. Teitelbaum
-      title: "The Study of Far-Right Music"
-      URL: "https://musicresearchannual.org/teitelbaum-the-study-of-far-right-music"
-    - authors: Fielitz, Maik and Nick Thurston
-      title: "Post-Digital Cultures of the Far Right: Online Actions and Offline Consequences in Europe and the US"
-      URL: "https://doi.org/10.1515/9783839446706"
-    - authors: Tina Askanius and Nadine Keller
-      title: "Murder Fantasies in Memes: Fascist Aesthetics of Death Threats and the Banalization of White Supremacist Violence"
-      URL: "https://doi.org/10.1080/1369118X.2021.1974517"
-    - authors: Dale Bernan
-      title: "It Came From Something Awful"
-    - authors: Andrew Marantz
-      title: "Antisocial: Online Extremists, Techno-Utopians, and the Hijacking of the American Conversation"
-    - authors: Laura Bates
-      title: "Men Who Hate Women: From Incels to Pickup Artist: The Truth about Extreme Misogyny and How it Affects Us All"
+authors: Laura Williams
+title: >-
+Hard Core: Power, Pleasure and the "Frenzy of the Visible"
+---
+authors: Ariane Cruz
+title: "The Color of Kink: Black Women, BDSM, and Pornography"
+---
+authors: Kimi Rito
+title: "The History of Hentai Manga"
+---
 
-- name: Media
-  sources:
-    - authors: James Baldwin
-      title: "Going to Meet the Man"
-    - authors: Kabi Nagata
-      title: "My Lesbian Experience with Loneliness"
-    - authors: gargulec
-      title: "a prison, a body"
-      site: "Sufficient Velocity"
-      URL: "https://forums.sufficientvelocity.com/threads/a-prison-a-body-nsfw.63933"
-    - authors: Alyson Greaves
-      title: "The Sisters of Dorley"
-      site: "Scribble Hub"
-      URL: "https://www.scribblehub.com/series/421879/the-sisters-of-dorley"
-    - authors: Amanda Avila
-      title: "Jennyffer"
-      site: YouTube
-      URL: "https://youtu.be/a4-0YUQcca8"
-    - authors: "Showrunner Nate Stevenson"
-      title: "She-Ra and the Princesses of Power"
-    - authors: Directors Lana Wachowski, Lilly Wachowski
-      title: "The Matrix"
+authors: Sayak Valencia
+title: Gore Capitalism
+---
+authors: Kristian Williams
+title: "Our Enemies in Blue: Police and Power in America"
+---
 
-- name: "Self-Help"
-  sources:
-    - authors: Michael Tetley
-      title: "Instinctive sleeping and resting postures: an anthropological and zoological approach to treatment of low back and joint pain"
-      URL: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1119282"
-    - authors: Susan Pinsky
-      title: "Organizing Solutions for People with ADHD: Tips and Tools to Help You Take Charge of Your Life and Get Organized"
-    - authors: Henepola Gunaratana
-      title: "Mindfulness in Plain English"
-    - authors: Jeffrey M. Schwartz
-      title: "Brain Lock: Free Yourself from Obsessive-Compulsive Behavior"
-    - authors: Edmund Bourne
-      title: "The Anxiety and Phobia Workbook"
-    - authors: "Martin E.P. Seligman"
-      title: "Learned Optimism: How to Change Your Mind and Your Life"
+authors: "Kathleen M. Blee"
+title: "Inside Organized Racism: Women in the Hate Movement"
+---
+authors: "Michael Kimmel"
+title: Healing from Hate
+---
 
-- name: "Queer"
-  sources:
-    - authors: gargulec
-      title: "Nerds, Catgirls, and Other Trans Potentialities"
-      site: "Sufficient Velocity"
-      URL: "https://forums.sufficientvelocity.com/threads/nerds-catgirls-and-other-trans-potentialities-now-revised.104346"
-    - authors: "Julia Serano"
-      title: "Whipping Girl: A Transsexual Woman on Sexism and the Scapegoating of Femininity"
-    - authors: "Alan Downs"
-      title: "The Velvet Rage: Overcoming the Pain of Growing Up Gay in a Straight Man's World"
-    - authors: "Andrea Long Chu, Emmett Harsin Drager"
-      title: "After Trans Studies"
-      URL: "https://doi.org/10.1215/23289252-7253524"
-    - authors: "Leah Tigers"
-      title: "Little Miss Dysphoria: An Essay about Transgender Women and Madness"
-      site: "Tricky Mother Nature"
-      URL: "http://www.trickymothernature.com/littlemissdysphoria.html"
+authors: Jean-Paul Sartre
+title: Anti-Semite and Jew
+---
+authors: Wilhelm Reich
+title: The Mass Psychology of Fascism
+---
 
-- name: Feminism
-  sources:
-    - authors: "Simone de Beauvoir"
-      title: "The Second Sex: Facts and Myths"
-    - authors: Andrea Dworkin
-      title: "Right-Wing Women: The Politics of Domesticated Females"
-    - authors: Cameron Awkward-Rich
-      title: "Trans, Feminism: Or, Reading like a Depressed Transsexual"
-    - authors: bell hooks
-      title: "Sisterhood: Political Solidarity between Women"
+authors: "Seko, Yukari; Kikuchi, Minako"
+title: "Mentally Ill and Cute as Hell: Menhera Girls and Portrayals of Self-Injury in Japanese Popular Culture"
+URL: "https://doi.org/10.32920/21950459.v1"
+---
 
-- name: Former Biographies
-  sources:
-    - authors: Eli Saslow
-      title: "Rising Out of Hatred: The Awakening of a Former White Nationalist"
-    - authors: Tony McAleer
-      title: "The Cure for Hate: A Former White Supremacist’s Journey from Violent Extremism to Radical Compassion"
-    - authors: Christian Picciolini
-      title: "White American Youth: My Descent into America's Most Violent Hate Movement"
-    - authors: "Ingo Hasselbach, Tom Reiss"
-      title: "Führer Ex: Memoirs of a Former Neo-Nazi"
-    - authors: "Frank Meeink, Jody M. Roy"
-      title: "Autobiography of a Recovering Skinhead: The Frank Meeink Story as Told to Jody M. Roy, Ph. D."
+---
+authors: Hilla Kauppinen
+title: "Always Disabled: Navigating Grief over a Lost Childhood"
+site: Cripple Media
+URL: "https://cripplemedia.com/me-autism-and-the-efforts-to-cure-us"
+---
+authors: Devon Price
+title: "Unmasking Autism: Discovering the New Faces of Neurodiversity"
+---
 
-- name: Porn Studies
-  sources:
-    - authors: Laura Williams
-      title: >-
-        Hard Core: Power, Pleasure and the "Frenzy of the Visible"
-    - authors: Ariane Cruz
-      title: "The Color of Kink: Black Women, BDSM, and Pornography"
-    - authors: Kimi Rito
-      title: "The History of Hentai Manga"
-
-- name: Police and Crime
-  sources:
-    - authors: Sayak Valencia
-      title: Gore Capitalism
-    - authors: Kristian Williams
-      title: "Our Enemies in Blue: Police and Power in America"
-
-- name: Sociology
-  sources:
-    - authors: "Kathleen M. Blee"
-      title: "Inside Organized Racism: Women in the Hate Movement"
-    - authors: "Michael Kimmel"
-      title: Healing from Hate
-
-- name: Theory
-  sources:
-    - authors: Jean-Paul Sartre
-      title: Anti-Semite and Jew
-    - authors: Wilhelm Reich
-      title: The Mass Psychology of Fascism
-
-- name: Mad
-  sources:
-    - authors: "Seko, Yukari; Kikuchi, Minako"
-      title: "Mentally Ill and Cute as Hell: Menhera Girls and Portrayals of Self-Injury in Japanese Popular Culture"
-      URL: "https://doi.org/10.32920/21950459.v1"
-
-- name: Ability
-  sources:
-    - authors: Hilla Kauppinen
-      title: "Always Disabled: Navigating Grief over a Lost Childhood"
-      site: Cripple Media
-      URL: "https://cripplemedia.com/me-autism-and-the-efforts-to-cure-us"
-    - authors: Devon Price
-      title: "Unmasking Autism: Discovering the New Faces of Neurodiversity"
-
-- name: Other
-  sources:
-    - authors: Devon Price
-      title: Laziness Does Not Exist
-    - authors: DarkWebInsider
-      title: >-
-       An Interview With "Incel Whisperer" Mike Crumplar
-      site: Countere Magazine
-      URL: "https://www.countere.com/home/mikecrumplarincels"
-    - authors: "Christopher Douglas and Matthew Mullins"
-      title: "W(h)ither the Christian Right?"
-      site: Post45
-      URL: "https://post45.org/sections/contemporaries-essays/whither-the-christian-right"
-
+authors: Devon Price
+title: Laziness Does Not Exist
+---
+authors: DarkWebInsider
+title: >-
+An Interview With "Incel Whisperer" Mike Crumplar
+site: Countere Magazine
+URL: "https://www.countere.com/home/mikecrumplarincels"
+---
+authors: "Christopher Douglas and Matthew Mullins"
+title: "W(h)ither the Christian Right?"
+site: Post45
+URL: "https://post45.org/sections/contemporaries-essays/whither-the-christian-right"
+---
