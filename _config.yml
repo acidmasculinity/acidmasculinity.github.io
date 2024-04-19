@@ -9,4 +9,5 @@ plugins:
   - jekyll-feed
 
 collections:
-  - sources
+  sources:
+    sort_by: authors

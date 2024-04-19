@@ -1,6 +1,6 @@
 ---
 layout: home
-title: "Bibliography"
+title: "Anon: An Annotated Bibliography"
 ---
 
 My recommendations for extremely online 4chan types.
@@ -15,10 +15,8 @@ Mostly books I've found valuable or relatable.
 <!-- Philosphy -->
 <!-- + Albert Camus. *The Rebel*. -->
 <!-- + Max Stirner. The Unique and Its Property -->
-{% for category in site.data.sources %}
-<h2>{{- category.name -}}</h2>
 <ul class="bib-ul">
-{% for source in category.sources %}
+{% for source in site.sources %}
   <li class="bib-li">
     {{ source.authors }}.
     <i>{{ source.title }}</i>.
@@ -31,7 +29,6 @@ Mostly books I've found valuable or relatable.
   </li>
 {% endfor %}
 </ul>
-{% endfor %}
 
 ## Links
 
