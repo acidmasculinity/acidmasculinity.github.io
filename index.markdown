@@ -28,7 +28,7 @@ Mostly books I've found valuable or relatable.
     {% endif %}
   </h2>
     
-  {{ source.content | markdownify }}
+  {{ source.output }}
 </section>
 {% endfor %}
 
