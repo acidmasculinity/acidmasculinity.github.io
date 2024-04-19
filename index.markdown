@@ -27,8 +27,10 @@ Mostly books I've found valuable or relatable.
     <a href="{{- source.URL -}}">{{- source.URL -}}</a>
     {% endif %}
   </h2>
-    
+
+  <div class="bib-anno">
   {{ source.content | markdownify }}
+  </div>
 </section>
 {% endfor %}
 

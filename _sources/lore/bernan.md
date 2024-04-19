@@ -3,4 +3,4 @@ authors: Bernan, Dale
 title: "It Came From Something Awful"
 ---
 
-Get's angry near Trump era.
+Gets angry near the Trump era.

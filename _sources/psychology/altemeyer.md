@@ -1,6 +1,9 @@
 ---
+layout: post
 authors: Altemeyer, Bob
 title: "The Authoritarians"
 site: "The Authoritarians"
 URL: "https://theauthoritarians.org/options-for-getting-the-book"
 ---
+
+Really good.
