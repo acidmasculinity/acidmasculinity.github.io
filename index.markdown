@@ -15,9 +15,9 @@ Mostly books I've found valuable or relatable.
 <!-- Philosphy -->
 <!-- + Albert Camus. *The Rebel*. -->
 <!-- + Max Stirner. The Unique and Its Property -->
-<ul class="bib-ul">
 {% for source in site.sources %}
-  <li class="bib-li">
+<section>
+  <h2 class="bib">
     {{ source.authors }}.
     <i>{{ source.title }}</i>.
     {% if source.site != nil %}
@@ -26,9 +26,11 @@ Mostly books I've found valuable or relatable.
     {% if source.URL != nil %}
     <a href="{{- source.URL -}}">{{- source.URL -}}</a>
     {% endif %}
-  </li>
+  </h2>
+    
+  {{ source.content | markdownify }}
+</section>
 {% endfor %}
-</ul>
 
 ## Links
 

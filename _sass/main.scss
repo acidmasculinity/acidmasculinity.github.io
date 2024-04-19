@@ -1,10 +1,10 @@
-.bib-ul, .bib-li {
+.bi {
     display: block;
+    font: inherit;
+
     padding: 0;
     margin: 0;
-}
 
-.bib-li {
     margin-block: 1em;
     padding-left: 0.5in;
     text-indent: -0.5in;
