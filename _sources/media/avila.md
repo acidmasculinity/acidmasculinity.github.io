@@ -5,4 +5,6 @@ site: YouTube
 URL: "https://youtu.be/a4-0YUQcca8"
 ---
 
-/tttt/ basically
+Avila spoofs transgender imageboard culture. Such transgender
+imageboard culture is directly relevant to the internet protest
+masculinities of closeted transgender woman.

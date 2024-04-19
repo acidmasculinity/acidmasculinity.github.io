@@ -3,8 +3,8 @@ layout: home
 title: "Anon: An Annotated Bibliography"
 ---
 
-My recommendations for extremely online 4chan types.
-Mostly books I've found valuable or relatable.
+An annotated bibliography of sources and resources for "internet
+protest masculinities" or extremely online 4chan types.
 
 <!-- - Martin Kantor. *Distancing: Avoidant Personality Disorder*. -->
 
