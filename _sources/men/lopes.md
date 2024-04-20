@@ -1,7 +1,8 @@
 ---
 authors:
-  - Lopes, Filipa M.
-title: "What Do Incels Want? Explaining Incel Violence Using Beauvoirian Otherness"
+  - "Lopes, Filipa M."
+article: "What Do Incels Want? Explaining Incel Violence Using Beauvoirian Otherness"
+title: "Hypatia"
 URL: "https://www.cambridge.org/core/journals/hypatia/article/what-do-incels-want-explaining-incel-violence-using-beauvoirian-otherness/41705602E4C9B814BEEAE7825233BBD2"
 ---
 

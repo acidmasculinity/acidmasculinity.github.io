@@ -22,10 +22,10 @@ protest masculinities" or extremely online 4chan types.
   <section class="bib">
     <h3 class="bib-title">
       {{ source.authors | array_to_sentence_string }}.
-      <i>{{ source.title }}</i>.
-      {% if source.site != nil %}
-      {{ source.site }}.
+      {% if source.article != nil %}
+      "{{ source.article }}."
       {% endif %}
+      <i>{{ source.title }}</i>.
       {% if source.URL != nil %}
       <a href="{{- source.URL -}}">{{- source.URL -}}</a>
       {% endif %}

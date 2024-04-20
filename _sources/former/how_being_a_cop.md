@@ -1,7 +1,7 @@
 ---
 authors:
- - That Dang Dad
-title: "How Being a Cop Broke My Brain"
-site: YouTube
+ - "... [That Dang Dad]"
+article: "How Being a Cop Broke My Brain"
+title: "That Dang Dad"
 URL: "https://youtu.be/_nl5zMIwcmQ"
 ---

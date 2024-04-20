@@ -16,22 +16,17 @@ collections:
 defaults:
   - scope:
       type: "sources"
-    values:
-      path: ""
-      category: Other
-  - scope:
       path: "_sources/ability"
-      type: "sources"
     values:
       category: Ability
   - scope:
-      path: "_sources/crime"
       type: "sources"
+      path: "_sources/crime"
     values:
       category: Crime
   - scope:
-      path: "_sources/feminism"
       type: "sources"
+      path: "_sources/feminism"
     values:
       category: Feminism
   - scope:
@@ -43,7 +38,7 @@ defaults:
       type: "sources"
       path: "_sources/former_book"
     values:
-      category: Former Book
+      category: "Former Book"
   - scope:
       type: "sources"
       path: "_sources/lore"
@@ -65,33 +60,37 @@ defaults:
     values:
       category: Men
   - scope:
-      path: "_sources/porn"
       type: "sources"
-    values:
-      category: Porn
-  - scope:
       path: "_sources/psychology"
-      type: "sources"
     values:
       category: Psychology
   - scope:
-      path: "_sources/queer"
       type: "sources"
+      path: "_sources/queer"
     values:
       category: Queer
   - scope:
-      path: "_sources/self_help"
       type: "sources"
+      path: "_sources/self_help"
     values:
       category: Self-Help
   - scope:
-      path: "_sources/sociology"
       type: "sources"
+      path: "_sources/sociology"
     values:
       category: Sociology
   - scope:
-      path: "_sources/theory"
       type: "sources"
+      path: "_sources/theory"
     values:
       category: Theory
-
+  - scope:
+      type: "sources"
+      path: "_sources/porn"
+    values:
+      category: "Porn"
+  - scope:
+      type: "sources"
+      path: "_sources/other"
+    values:
+      category: "Other"

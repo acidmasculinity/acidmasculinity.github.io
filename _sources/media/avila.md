@@ -2,7 +2,6 @@
 authors:
   - Avila, Amanda 
 title: "Jennyffer"
-site: YouTube
 URL: "https://youtu.be/a4-0YUQcca8"
 ---
 
