@@ -12,3 +12,86 @@ collections:
   sources:
     output: false
     sort_by: authors
+
+defaults:
+  - scope:
+      type: "sources"
+    values:
+      path: ""
+      category: Other
+  - scope:
+      path: "_sources/ability"
+      type: "sources"
+    values:
+      category: Ability
+  - scope:
+      path: "_sources/crime"
+      type: "sources"
+    values:
+      category: Crime
+  - scope:
+      path: "_sources/feminism"
+      type: "sources"
+    values:
+      category: Feminism
+  - scope:
+      type: "sources"
+      path: "_sources/former"
+    values:
+      category: Former
+  - scope:
+      type: "sources"
+      path: "_sources/former_book"
+    values:
+      category: Former Book
+  - scope:
+      type: "sources"
+      path: "_sources/lore"
+    values:
+      category: Lore
+  - scope:
+      type: "sources"
+      path: "_sources/media"
+    values:
+      category: Media
+  - scope:
+      type: "sources"
+      path: "_sources/media_studies"
+    values:
+      category: Media Studies
+  - scope:
+      type: "sources"
+      path: "_sources/men"
+    values:
+      category: Men
+  - scope:
+      path: "_sources/porn"
+      type: "sources"
+    values:
+      category: Porn
+  - scope:
+      path: "_sources/psychology"
+      type: "sources"
+    values:
+      category: Psychology
+  - scope:
+      path: "_sources/queer"
+      type: "sources"
+    values:
+      category: Queer
+  - scope:
+      path: "_sources/self_help"
+      type: "sources"
+    values:
+      category: Self-Help
+  - scope:
+      path: "_sources/sociology"
+      type: "sources"
+    values:
+      category: Sociology
+  - scope:
+      path: "_sources/theory"
+      type: "sources"
+    values:
+      category: Theory
+

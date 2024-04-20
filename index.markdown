@@ -15,22 +15,26 @@ protest masculinities" or extremely online 4chan types.
 <!-- Philosphy -->
 <!-- + Albert Camus. *The Rebel*. -->
 <!-- + Max Stirner. The Unique and Its Property -->
-{% for source in site.sources %}
-<section>
-  <h2 class="bib">
-    {{ source.authors | array_to_sentence_string: "and" }}.
-    <i>{{ source.title }}</i>.
-    {% if source.site != nil %}
-    {{ source.site }}.
-    {% endif %}
-    {% if source.URL != nil %}
-    <a href="{{- source.URL -}}">{{- source.URL -}}</a>
-    {% endif %}
-  </h2>
-  <div class="bib-anno">
-  {{- source.content | markdownify -}}
-  </div>
-</section>
+{% assign categories = site.sources | group_by: "category" %}
+{% for category in categories %}
+  <h2>{{ category.name }}</h2>
+  {% for source in category.items %}
+  <section class="bib">
+    <h3 class="bib-title">
+      {{ source.authors | array_to_sentence_string }}.
+      <i>{{ source.title }}</i>.
+      {% if source.site != nil %}
+      {{ source.site }}.
+      {% endif %}
+      {% if source.URL != nil %}
+      <a href="{{- source.URL -}}">{{- source.URL -}}</a>
+      {% endif %}
+    </h3>
+    <div class="bib-anno">
+    {{- source.content | markdownify -}}
+    </div>
+  </section>
+  {% endfor %}
 {% endfor %}
 
 ## Links
