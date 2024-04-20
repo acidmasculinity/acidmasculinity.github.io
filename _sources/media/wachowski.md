@@ -1,7 +1,7 @@
 ---
 authors:
-  - Wachowski, Lana (director)
-  - Wachowski, Lilly (director)
+  - Wachowski, Lana, director
+  - Wachowski, Lilly, director
 title: "The Matrix"
 ---
 

@@ -16,6 +16,10 @@ collections:
 defaults:
   - scope:
       type: "sources"
+    values:
+      authors: []
+  - scope:
+      type: "sources"
       path: "_sources/ability"
     values:
       category: Ability
@@ -89,6 +93,11 @@ defaults:
       path: "_sources/porn"
     values:
       category: "Porn"
+  - scope:
+      type: "sources"
+      path: "_sources/resource"
+    values:
+      category: "Resource"
   - scope:
       type: "sources"
       path: "_sources/other"

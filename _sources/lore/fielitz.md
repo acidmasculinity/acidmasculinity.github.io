@@ -2,6 +2,7 @@
 authors:
   - Fielitz, Maik
   - Thurston, Nick
-title: "Post-Digital Cultures of the Far Right: Online Actions and Offline Consequences in Europe and the US"
+article: "Post-Digital Cultures of the Far Right: Online Actions and Offline Consequences in Europe and the US"
+title: "Edition Politik"
 URL: "https://doi.org/10.1515/9783839446706"
 ---
