@@ -1,5 +1,6 @@
 ---
-authors: Stenner, Karen
+authors:
+  - Stenner, Karen
 title: "The Authoritarian Dynamic"
 ---
 

@@ -1,4 +1,5 @@
 ---
-authors: Landow, George
+authors:
+  - Landow, George
 title: "Hypertext"
 ---

@@ -1,5 +1,6 @@
 ---
-authors: hooks, bell
+authors:
+  - hooks, bell
 title: "Sisterhood: Political Solidarity between Women"
 ---
 

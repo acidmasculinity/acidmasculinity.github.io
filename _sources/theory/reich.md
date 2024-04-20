@@ -1,5 +1,6 @@
 ---
-authors: Reich, Wilhelm
+authors:
+  - Reich, Wilhelm
 title: The Mass Psychology of Fascism
 ---
 

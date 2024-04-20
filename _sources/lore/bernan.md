@@ -1,5 +1,6 @@
 ---
-authors: Bernan, Dale
+authors:
+  - Bernan, Dale
 title: "It Came From Something Awful"
 ---
 

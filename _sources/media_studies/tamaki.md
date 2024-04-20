@@ -1,4 +1,5 @@
 ---
-authors: Tamaki, Saito
+authors:
+  - Tamaki, Saito
 title: "Beautiful Fighting Girl"
 ---

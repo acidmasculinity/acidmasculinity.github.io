@@ -1,5 +1,6 @@
 ---
-authors: Williams, Kristian
+authors:
+  - Williams, Kristian
 title: "Our Enemies in Blue: Police and Power in America"
 ---
 

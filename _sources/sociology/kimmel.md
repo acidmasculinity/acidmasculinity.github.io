@@ -1,5 +1,6 @@
 ---
-authors: "Kimmel, Michael"
+authors:
+  - "Kimmel, Michael"
 title: Healing from Hate
 ---
 

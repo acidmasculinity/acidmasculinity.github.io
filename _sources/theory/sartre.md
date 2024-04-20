@@ -1,5 +1,6 @@
 ---
-authors: Sartre, Jean-Paul
+authors:
+  - Sartre, Jean-Paul
 title: Anti-Semite and Jew
 ---
 

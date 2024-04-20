@@ -1,5 +1,7 @@
 ---
-authors: "Adler, Patricia A.; and Adler, Peter"
+authors:
+  - "Adler, Patricia A."
+  - "Adler, Peter"
 title: "The Tender Cut: Inside the Hidden World of Self-Injury"
 ---
 

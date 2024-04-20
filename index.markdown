@@ -18,7 +18,7 @@ protest masculinities" or extremely online 4chan types.
 {% for source in site.sources %}
 <section>
   <h2 class="bib">
-    {{ source.authors }}.
+    {{ source.authors | array_to_sentence_string: "and" }}.
     <i>{{ source.title }}</i>.
     {% if source.site != nil %}
     {{ source.site }}.
@@ -27,9 +27,8 @@ protest masculinities" or extremely online 4chan types.
     <a href="{{- source.URL -}}">{{- source.URL -}}</a>
     {% endif %}
   </h2>
-
   <div class="bib-anno">
-  {{ source.content | markdownify }}
+  {{- source.content | markdownify -}}
   </div>
 </section>
 {% endfor %}

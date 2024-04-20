@@ -1,5 +1,7 @@
 ---
-authors: Wachowski, Lana; and Wachowski, Lilly (directors)
+authors:
+  - Wachowski, Lana (director)
+  - Wachowski, Lilly (director)
 title: "The Matrix"
 ---
 

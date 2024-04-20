@@ -1,5 +1,6 @@
 ---
-authors: Valencia, Sayak
+authors:
+  - Valencia, Sayak
 title: Gore Capitalism
 ---
 

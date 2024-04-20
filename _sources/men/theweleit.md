@@ -1,5 +1,6 @@
 ---
-authors: Theweleit, Klaus
+authors:
+  - Theweleit, Klaus
 title: "Male Fantasies"
 ---
 

@@ -1,5 +1,6 @@
 ---
-authors: Connell, Raewyn
+authors:
+  - Connell, Raewyn
 title: "Masculinities"
 ---
 

@@ -1,5 +1,6 @@
 ---
-authors: "Stevenson, Nate (showrunner)"
+authors:
+  - "Stevenson, Nate (showrunner)"
 title: "She-Ra and the Princesses of Power"
 ---
 

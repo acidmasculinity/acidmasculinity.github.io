@@ -10,4 +10,5 @@ plugins:
 
 collections:
   sources:
+    output: false
     sort_by: authors

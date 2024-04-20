@@ -1,4 +1,5 @@
 ---
-authors: Henepola Gunaratana
+authors:
+  - Henepola Gunaratana
 title: "Mindfulness in Plain English"
 ---

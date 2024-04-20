@@ -1,5 +1,6 @@
 ---
-authors: Bourne, Edmund 
+authors:
+  - Bourne, Edmund 
 title: "The Anxiety and Phobia Workbook"
 ---
 
