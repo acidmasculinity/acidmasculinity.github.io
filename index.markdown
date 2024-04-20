@@ -38,8 +38,3 @@ protest masculinities" or extremely online 4chan types.
   </section>
   {% endfor %}
 {% endfor %}
-
-## Links
-
-+ [Evolve Program](https://evolveprogram.ca)
-+ [Life After Hate](https://lifeafterhate.org)

@@ -97,7 +97,7 @@ defaults:
       type: "sources"
       path: "_sources/resource"
     values:
-      category: "Resource"
+      category: "Resources"
   - scope:
       type: "sources"
       path: "_sources/other"
