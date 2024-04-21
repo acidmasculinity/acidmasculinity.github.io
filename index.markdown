@@ -3,8 +3,7 @@ layout: home
 title: "Anon: An Annotated Bibliography"
 ---
 
-An annotated bibliography of sources and resources for "internet
-protest masculinities" or extremely online 4chan types.
+Books and other media I recommend anons.
 
 <!-- - Martin Kantor. *Distancing: Avoidant Personality Disorder*. -->
 
@@ -27,7 +26,19 @@ protest masculinities" or extremely online 4chan types.
       {% if source.article %}
       "{{ source.article }}."
       {% endif %}
-      <i>{{ source.title }}</i>.
+      <i>{{- source.title -}}</i>
+      {%- if source.publisher -%}, {{ source.publisher -}}{%- endif -%}
+
+      {%- if source.volume -%}, vol. {{ source.volume -}}{%- endif -%}
+      {%- if source.issue -%}, no. {{ source.issue -}}{%- endif -%}
+
+      {%- if source.year -%}, {{ source.year -}}{%- endif -%}
+
+      {%- if source.pages -%}, pp. {{ source.pages -}}{%- endif -%}
+      .
+      {% if source.doi %}
+      <a href="https://doi.org/{{- source.doi -}}">doi:{{- source.doi -}}</a>
+      {% endif %}
       {% if source.URL %}
       <a href="{{- source.URL -}}">{{- source.URL | replace_first: "https://", "" -}}</a>
       {% endif %}

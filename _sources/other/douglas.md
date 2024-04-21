@@ -1,8 +1,7 @@
 ---
 authors:
-  - Douglas, Christopher
-  - Mullins, Matthew
-article: "W(h)ither the Christian Right?"
-title: Post45
-URL: "https://post45.org/sections/contemporaries-essays/whither-the-christian-right"
+  - Van Houdt, Jenny
+article: "Red-Pilling on Patmos: A Quick and Dirty Hermeneutic for the Evangelical–QAnon Connection"
+title: "W(h)ither the Christian Right?"
+URL: "https://post45.org/2022/09/red-pilling-on-patmos-a-quick-and-dirty-hermeneutic-for-the-evangelical-qanon-connection"
 ---

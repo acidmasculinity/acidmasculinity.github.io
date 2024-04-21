@@ -4,5 +4,6 @@ authors:
 title: "Masculinities"
 ---
 
-Connell lays out her basic framework of "hegemonic masculinity."
+Sociologist Raewynn Connell lays out her basic framework of "hegemonic
+masculinity."
 

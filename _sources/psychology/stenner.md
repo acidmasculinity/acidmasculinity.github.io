@@ -2,6 +2,8 @@
 authors:
   - Stenner, Karen
 title: "The Authoritarian Dynamic"
+year: 2005
 ---
 
-Stenner is extremely saneist and ableist in parts.
+Political scientist Karen Stenner asserts stuff.  The book is very
+saneist in parts.

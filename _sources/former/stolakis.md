@@ -1,5 +1,5 @@
 ---
 authors:
-  - "Stolakis, Kristine (director)"
+  - "Stolakis, Kristine, director"
 title: "Pray Away"
 ---
