@@ -6,4 +6,5 @@ site: "Incels Podcast"
 URL: "https://www.spreaker.com/user/16630550/emastered-ep82parta"
 ---
 
-Very sad.
+Naama Kates is a writer and podcaster who has met mixed reception.
+Regardless, the stories of the incels Kates platforms are interesting.
