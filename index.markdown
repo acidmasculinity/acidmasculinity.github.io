@@ -25,6 +25,8 @@ Books and other media I recommend anons.
           "{{ source.article }}."
           {% endif %}
           <i>{{- source.title -}}</i>
+
+          {%- if source.version -%}, {{ source.version -}}{%- endif -%}
           {%- if source.other -%}, {{ source.other -}}{%- endif -%}
           {%- if source.publisher -%}, {{ source.publisher -}}{%- endif -%}
         </h3>
@@ -37,10 +39,10 @@ Books and other media I recommend anons.
         {%- if source.pages -%}, pp. {{ source.pages -}}{%- endif -%}
         .
         {% if source.doi %}
-        <a href="https://doi.org/{{- source.doi -}}">doi:{{- source.doi -}}</a>
+        <a href="https://doi.org/{{- source.doi -}}">doi:{{- source.doi -}}</a>.
         {% endif %}
         {% if source.URL %}
-        <a href="{{- source.URL -}}">{{- source.URL | replace_first: "https://", "" -}}</a>
+        <a href="{{- source.URL -}}">{{- source.URL | replace_first: "https://", "" -}}</a>.
         {% endif %}
       </div>
       <div class="bib-anno">

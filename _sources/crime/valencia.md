@@ -2,6 +2,9 @@
 authors:
   - Valencia, Sayak
 title: Gore Capitalism
+other: "Translated by John Pluecker"
+publisher: "Semiotext(e)"
+year: 2018
 ---
 
 Valencia discusses consumerism, masculinity and capitalism in the

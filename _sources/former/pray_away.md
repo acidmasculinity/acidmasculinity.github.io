@@ -1,4 +1,5 @@
 ---
 title: "Pray Away"
-other: "Kristine Stolakis"
+other: "Directed by Kristine Stolakis"
+year: 2021
 ---
