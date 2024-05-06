@@ -12,7 +12,9 @@ Books and other media I recommend anons.
     {%- continue -%}
   {%- endif -%}
 
-  <h2>{{- cat.name -}}</h2>
+  {{ category.name | inspect }}
+  {{ cat | inspect }}
+  <h2>{{- cat.name | default: category.name -}}</h2>
   {% for source in category.items %}
   <section class="bib">
     <div class="bib-title">
