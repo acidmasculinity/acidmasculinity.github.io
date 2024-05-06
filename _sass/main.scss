@@ -39,7 +39,7 @@
     }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (min-width: 500px) {
     .bib-title {
         padding-left: 0.5in;
         text-indent: -0.5in;
