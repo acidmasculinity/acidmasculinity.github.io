@@ -25,6 +25,7 @@ Books and other media I recommend anons.
           "{{ source.article }}."
           {% endif %}
           <i>{{- source.title -}}</i>
+          {%- if source.other -%}, {{ source.other -}}{%- endif -%}
           {%- if source.publisher -%}, {{ source.publisher -}}{%- endif -%}
         </h3>
   
