@@ -37,4 +37,5 @@
 }
 .bib-anno {
     padding-left: min(0.2 * (100vw - 412px), 1in);
+    line-height: clamp(2em, 2em + 0.2 * (100vw - 412px), 2.5em);
 }
