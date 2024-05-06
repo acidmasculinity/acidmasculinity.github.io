@@ -20,12 +20,12 @@
 }
 
 .bib-title {
-    padding-left: calc(0.2 * (100vw - 400px));
-    text-indent: calc(-0.2 * (100vw - 400px));
+    padding-left: calc(0.48 * (100vw - 400px));
+    text-indent: calc(-0.48 * (100vw - 400px));
 }
 .bib-anno {
-    padding-left: calc(0.2 * (100vw - 412px));
-    line-height: calc(2em + 0.2 * (100vw - 412px));
+    padding-left: calc(0.96 * (100vw - 400px));
+    line-height: calc(2em + 0.01 * (100vw - 400px));
 }
 
 @media screen and (max-width: 400px) {
@@ -41,11 +41,11 @@
 
 @media screen and (min-width: 500px) {
     .bib-title {
-        padding-left: 0.5in;
-        text-indent: -0.5in;
+        padding-left: 48px;
+        text-indent: -48px;
     }
     .bib-anno {
-        padding-left: 1in;
+        padding-left: 96px;
         // Feels pretentious
         line-height: 2;
     }
