@@ -5,8 +5,8 @@ title: "Anon: An Annotated Bibliography"
 
 Books and other media I recommend anons.
 
-{%- assign subjects = site.sources | group_by: "subject" | sort_natural -%}
-{%- for subject in subjects %}
+{% assign subjects = site.sources | group_by: "subject" | sort_natural -%}
+{% for subject in subjects %}
   {%- assign subj = site.subjects[subject.name] -%}
   {%- if subj.disabled -%}
     {%- continue -%}
@@ -29,9 +29,9 @@ Books and other media I recommend anons.
 
       {%- if source.volume -%}, vol. {{ source.volume -}}{%- endif -%}
       {%- if source.issue -%}, no. {{ source.issue -}}{%- endif -%}
-  
+
       {%- if source.year -%}, {{ source.year -}}{%- endif -%}
-  
+
       {%- if source.pages -%}, pp. {{ source.pages -}}{%- endif -%}
       .
       {% if source.doi %}

@@ -21,7 +21,7 @@ subjects:
   feminism:
     name: Feminism
   former:
-    name: former
+    name: Former
   former_book:
     name: Former Book
   lore:
@@ -50,7 +50,7 @@ subjects:
     name: "Far-right Canon"
     disabled: True
   "other":
-    name: "other"
+    name: "Other"
 
 defaults:
   - scope:
