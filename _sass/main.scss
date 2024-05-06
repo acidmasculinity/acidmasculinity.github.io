@@ -15,9 +15,10 @@
 }
 
 .bib-anno {
-    // padding-left: 1in;
+    padding-left: 1in;
+    padding-left: padding-left: min(0.2 * (100vw - 412px), 1in);
     // Feels pretentious
-    // line-height: 2;
+    line-height: 2;
 }
 
 .bib-heading {
