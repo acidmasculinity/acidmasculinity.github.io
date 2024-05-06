@@ -116,7 +116,7 @@ defaults:
       type: "sources"
       path: "_sources/self_help"
     values:
-      subject: self-help
+      subject: self_help
   - scope:
       type: "sources"
       path: "_sources/sociology"
