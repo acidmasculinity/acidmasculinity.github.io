@@ -2,7 +2,7 @@
 authors:
   - Gilbert, Aster
 article: "Sissy Remixed: Trans* Porno Remix and Constructing the Trans* Subject"
-title: "Transgender STudies Quarterly"
+title: "Transgender Studies Quarterly"
 volume: 7
 issue: 2
 pages: "222–236"
