@@ -12,18 +12,6 @@
     margin-block: 1em;
 }
 
-.bib-title {
-    padding-left: 0.5in;
-    text-indent: -0.5in;
-}
-.bib-anno {
-    padding-left: 1in;
-}
-.bib-anno {
-    // Feels pretentious
-    line-height: 2;
-}
-
 .bib-heading {
     display: inline;
     padding: 0;
@@ -32,10 +20,33 @@
 }
 
 .bib-title {
-    padding-left: min(0.2 * (100vw - 412px), 0.5in);
-    text-indent: max(-0.2 * (100vw - 412px), -0.5in);
+    padding-left: calc(0.2 * (100vw - 400px));
+    text-indent: calc(-0.2 * (100vw - 400px));
 }
 .bib-anno {
-    padding-left: min(0.2 * (100vw - 412px), 1in);
-    line-height: clamp(2em, 2em + 0.2 * (100vw - 412px), 2.5em);
+    padding-left: calc(0.2 * (100vw - 412px));
+    line-height: calc(2em + 0.2 * (100vw - 412px));
+}
+
+@media screen and (max-width: 400px) {
+    .bib-title {
+        padding-left: 0in;
+        text-indent: 0in;
+    }
+    .bib-anno {
+        padding-left: 0in;
+        line-height: 1.5em;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .bib-title {
+        padding-left: 0.5in;
+        text-indent: -0.5in;
+    }
+    .bib-anno {
+        padding-left: 1in;
+        // Feels pretentious
+        line-height: 2;
+    }
 }
