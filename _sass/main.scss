@@ -19,34 +19,40 @@
     font: inherit;
 }
 
+.bib {
+    line-height: calc(1.5em + 0.144 * (100vw - 400px));
+}
 .bib-title {
     padding-left: calc(0.48 * (100vw - 400px));
     text-indent: calc(-0.48 * (100vw - 400px));
 }
 .bib-anno {
     padding-left: calc(0.96 * (100vw - 400px));
-    line-height: calc(1.5em + 0.144 * (100vw - 400px));
 }
 
 @media screen and (max-width: 400px) {
+    .bib {
+        line-height: 1.5;
+    }
     .bib-title {
         padding-left: 0in;
         text-indent: 0in;
     }
     .bib-anno {
         padding-left: 0in;
-        line-height: 1.5;
     }
 }
 
 @media screen and (min-width: 500px) {
+    .bib {
+        // Feels pretentious
+        line-height: 2.4;
+    }
     .bib-title {
         padding-left: 48px;
         text-indent: -48px;
     }
     .bib-anno {
         padding-left: 96px;
-        // Feels pretentious
-        line-height: 2;
     }
 }
