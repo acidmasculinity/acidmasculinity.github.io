@@ -5,17 +5,15 @@ title: "Anon: An Annotated Bibliography"
 
 Books and other media I recommend anons.
 
-{%- assign categories = site.sources | group_by: "category" | sort_natural -%}
-{%- for category in categories %}
-  {%- assign cat = site.categories[category.name] -%}
-  {%- if cat.disabled -%}
+{%- assign subjects = site.sources | group_by: "subject" | sort_natural -%}
+{%- for subject in subjects %}
+  {%- assign subj = site.subjects[subject.name] -%}
+  {%- if subj.disabled -%}
     {%- continue -%}
   {%- endif -%}
 
-  {{ category.name | inspect }}
-  {{ cat | inspect }}
-  <h2>{{- cat.name | default: category.name -}}</h2>
-  {% for source in category.items %}
+  <h2>{{- subj.name | default: subject.name -}}</h2>
+  {% for source in subject.items %}
   <section class="bib">
     <div class="bib-title">
       <h3 class="bib-heading">

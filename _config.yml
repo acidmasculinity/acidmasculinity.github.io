@@ -13,7 +13,7 @@ collections:
     output: false
     sort_by: authors
 
-categories:
+subjects:
   ability:
     name: Ability
   crime:
@@ -61,89 +61,89 @@ defaults:
       type: "sources"
       path: "_sources/ability"
     values:
-      category: ability
+      subject: ability
   - scope:
       type: "sources"
       path: "_sources/crime"
     values:
-      category: crime
+      subject: crime
   - scope:
       type: "sources"
       path: "_sources/feminism"
     values:
-      category: feminism
+      subject: feminism
   - scope:
       type: "sources"
       path: "_sources/former"
     values:
-      category: former
+      subject: former
   - scope:
       type: "sources"
       path: "_sources/former_book"
     values:
-      category: former_book
+      subject: former_book
   - scope:
       type: "sources"
       path: "_sources/lore"
     values:
-      category: lore
+      subject: lore
   - scope:
       type: "sources"
       path: "_sources/media"
     values:
-      category: media
+      subject: media
   - scope:
       type: "sources"
       path: "_sources/media_studies"
     values:
-      category: media_studies
+      subject: media_studies
   - scope:
       type: "sources"
       path: "_sources/men"
     values:
-      category: men
+      subject: men
   - scope:
       type: "sources"
       path: "_sources/psychology"
     values:
-      category: psychology
+      subject: psychology
   - scope:
       type: "sources"
       path: "_sources/queer"
     values:
-      category: queer
+      subject: queer
   - scope:
       type: "sources"
       path: "_sources/self_help"
     values:
-      category: self-help
+      subject: self-help
   - scope:
       type: "sources"
       path: "_sources/sociology"
     values:
-      category: sociology
+      subject: sociology
   - scope:
       type: "sources"
       path: "_sources/theory"
     values:
-      category: theory
+      subject: theory
   - scope:
       type: "sources"
       path: "_sources/porn"
     values:
-      category: "porn"
+      subject: "porn"
   - scope:
       type: "sources"
       path: "_sources/resource"
     values:
-      category: "resources"
+      subject: "resources"
   - scope:
       type: "sources"
       path: "_sources/far_right"
     values:
-      category: "far_right"
+      subject: "far_right"
   - scope:
       type: "sources"
       path: "_sources/other"
     values:
-      category: "other"
+      subject: "other"
