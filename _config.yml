@@ -13,6 +13,45 @@ collections:
     output: false
     sort_by: authors
 
+categories:
+  ability:
+    name: Ability
+  crime:
+    name: Crime
+  feminism:
+    name: Feminism
+  former:
+    name: former
+  former_book:
+    name: Former Book
+  lore:
+    name: Lore
+  media:
+    name: Media
+  media_studies:
+    name: Media Studies
+  men:
+    name: Men
+  "psychology":
+    name: Psychology
+  "queer":
+    name: Queer
+  "self_help":
+    name: Self-Help
+  "sociology":
+    name: Sociology
+  "theory":
+    name: Theory
+  "porn":
+    name: "Porn"
+  "resource":
+    name: "Resources"
+  "far_right":
+    name: "Far-right Canon"
+    disabled: True
+  "other":
+    name: "other"
+
 defaults:
   - scope:
       type: "sources"
@@ -22,84 +61,89 @@ defaults:
       type: "sources"
       path: "_sources/ability"
     values:
-      category: Ability
+      category: ability
   - scope:
       type: "sources"
       path: "_sources/crime"
     values:
-      category: Crime
+      category: crime
   - scope:
       type: "sources"
       path: "_sources/feminism"
     values:
-      category: Feminism
+      category: feminism
   - scope:
       type: "sources"
       path: "_sources/former"
     values:
-      category: Former
+      category: former
   - scope:
       type: "sources"
       path: "_sources/former_book"
     values:
-      category: "Former Book"
+      category: former_book
   - scope:
       type: "sources"
       path: "_sources/lore"
     values:
-      category: Lore
+      category: lore
   - scope:
       type: "sources"
       path: "_sources/media"
     values:
-      category: Media
+      category: media
   - scope:
       type: "sources"
       path: "_sources/media_studies"
     values:
-      category: Media Studies
+      category: media_studies
   - scope:
       type: "sources"
       path: "_sources/men"
     values:
-      category: Men
+      category: men
   - scope:
       type: "sources"
       path: "_sources/psychology"
     values:
-      category: Psychology
+      category: psychology
   - scope:
       type: "sources"
       path: "_sources/queer"
     values:
-      category: Queer
+      category: queer
   - scope:
       type: "sources"
       path: "_sources/self_help"
     values:
-      category: Self-Help
+      category: self-help
   - scope:
       type: "sources"
       path: "_sources/sociology"
     values:
-      category: Sociology
+      category: sociology
   - scope:
       type: "sources"
       path: "_sources/theory"
     values:
-      category: Theory
+      category: theory
   - scope:
       type: "sources"
       path: "_sources/porn"
     values:
-      category: "Porn"
+      category: "porn"
   - scope:
       type: "sources"
       path: "_sources/resource"
     values:
-      category: "Resources"
+      category: "resources"
+  - scope:
+      type: "sources"
+      path: "_sources/far_right"
+    values:
+      category: "far_right"
   - scope:
       type: "sources"
       path: "_sources/other"
     values:
-      category: "Other"
+      category: "other"

@@ -15,7 +15,14 @@
 }
 
 .bib-anno {
-    padding-left: 1in;
+    // padding-left: 1in;
     // Feels pretentious
     // line-height: 2;
+}
+
+.bib-heading {
+    display: inline;
+    padding: 0;
+    margin: 0;
+    font: inherit;
 }
