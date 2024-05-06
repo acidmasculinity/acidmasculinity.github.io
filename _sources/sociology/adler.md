@@ -3,6 +3,8 @@ authors:
   - "Adler, Patricia A."
   - "Adler, Peter"
 title: "The Tender Cut: Inside the Hidden World of Self-Injury"
+year: 2011
+publisher: "New York University Press"
 ---
 
 *The Tender Cut* is a sociological study of internet communities of
