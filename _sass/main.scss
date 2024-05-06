@@ -10,13 +10,16 @@
     margin: 0;
 
     margin-block: 1em;
+}
+
+.bib-title {
     padding-left: 0.5in;
     text-indent: -0.5in;
 }
-
 .bib-anno {
     padding-left: 1in;
-    padding-left: min(0.2 * (100vw - 412px), 1in);
+}
+.bib-anno {
     // Feels pretentious
     line-height: 2;
 }
@@ -26,4 +29,12 @@
     padding: 0;
     margin: 0;
     font: inherit;
+}
+
+.bib-title {
+    padding-left: min(0.2 * (100vw - 412px), 0.5in);
+    text-indent: max(-0.2 * (100vw - 412px), -0.5in);
+}
+.bib-anno {
+    padding-left: min(0.2 * (100vw - 412px), 1in);
 }
