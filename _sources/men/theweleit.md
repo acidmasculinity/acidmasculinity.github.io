@@ -1,7 +1,8 @@
 ---
 authors:
   - Theweleit, Klaus
-title: "Male Fantasies: Volume 1: Women Floods Bodies History"
+title: "Male Fantasies: Women Floods Bodies History"
+version: "Vol. 1"
 year: 1987
 ---
 

@@ -41,8 +41,8 @@ Books and other media I recommend anons.
         {% if source.doi %}
         <a href="https://doi.org/{{- source.doi -}}">doi:{{- source.doi -}}</a>.
         {% endif %}
-        {% if source.url %}
-        <a href="{{- source.url -}}">{{- source.url | replace_first: "https://", "" -}}</a>.
+        {% if source.link %}
+        <a href="{{- source.link -}}">{{- source.link | replace_first: "https://", "" -}}</a>.
         {% endif %}
       </div>
       <div class="bib-anno">
