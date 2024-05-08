@@ -15,6 +15,9 @@ Books and other media I recommend anons.
   <section>
     <h2>{{- subj.name | default: subject.name -}}</h2>
     {% for source in subject.items %}
+    {%- if source.disabled -%}
+      {%- continue -%}
+    {%- endif -%}
     <section class="bib">
       <div class="bib-title">
         <h3 class="bib-heading">
