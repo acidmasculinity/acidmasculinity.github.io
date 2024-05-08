@@ -2,7 +2,7 @@
 authors:
   - Altemeyer, Bob
 title: "The Authoritarians"
-URL: "https://theauthoritarians.org/options-for-getting-the-book"
+url: "https://theauthoritarians.org/options-for-getting-the-book"
 ---
 
 Psychologist Bob Altemeyer summarizes his research on the psychology

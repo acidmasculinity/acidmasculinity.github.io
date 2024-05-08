@@ -1,4 +1,4 @@
 ---
 title: "Life After Hate"
-URL: "https://lifeafterhate.org"
+url: "https://lifeafterhate.org"
 ---

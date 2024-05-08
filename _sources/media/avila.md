@@ -2,7 +2,7 @@
 authors:
   - Avila, Amanda 
 title: "Jennyffer"
-URL: "https://youtu.be/a4-0YUQcca8"
+url: "https://youtu.be/a4-0YUQcca8"
 ---
 
 Avila spoofs transgender imageboard culture. Such transgender

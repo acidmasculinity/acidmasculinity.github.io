@@ -2,6 +2,7 @@
 authors:
   - Reich, Wilhelm
 title: The Mass Psychology of Fascism
+year: 1946
 ---
 
 Reich discusses how fascism feeds off of the repression of natural

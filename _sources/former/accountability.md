@@ -4,5 +4,5 @@ authors:
   - Angela
 title: "Accountability in the Church of No Forgiveness"
 site: "The Daily Former"
-URL: "https://www.buzzsprout.com/2163760/13023245-accountability-in-the-church-of-no-forgiveness"
+url: "https://www.buzzsprout.com/2163760/13023245-accountability-in-the-church-of-no-forgiveness"
 ---
