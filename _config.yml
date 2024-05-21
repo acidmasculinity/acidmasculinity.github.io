@@ -30,25 +30,26 @@ subjects:
     name: Media
   media_studies:
     name: Media Studies
+  memes:
+    name: Memes
   men:
     name: Men
-  "psychology":
+  psychology:
     name: Psychology
-  "queer":
+  queer:
     name: Queer
-  "self_help":
+  self_help:
     name: Self-Help
-  "sociology":
+  sociology:
     name: Sociology
-  "theory":
+  theory:
     name: Theory
-  "porn":
-    name: "Porn"
-  "resources":
+  sex:
+    name: "Sex"
+  resources:
     name: "Resources"
   "far_right":
     name: "Far-right Canon"
-    disabled: True
   "other":
     name: "Other"
 
@@ -129,9 +130,14 @@ defaults:
       subject: theory
   - scope:
       type: "sources"
-      path: "_sources/porn"
+      path: "_sources/sex"
     values:
-      subject: "porn"
+      subject: "sex"
+  - scope:
+      type: "sources"
+      path: "_sources/memes"
+    values:
+      subject: "memes"
   - scope:
       type: "sources"
       path: "_sources/resource"
