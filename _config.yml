@@ -52,11 +52,11 @@ subjects:
     name: "Other"
 
   former:
-    name: Former
+    name: Former Culture
   former_book:
     name: Former Biographies
   media:
-    name: Media
+    name: "Artistic Works"
 
 defaults:
   - scope:

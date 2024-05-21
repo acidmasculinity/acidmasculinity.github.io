@@ -3,10 +3,10 @@ layout: home
 title: "Anon: An Annotated Bibliography"
 ---
 
-Books and other media I recommend anons.
+Recommendations for anons.
 
 <section>
-  <h2>Resource</h2>
+  <h2>Resources</h2>
       {% for source in site.resource %}
       {%- if source.disabled -%}
           {%- continue -%}
