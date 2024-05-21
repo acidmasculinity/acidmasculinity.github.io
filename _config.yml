@@ -11,7 +11,7 @@ plugins:
 collections:
   resource:
     output: false
-  story:
+  disengage:
     output: false
   source:
     output: false
@@ -38,8 +38,6 @@ subjects:
     name: Psychology
   queer:
     name: Queer
-  self_help:
-    name: Self-Help
   sociology:
     name: Sociology
   theory:
@@ -48,15 +46,17 @@ subjects:
     name: "Sex"
   "other":
     name: "Other"
+  media:
+    name: "Artistic Works"
+  "far_right":
+    name: "Influential Among the Far-Right"
 
   former:
     name: Former Culture
   former_book:
     name: Former Biographies
-  media:
-    name: "Artistic Works"
-  "far_right":
-    name: "Popular Among the Right"
+  self_help:
+    name: Self-Help
 
 defaults:
   - scope:
@@ -105,11 +105,6 @@ defaults:
       subject: queer
   - scope:
       type: "source"
-      path: "_source/self_help"
-    values:
-      subject: self_help
-  - scope:
-      type: "source"
       path: "_source/sociology"
     values:
       subject: sociology
@@ -133,28 +128,33 @@ defaults:
       path: "_source/other"
     values:
       subject: "other"
+  - scope:
+      type: "source"
+      path: "_source/media"
+    values:
+      subject: media
+  - scope:
+      type: "source"
+      path: "_source/far_right"
+    values:
+      subject: "far_right"
 
   - scope:
       type: "resource"
     values:
       authors: []
   - scope:
-      type: "story"
-      path: "_story/former"
+      type: "disengage"
+      path: "_disengage/former"
     values:
       subject: former
   - scope:
-      type: "story"
-      path: "_story/former_book"
+      type: "disengage"
+      path: "_disengage/former_book"
     values:
       subject: former_book
   - scope:
-      type: "story"
-      path: "_story/media"
+      type: "disengage"
+      path: "_disengage/self_help"
     values:
-      subject: media
-  - scope:
-      type: "story"
-      path: "_story/far_right"
-    values:
-      subject: "far_right"
+      subject: self_help

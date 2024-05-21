@@ -49,8 +49,8 @@ Recommendations for anons.
 </section>
 
 <section>
-    <h2>Stories</h2>
-{% assign subjects = site.story | group_by: "subject" | sort_natural -%}
+    <h2>Recovery</h2>
+{% assign subjects = site.disengage | group_by: "subject" | sort_natural -%}
 {% for subject in subjects %}
   {%- assign subj = site.subjects[subject.name] -%}
   {%- if subj.disabled -%}
@@ -59,42 +59,42 @@ Recommendations for anons.
 
   <section>
     <h3>{{- subj.name | default: subject.name -}}</h3>
-    {% for story in subject.items %}
-    {%- if story.disabled -%}
+    {% for disengage in subject.items %}
+    {%- if disengage.disabled -%}
       {%- continue -%}
     {%- endif -%}
     <section class="bib">
       <div class="bib-title">
         <h4 class="bib-heading">
-          {% if story.authors and story.authors.size > 0 %}
-            {{ story.authors | array_to_sentence_string }}.
+          {% if disengage.authors and disengage.authors.size > 0 %}
+            {{ disengage.authors | array_to_sentence_string }}.
           {% endif %}
-          {% if story.article %}
-          "{{ story.article }}."
+          {% if disengage.article %}
+          "{{ disengage.article }}."
           {% endif %}
-          <i>{{- story.title -}}</i>
+          <i>{{- disengage.title -}}</i>
 
-          {%- if story.version -%}, {{ story.version -}}{%- endif -%}
-          {%- if story.other -%}, {{ story.other -}}{%- endif -%}
-          {%- if story.publisher -%}, {{ story.publisher -}}{%- endif -%}
+          {%- if disengage.version -%}, {{ disengage.version -}}{%- endif -%}
+          {%- if disengage.other -%}, {{ disengage.other -}}{%- endif -%}
+          {%- if disengage.publisher -%}, {{ disengage.publisher -}}{%- endif -%}
         </h4>
   
-        {%- if story.volume -%}, vol. {{ story.volume -}}{%- endif -%}
-        {%- if story.issue -%}, no. {{ story.issue -}}{%- endif -%}
+        {%- if disengage.volume -%}, vol. {{ disengage.volume -}}{%- endif -%}
+        {%- if disengage.issue -%}, no. {{ disengage.issue -}}{%- endif -%}
   
-        {%- if story.year -%}, {{ story.year -}}{%- endif -%}
+        {%- if disengage.year -%}, {{ disengage.year -}}{%- endif -%}
   
-        {%- if story.pages -%}, pp. {{ story.pages -}}{%- endif -%}
+        {%- if disengage.pages -%}, pp. {{ disengage.pages -}}{%- endif -%}
         .
-        {% if story.doi %}
-        <a href="https://doi.org/{{- story.doi -}}">doi:{{- story.doi -}}</a>.
+        {% if disengage.doi %}
+        <a href="https://doi.org/{{- disengage.doi -}}">doi:{{- disengage.doi -}}</a>.
         {% endif %}
-        {% if story.link %}
-        <a href="{{- story.link -}}">{{- story.link | replace_first: "https://", "" -}}</a>.
+        {% if disengage.link %}
+        <a href="{{- disengage.link -}}">{{- disengage.link | replace_first: "https://", "" -}}</a>.
         {% endif %}
       </div>
       <div class="bib-anno">
-      {{- story.content | markdownify -}}
+      {{- disengage.content | markdownify -}}
       </div>
     </section>
     {% endfor %}
