@@ -6,7 +6,7 @@ title: "Journal of Visual Culture"
 year: 2014
 volume: 13
 issue: 3
-page: "314-339"
+pages: "314-339"
 doi: "10.1177/1470412914544516"
 ---
 
