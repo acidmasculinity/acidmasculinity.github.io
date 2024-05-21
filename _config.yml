@@ -9,6 +9,10 @@ plugins:
   - jekyll-feed
 
 collections:
+  resources:
+    output: false
+  stories:
+    output: false
   sources:
     output: false
     sort_by: authors
@@ -20,10 +24,6 @@ subjects:
     name: Crime
   feminism:
     name: Feminism
-  former:
-    name: Former
-  former_book:
-    name: Former Biographies
   lore:
     name: Lore
   media:
@@ -46,8 +46,6 @@ subjects:
     name: Theory
   sex:
     name: "Sex"
-  resources:
-    name: "Resources"
   "far_right":
     name: "Far-right Canon"
   "other":
@@ -73,16 +71,6 @@ defaults:
       path: "_sources/feminism"
     values:
       subject: feminism
-  - scope:
-      type: "sources"
-      path: "_sources/former"
-    values:
-      subject: former
-  - scope:
-      type: "sources"
-      path: "_sources/former_book"
-    values:
-      subject: former_book
   - scope:
       type: "sources"
       path: "_sources/lore"
@@ -138,11 +126,6 @@ defaults:
       path: "_sources/memes"
     values:
       subject: "memes"
-  - scope:
-      type: "sources"
-      path: "_sources/resource"
-    values:
-      subject: "resources"
   - scope:
       type: "sources"
       path: "_sources/far_right"
