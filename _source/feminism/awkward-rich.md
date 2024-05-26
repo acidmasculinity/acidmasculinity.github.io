@@ -7,6 +7,7 @@ volume: 42
 issue: 4
 year: 2017
 doi: "10.1086/690914"
+disabled: true
 ---
 
 Cameron Awkward-Rich discusses the contradictions between feminism and

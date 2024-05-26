@@ -7,7 +7,7 @@ year: 2011
 publisher: "New York University Press"
 ---
 
-*The Tender Cut* is a sociological study of internet communities of
-self-injurers.  The sociological profile of self-injurers explains
-much of the character of protest masculinities, if protest
-masculinities are seen as a form of self-harm or emotional masochism.
+Ethnographers Peter Adler and Patricia Adler study internet
+communities of self-injurers.  The profile of protest masculinities
+may overlap with self-injurers when protest masculinities become forms
+of self-harm.

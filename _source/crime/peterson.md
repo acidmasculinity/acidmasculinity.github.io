@@ -7,5 +7,7 @@ publisher: "Abrams Press"
 year: 2021
 ---
 
-Better than most of its type, but still focused on disempowering some
-rather than empowering everyone.
+<!-- Peterson and Densley discuss. -->
+
+*The Violence Project* is a better work than most of its type, but
+still focused on disempowering some rather than empowering everyone.

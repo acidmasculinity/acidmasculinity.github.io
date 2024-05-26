@@ -6,4 +6,4 @@ version: "Vol. 1"
 year: 1987
 ---
 
-Theweleit psychoanalyses Freikorps pulp fiction.
+Sociologist Klaus Theweleit psychoanalyses Freikorps pulp fiction.
