@@ -13,7 +13,11 @@ collections:
     output: false
   disengage:
     output: false
+    sort_by: authors
   source:
+    output: false
+    sort_by: authors
+  far_right:
     output: false
     sort_by: authors
 
@@ -26,8 +30,6 @@ subjects:
     name: Feminism
   lore:
     name: Lore
-  media:
-    name: Media
   media_studies:
     name: Media Studies
   memes:
@@ -46,11 +48,9 @@ subjects:
     name: "Sex"
   "other":
     name: "Other"
-  media:
-    name: "Artistic Works"
-  "far_right":
-    name: "Influential Among the Far-Right"
 
+  media:
+    name: "Media"
   former:
     name: Former Culture
   former_book:
@@ -130,11 +130,6 @@ defaults:
       subject: "other"
   - scope:
       type: "source"
-      path: "_source/media"
-    values:
-      subject: media
-  - scope:
-      type: "source"
       path: "_source/far_right"
     values:
       subject: "far_right"
@@ -151,6 +146,8 @@ defaults:
   - scope:
       type: "disengage"
       path: "_disengage/ability"
+    values:
+      subject: ability
   - scope:
       type: "disengage"
       path: "_disengage/former_book"
@@ -161,3 +158,13 @@ defaults:
       path: "_disengage/self_help"
     values:
       subject: self_help
+  - scope:
+      type: "disengage"
+      path: "_disengage/media"
+    values:
+      subject: media
+  - scope:
+      type: "disengage"
+      path: "_disengage/queer"
+    values:
+      subject: queer
