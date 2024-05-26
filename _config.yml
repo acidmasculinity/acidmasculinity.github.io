@@ -150,6 +150,9 @@ defaults:
       subject: former
   - scope:
       type: "disengage"
+      path: "_disengage/ability"
+  - scope:
+      type: "disengage"
       path: "_disengage/former_book"
     values:
       subject: former_book

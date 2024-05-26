@@ -5,7 +5,6 @@ authors:
 title: "The Violence Project: How to Stop a Mass Shooting Epidemic"
 publisher: "Abrams Press"
 year: 2021
-disabled: true
 ---
 
 Better than most of its type, but still focused on disempowering some
