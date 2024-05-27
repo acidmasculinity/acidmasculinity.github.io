@@ -1,6 +1,6 @@
 ---
 authors:
-  - "Melo Lopes, Filipa"
+  - "Melo Lopes, Filip"
 article: "What Do Incels Want? Explaining Incel Violence Using Beauvoirian Otherness"
 title: "Hypatia"
 volume: 38
@@ -10,8 +10,7 @@ pages: "134-156"
 doi: "10.1017/hyp.2023.3"
 ---
 
-Lopes discusses how Beauvoir's idea of the sovereign subject may
-explain much of incel desire and hatred ambivalence.  Lopes focuses on
-Elliot Rodger, and addresses incel sadism, but does not address incel
-masochism.
+Dr. Filip Melo Lopes explains incel desire-hatred ambivalence in terms of
+Beauvoir's sovereign subject.  Lopes focuses on Elliot Rodger, and
+addresses incel sadism, but does not address incel masochism.
 

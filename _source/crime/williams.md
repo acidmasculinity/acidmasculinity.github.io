@@ -7,4 +7,5 @@ year: 2015
 version: "3rd edition"
 ---
 
-Williams discusses the origins of North-American policing in slavery.
+American anarchist author Kristian Williams discusses the origins of
+North-American policing in slavery.

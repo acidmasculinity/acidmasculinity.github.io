@@ -6,6 +6,6 @@ year: 1995
 publisher: "University of California Press"
 ---
 
-Sociologist Raewynn Connell explores out her basic framework of
+Australian sociologist Raewynn Connell lays out her basic framework of
 "hegemonic masculinity."
 

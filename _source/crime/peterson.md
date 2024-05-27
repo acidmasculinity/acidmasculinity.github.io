@@ -7,7 +7,8 @@ publisher: "Abrams Press"
 year: 2021
 ---
 
-<!-- Peterson and Densley discuss. -->
+Psychologist Dr. Jillian Peterson and sociologist Dr. James Densley
+provide a deep study of the life histories of American mass shooters.
 
-*The Violence Project* is a better work than most of its type, but
-still focused on disempowering some rather than empowering everyone.
+*The Violence Project* is a better work than most of its type, but is
+more focused on disempowering potential shooters than anything else.

@@ -6,5 +6,6 @@ publisher: "Routledge"
 year: 2017
 ---
 
-Basically, Duriesmith attributes upswells of 'new war' and protest
-masculinities to a breakdown of the patriarchal bargain.
+Scholar of International Relations, David Duriesmith reexamines 'new
+war' in terms of the adoption of protest masculinities in response to
+breakdowns in patriarchal bargaining.
