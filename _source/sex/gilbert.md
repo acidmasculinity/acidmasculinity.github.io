@@ -9,4 +9,5 @@ pages: "222–236"
 doi: "10.1215/23289252-8143379"
 ---
 
-Discusses trans\* micropornography, so basically /gif/.
+Phd canditate Aster Gilbert explores trans\* micropornography, so
+basically /gif/.

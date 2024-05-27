@@ -6,4 +6,5 @@ year: 2016
 publisher: "New York University Press"
 ---
 
-4chan has a very bizarre relationship to raceplay.
+Ariane Cruz studies black women in kink.  4chan has a strange
+relationship with raceplay.

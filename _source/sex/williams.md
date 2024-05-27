@@ -7,3 +7,4 @@ year: 1999
 publisher: "University of California Press"
 ---
 
+Film studies professor Linda Williams analyzes hard-core film pornography.

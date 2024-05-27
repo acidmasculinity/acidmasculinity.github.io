@@ -8,6 +8,7 @@ publisher: "New York University Press"
 ---
 
 Ethnographers Peter Adler and Patricia Adler study internet
-communities of self-injurers.  The profile of protest masculinities
-may overlap with self-injurers when protest masculinities become forms
-of self-harm.
+communities of self-injurers.
+
+The profile of protest masculinities may overlap with self-injurers
+when protest masculinities become forms of self-harm.
