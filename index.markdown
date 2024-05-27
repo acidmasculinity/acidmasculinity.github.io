@@ -156,9 +156,12 @@ Recommendations for anons.
 {% endfor %}
 </section>
 
+{% assign by_author = site.far_right | group_by: "authors" -%}
+
 <section>
   <h2>Far-Right</h2>
-      {% for source in site.far_right %}
+      {% for entry in by_author %}
+      {% for source in entry.items %}
       {%- if source.disabled -%}
           {%- continue -%}
       {%- endif -%}
@@ -166,7 +169,11 @@ Recommendations for anons.
           <div class="bib-title">
 <h3 class="bib-heading">
 {% if source.authors and source.authors.size > 0 %}
-{{ source.authors | array_to_sentence_string }}.
+  {%- if forloop.first -%}
+     {{ source.authors | array_to_sentence_string }}
+  {%- else -%}
+     ---
+  {%- endif -%}.
 {% endif %}
 {% if source.article %}
 "{{ source.article }}."
@@ -196,5 +203,6 @@ Recommendations for anons.
       {{- source.content | markdownify -}}
       </div>
     </section>
+    {% endfor %}
     {% endfor %}
 </section>
