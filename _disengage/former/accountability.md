@@ -2,7 +2,7 @@
 authors:
   - Samantha
   - Angela
-title: "Accountability in the Church of No Forgiveness"
-site: "The Daily Former"
+article: "Accountability in the Church of No Forgiveness"
+title: "The Daily Former"
 link: "https://www.buzzsprout.com/2163760/13023245-accountability-in-the-church-of-no-forgiveness"
 ---
