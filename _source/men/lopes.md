@@ -10,7 +10,7 @@ pages: "134-156"
 doi: "10.1017/hyp.2023.3"
 ---
 
-Dr. Filip Melo Lopes explains incel desire-hatred ambivalence in terms of
-Beauvoir's sovereign subject.  Lopes focuses on Elliot Rodger, and
+Dr. Filip Melo Lopes posits incel desire-hatred ambivalence in terms
+of Beauvoir's sovereign subject.  Lopes focuses on Elliot Rodger, and
 addresses incel sadism, but does not address incel masochism.
 

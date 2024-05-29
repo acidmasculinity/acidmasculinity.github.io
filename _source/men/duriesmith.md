@@ -6,6 +6,6 @@ publisher: "Routledge"
 year: 2017
 ---
 
-Scholar of International Relations, David Duriesmith reexamines 'new
-war' in terms of the adoption of protest masculinities in response to
+Scholar of International Relations, David Duriesmith reexamines "new
+war" as the adoption of protest masculinities in response to
 breakdowns in patriarchal bargaining.

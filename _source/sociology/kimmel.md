@@ -6,4 +6,4 @@ year: 2018
 publisher: "University of California Press"
 ---
 
-<!-- Professor of Sociology and Gender Studies Michael Kimmel ... -->
+<!-- Professor of sociology and gender studies, Michael Kimmel ... -->
