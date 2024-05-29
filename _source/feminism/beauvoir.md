@@ -7,9 +7,7 @@ other: "Translated by Constance Borde and Sheila Malovany-Chevallier"
 publisher: "Alfred A. Knopf"
 ---
 
-Existentialist philosopher Simone de Beauvoir posits the origin of
-misogyny in the mythmaking of women.  As mythical other, women are
-both idealized and abjectified.  Men may develop entitlement and
-sadism.  And women may develop narcissism and masochism.
+Existentialist philosopher, Simone de Beauvoir posits the origin of
+misogyny in the mythmaking of women.
 
 

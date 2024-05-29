@@ -7,4 +7,4 @@ publisher: "Viking"
 ---
 
 New Yorker staff writer, Andrew Marentz chronicles the rise of the
-alt-right.
+alt-right from the perspective of social-media influencers.

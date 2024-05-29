@@ -6,5 +6,5 @@ year: 2021
 publisher: "Sourcebooks"
 ---
 
-Women's rights activist Laura Bates investigates a variety of loosely
-networked masculinist internet movements.
+Women's rights activist, Laura Bates investigates the emerging network
+of masculinist internet movements.

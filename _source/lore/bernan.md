@@ -6,5 +6,5 @@ year: 2019
 publisher: "All Points Books"
 ---
 
-Writer and artist Dale Beran gives an insider's account of 4chan's
+Writer and artist, Dale Beran gives an inside account of 4chan's
 evolution from meme machine to hate machine.

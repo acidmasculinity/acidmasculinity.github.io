@@ -4,4 +4,4 @@ other: "Showrunner Nate Stevenson"
 year: 2018
 ---
 
-Depicts the cycles of abuse.
+Comments on repression and the cycle of abuse.

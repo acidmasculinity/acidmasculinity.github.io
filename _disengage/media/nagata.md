@@ -7,5 +7,3 @@ publisher: "Seven Seas Entertainment"
 ---
 
 Kabi Nagata explores her personal struggle with alienation.
-
-
