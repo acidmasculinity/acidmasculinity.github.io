@@ -6,4 +6,5 @@ publisher: "Duke University Press"
 year: 2018
 ---
 
-Good, but written in an extremely academic style.
+Melanie Yergeau explodes and subverts tropes of disabled
+rhetoric. Very good, but written in an extremely academic style.
