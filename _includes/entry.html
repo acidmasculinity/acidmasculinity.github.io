@@ -1,0 +1,37 @@
+{%- assign entry = include.entry -%}
+{%- assign authors = entry.authors -%}
+{%- assign article = entry.article -%}
+<section class="bib">
+  <div class="bib-title">
+    <h4 class="bib-heading">
+      {% if authors and authors.size > 0 %}
+      {{ authors | array_to_sentence_string }}.
+      {% endif %}
+      {% if article %}
+      "{{ article }}."
+      {% endif %}
+      <i>{{- entry.title -}}</i>
+
+      {%- if entry.version -%}, {{ entry.version -}}{%- endif -%}
+      {%- if entry.other -%}, {{ entry.other -}}{%- endif -%}
+      {%- if entry.publisher -%}, {{ entry.publisher -}}{%- endif -%}
+    </h4>
+
+    {%- if entry.volume -%}, vol. {{ entry.volume -}}{%- endif -%}
+    {%- if entry.issue -%}, no. {{ entry.issue -}}{%- endif -%}
+
+    {%- if entry.year -%}, {{ entry.year -}}{%- endif -%}
+
+    {%- if entry.pages -%}, pp. {{ entry.pages -}}{%- endif -%}
+    .
+    {% if entry.doi %}
+    <a href="https://doi.org/{{- entry.doi -}}">doi:{{- entry.doi -}}</a>.
+    {% endif %}
+    {% if entry.link %}
+    <a href="{{- entry.link -}}">{{- entry.link | replace_first: "https://", "" -}}</a>.
+    {% endif %}
+  </div>
+  <div class="bib-anno">
+    {{- entry.content | markdownify -}}
+  </div>
+</section>
