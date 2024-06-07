@@ -1,4 +1,4 @@
---
+---
 authors:
   - "Teitelbaum, Benjamin R."
 title: "The Study of Far-Right Music"
