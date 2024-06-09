@@ -6,4 +6,4 @@ year: 2021
 publisher: "FAKKU"
 ---
 
-Japanese media critic Kimi Rito studies the history of hentai.
+Japanese media critic, Kimi Rito studies the history of hentai.

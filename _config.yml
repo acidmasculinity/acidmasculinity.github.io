@@ -24,6 +24,8 @@ collections:
 subjects:
   ability:
     name: Ability
+  conspiracy:
+    name: Conspiracy
   crime:
     name: Crime
   feminism:
@@ -31,7 +33,7 @@ subjects:
   lore:
     name: Lore
   media_studies:
-    name: Media Studies
+    name: Media
   memes:
     name: Memes
   men:
@@ -52,9 +54,9 @@ subjects:
   media:
     name: "Media"
   former:
-    name: Former Culture
+    name: Former
   former_book:
-    name: Former Biographies
+    name: Biographies
   self_help:
     name: Self-Help
 
@@ -73,6 +75,11 @@ defaults:
       path: "_source/crime"
     values:
       subject: crime
+  - scope:
+      type: "source"
+      path: "_source/conspiracy"
+    values:
+      subject: conspiracy
   - scope:
       type: "source"
       path: "_source/feminism"

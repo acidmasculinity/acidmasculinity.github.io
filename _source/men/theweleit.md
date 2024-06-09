@@ -6,5 +6,5 @@ year: 1987
 publisher: "University of Minnesotar Press"
 ---
 
-Sociologist Klaus Theweleit psychoanalyses Freikorps pulp fiction.
+Sociologist, Klaus Theweleit psychoanalyses Freikorps pulp fiction.
 

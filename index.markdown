@@ -70,7 +70,7 @@ Recommendations for anons.
 </section>
 
 <section>
-    <h2>Sources</h2>
+    <h2>Academic</h2>
 {% assign subjects = site.source | group_by: "subject" | sort_natural -%}
 {% for subject in subjects %}
   {%- assign subj = site.subjects[subject.name] -%}

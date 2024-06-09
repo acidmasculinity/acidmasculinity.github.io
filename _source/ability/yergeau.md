@@ -6,5 +6,5 @@ publisher: "Duke University Press"
 year: 2018
 ---
 
-Melanie Yergeau explodes and subverts tropes of disabled
-rhetoric. Very good, but written in an extremely academic style.
+Melanie Yergeau subverts rhetorical disability tropes. Good, but
+written in an extremely academic style.

@@ -6,5 +6,5 @@ year: 2012
 publisher: "Da Capo Lifelong"
 ---
 
-Clinical psychologist Alan Downs tells the first-hand account of
-working with self-hating gay men in his practice.
+Clinical psychologist, Alan Downs discusses his work with self-hating
+gay men in his practice.
