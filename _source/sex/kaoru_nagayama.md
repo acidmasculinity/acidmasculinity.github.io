@@ -6,4 +6,4 @@ year: 2020
 publisher: "Amsterdam University Press"
 ---
 
-Manga critic Kaoru Nagayama studies the history of erotic manga.
+Manga critic, Kaoru Nagayama studies the history of erotic manga.
