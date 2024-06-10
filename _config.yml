@@ -24,16 +24,22 @@ collections:
 subjects:
   ability:
     name: Ability
+  bodies:
+    name: Bodies
   conspiracy:
     name: Conspiracy
   crime:
     name: Crime
+  cults:
+    name: Cults
   feminism:
     name: Feminism
   lore:
     name: Lore
   media_studies:
     name: Media
+  manga:
+    name: Manga
   memes:
     name: Memes
   men:
@@ -62,6 +68,11 @@ subjects:
 
 defaults:
   - scope:
+      type: "resource"
+    values:
+      authors: []
+
+  - scope:
       type: "source"
     values:
       authors: []
@@ -72,6 +83,11 @@ defaults:
       subject: ability
   - scope:
       type: "source"
+      path: "_source/bodies"
+    values:
+      subject: bodies
+  - scope:
+      type: "source"
       path: "_source/crime"
     values:
       subject: crime
@@ -80,6 +96,11 @@ defaults:
       path: "_source/conspiracy"
     values:
       subject: conspiracy
+  - scope:
+      type: "source"
+      path: "_source/cult"
+    values:
+      subject: cult
   - scope:
       type: "source"
       path: "_source/feminism"
@@ -142,7 +163,7 @@ defaults:
       subject: "far_right"
 
   - scope:
-      type: "resource"
+      type: "disengage"
     values:
       authors: []
   - scope:
