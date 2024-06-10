@@ -98,9 +98,9 @@ defaults:
       subject: conspiracy
   - scope:
       type: "source"
-      path: "_source/cult"
+      path: "_source/cults"
     values:
-      subject: cult
+      subject: cults
   - scope:
       type: "source"
       path: "_source/feminism"
