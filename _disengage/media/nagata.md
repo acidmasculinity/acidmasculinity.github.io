@@ -1,6 +1,6 @@
 ---
 authors:
-  - Nagata, Kabi
+  - Kabi Nagata
 title: "My Lesbian Experience with Loneliness"
 year: 2017
 publisher: "Seven Seas Entertainment"

@@ -180,3 +180,18 @@ defaults:
       path: "_disengage/queer"
     values:
       subject: queer
+
+  - scope:
+      type: "far_right"
+    values:
+      authors: []
+  - scope:
+      type: "far_right"
+      path: "_far_right/media"
+    values:
+      subject: media
+  - scope:
+      type: "far_right"
+      path: "_far_right/other"
+    values:
+      subject: other
