@@ -113,6 +113,11 @@ defaults:
       subject: lore
   - scope:
       type: "source"
+      path: "_source/manga"
+    values:
+      subject: manga
+  - scope:
+      type: "source"
       path: "_source/media_studies"
     values:
       subject: media_studies
