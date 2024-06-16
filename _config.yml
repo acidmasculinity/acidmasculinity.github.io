@@ -54,6 +54,8 @@ subjects:
     name: Theory
   sex:
     name: "Sex"
+  urban:
+    name: "Urban"
   "other":
     name: "Other"
 
@@ -156,6 +158,11 @@ defaults:
       path: "_source/memes"
     values:
       subject: "memes"
+  - scope:
+      type: "source"
+      path: "_source/urban"
+    values:
+      subject: "urban"
   - scope:
       type: "source"
       path: "_source/other"
