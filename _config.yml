@@ -11,7 +11,7 @@ plugins:
 collections:
   resource:
     output: false
-  disengage:
+  recovery:
     output: false
     sort_by: authors
   source:
@@ -182,42 +182,42 @@ defaults:
       subject: "far_right"
 
   - scope:
-      type: "disengage"
+      type: "recovery"
     values:
       authors: []
   - scope:
-      type: "disengage"
-      path: "_disengage/former"
+      type: "recovery"
+      path: "_recovery/former"
     values:
       subject: former
   - scope:
-      type: "disengage"
-      path: "_disengage/ability"
+      type: "recovery"
+      path: "_recovery/ability"
     values:
       subject: ability
   - scope:
-      type: "disengage"
-      path: "_disengage/former_book"
+      type: "recovery"
+      path: "_recovery/former_book"
     values:
       subject: former_book
   - scope:
-      type: "disengage"
-      path: "_disengage/self_help"
+      type: "recovery"
+      path: "_recovery/self_help"
     values:
       subject: self_help
   - scope:
-      type: "disengage"
-      path: "_disengage/media"
+      type: "recovery"
+      path: "_recovery/media"
     values:
       subject: media
   - scope:
-      type: "disengage"
-      path: "_disengage/men"
+      type: "recovery"
+      path: "_recovery/men"
     values:
       subject: men
   - scope:
-      type: "disengage"
-      path: "_disengage/queer"
+      type: "recovery"
+      path: "_recovery/queer"
     values:
       subject: queer
 

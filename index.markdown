@@ -51,7 +51,7 @@ other anons.
 
 <section>
     <h2>Recovery</h2>
-{% assign subjects = site.disengage | group_by: "subject" | sort_natural -%}
+{% assign subjects = site.recovery | group_by: "subject" | sort_natural -%}
 {% for subject in subjects %}
   {%- assign subj = site.subjects[subject.name] -%}
   {%- if subj.disabled -%}
@@ -60,11 +60,11 @@ other anons.
 
   <section>
     <h3>{{- subj.name | default: subject.name -}}</h3>
-    {% for disengage in subject.items %}
-    {%- if disengage.disabled -%}
+    {% for recovery in subject.items %}
+    {%- if recovery.disabled -%}
       {%- continue -%}
     {%- endif -%}
-    {% include entry.html entry=disengage %}
+    {% include entry.html entry=recovery %}
     {% endfor %}
   </section>
 {% endfor %}
