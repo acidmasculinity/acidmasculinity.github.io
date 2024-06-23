@@ -4,7 +4,8 @@ title: "Anon: An Annotated Bibliography"
 ---
 
 Resources, recovery material and academic sources that I recommend to
-other anons.
+other anons.  There is also a list of primary sources of far-right
+media, internet culture and other media popular in these areas.
 
 <section>
   <h2>Resources</h2>
@@ -92,8 +93,8 @@ other anons.
 </section>
 
 <section>
-    <h2>Far-Right</h2>
-{% assign subjects = site.far_right | group_by: "subject" | sort_natural -%}
+    <h2>Primary Sources: Far-Right Media, Internet Culture and Other Media</h2>
+{% assign subjects = site.primary | group_by: "subject" | sort_natural -%}
 {% for subject in subjects %}
   {%- assign subj = site.subjects[subject.name] -%}
   {%- if subj.disabled -%}

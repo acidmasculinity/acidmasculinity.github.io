@@ -19,7 +19,7 @@ collections:
   source:
     output: false
     sort_by: authors
-  far_right:
+  primary:
     output: false
     sort_by: authors
 
@@ -179,9 +179,9 @@ defaults:
       subject: "other"
   - scope:
       type: "source"
-      path: "collections/_source/far_right"
+      path: "collections/_source/primary"
     values:
-      subject: "far_right"
+      subject: "primary"
 
   - scope:
       type: "recovery"
@@ -224,16 +224,16 @@ defaults:
       subject: queer
 
   - scope:
-      type: "far_right"
+      type: "primary"
     values:
       authors: []
   - scope:
-      type: "far_right"
-      path: "collections/_far_right/media"
+      type: "primary"
+      path: "collections/_primary/media"
     values:
       subject: media
   - scope:
-      type: "far_right"
-      path: "collections/_far_right/other"
+      type: "primary"
+      path: "collections/_primary/other"
     values:
       subject: other
