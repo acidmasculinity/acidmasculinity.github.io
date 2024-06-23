@@ -8,6 +8,8 @@ theme: minima
 plugins:
   - jekyll-feed
 
+collections_dir: collections
+
 collections:
   resource:
     output: false
@@ -82,102 +84,102 @@ defaults:
       authors: []
   - scope:
       type: "source"
-      path: "_source/ability"
+      path: "collections/_source/ability"
     values:
       subject: ability
   - scope:
       type: "source"
-      path: "_source/bodies"
+      path: "collections/_source/bodies"
     values:
       subject: bodies
   - scope:
       type: "source"
-      path: "_source/crime"
+      path: "collections/_source/crime"
     values:
       subject: crime
   - scope:
       type: "source"
-      path: "_source/conspiracy"
+      path: "collections/_source/conspiracy"
     values:
       subject: conspiracy
   - scope:
       type: "source"
-      path: "_source/religion"
+      path: "collections/_source/religion"
     values:
       subject: religion
   - scope:
       type: "source"
-      path: "_source/feminism"
+      path: "collections/_source/feminism"
     values:
       subject: feminism
   - scope:
       type: "source"
-      path: "_source/lore"
+      path: "collections/_source/lore"
     values:
       subject: lore
   - scope:
       type: "source"
-      path: "_source/manga"
+      path: "collections/_source/manga"
     values:
       subject: manga
   - scope:
       type: "source"
-      path: "_source/media_studies"
+      path: "collections/_source/media_studies"
     values:
       subject: media_studies
   - scope:
       type: "source"
-      path: "_source/men"
+      path: "collections/_source/men"
     values:
       subject: men
   - scope:
       type: "source"
-      path: "_source/psychology"
+      path: "collections/_source/psychology"
     values:
       subject: psychology
   - scope:
       type: "source"
-      path: "_source/queer"
+      path: "collections/_source/queer"
     values:
       subject: queer
   - scope:
       type: "source"
-      path: "_source/sociology"
+      path: "collections/_source/sociology"
     values:
       subject: sociology
   - scope:
       type: "source"
-      path: "_source/theory"
+      path: "collections/_source/theory"
     values:
       subject: theory
   - scope:
       type: "source"
-      path: "_source/sex"
+      path: "collections/_source/sex"
     values:
       subject: "sex"
   - scope:
       type: "source"
-      path: "_source/internet"
+      path: "collections/_source/internet"
     values:
       subject: "internet"
   - scope:
       type: "source"
-      path: "_source/self_injury"
+      path: "collections/_source/self_injury"
     values:
       subject: "self_injury"
   - scope:
       type: "source"
-      path: "_source/urban"
+      path: "collections/_source/urban"
     values:
       subject: "urban"
   - scope:
       type: "source"
-      path: "_source/other"
+      path: "collections/_source/other"
     values:
       subject: "other"
   - scope:
       type: "source"
-      path: "_source/far_right"
+      path: "collections/_source/far_right"
     values:
       subject: "far_right"
 
@@ -187,37 +189,37 @@ defaults:
       authors: []
   - scope:
       type: "recovery"
-      path: "_recovery/former"
+      path: "collections/_recovery/former"
     values:
       subject: former
   - scope:
       type: "recovery"
-      path: "_recovery/ability"
+      path: "collections/_recovery/ability"
     values:
       subject: ability
   - scope:
       type: "recovery"
-      path: "_recovery/former_book"
+      path: "collections/_recovery/former_book"
     values:
       subject: former_book
   - scope:
       type: "recovery"
-      path: "_recovery/self_help"
+      path: "collections/_recovery/self_help"
     values:
       subject: self_help
   - scope:
       type: "recovery"
-      path: "_recovery/media"
+      path: "collections/_recovery/media"
     values:
       subject: media
   - scope:
       type: "recovery"
-      path: "_recovery/men"
+      path: "collections/_recovery/men"
     values:
       subject: men
   - scope:
       type: "recovery"
-      path: "_recovery/queer"
+      path: "collections/_recovery/queer"
     values:
       subject: queer
 
@@ -227,11 +229,11 @@ defaults:
       authors: []
   - scope:
       type: "far_right"
-      path: "_far_right/media"
+      path: "collections/_far_right/media"
     values:
       subject: media
   - scope:
       type: "far_right"
-      path: "_far_right/other"
+      path: "collections/_far_right/other"
     values:
       subject: other
