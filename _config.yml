@@ -30,8 +30,8 @@ subjects:
     name: Conspiracy
   crime:
     name: Crime
-  cults:
-    name: Cults
+  religion:
+    name: Religion
   feminism:
     name: Feminism
   lore:
@@ -40,8 +40,8 @@ subjects:
     name: Media
   manga:
     name: Manga
-  memes:
-    name: Memes
+  internet:
+    name: Internet
   men:
     name: Men
   psychology:
@@ -50,6 +50,8 @@ subjects:
     name: Queer
   sociology:
     name: Sociology
+  self_injury:
+    name: Self-Injury
   theory:
     name: Theory
   sex:
@@ -100,9 +102,9 @@ defaults:
       subject: conspiracy
   - scope:
       type: "source"
-      path: "_source/cults"
+      path: "_source/religion"
     values:
-      subject: cults
+      subject: religion
   - scope:
       type: "source"
       path: "_source/feminism"
@@ -155,9 +157,14 @@ defaults:
       subject: "sex"
   - scope:
       type: "source"
-      path: "_source/memes"
+      path: "_source/internet"
     values:
-      subject: "memes"
+      subject: "internet"
+  - scope:
+      type: "source"
+      path: "_source/self_injury"
+    values:
+      subject: "self_injury"
   - scope:
       type: "source"
       path: "_source/urban"
