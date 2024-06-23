@@ -3,7 +3,8 @@ layout: home
 title: "Anon: An Annotated Bibliography"
 ---
 
-Recommendations for anons.
+Resources, recovery material and academic sources that I recommend to
+other anons.
 
 <section>
   <h2>Resources</h2>
