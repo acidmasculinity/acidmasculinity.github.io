@@ -12,7 +12,7 @@ schema or database of elements of a work rather than the narrative of
 a work.  4chan is directly related to Japanese image board and otaku
 culture.
 
-See also for an explainer Paul Perijk's article on "Database
+See also for an explainer Paul Perdijk's article on "Database
 Consumption" in *Japanese Media and Popular Culture* at
-[https://jmpc-utokyo.com/keyword/database-consumption](jmpc-utokyo.com/keyword/database-consumption).
+[jmpc-utokyo.com/keyword/database-consumption](https://jmpc-utokyo.com/keyword/database-consumption).
 
