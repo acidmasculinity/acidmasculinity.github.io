@@ -44,8 +44,8 @@ subjects:
     name: Manga
   internet:
     name: Internet
-  men:
-    name: Men
+  masculinity:
+    name: Masculinity
   psychology:
     name: Psychology
   queer:
@@ -129,9 +129,9 @@ defaults:
       subject: media_studies
   - scope:
       type: "source"
-      path: "collections/_source/men"
+      path: "collections/_source/masculinity"
     values:
-      subject: men
+      subject: masculinity
   - scope:
       type: "source"
       path: "collections/_source/psychology"
@@ -214,9 +214,9 @@ defaults:
       subject: media
   - scope:
       type: "recovery"
-      path: "collections/_recovery/men"
+      path: "collections/_recovery/masculinity"
     values:
-      subject: men
+      subject: masculinity
   - scope:
       type: "recovery"
       path: "collections/_recovery/queer"
