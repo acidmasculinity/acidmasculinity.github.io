@@ -8,7 +8,9 @@ other anons.  There is also a list of primary sources of far-right
 media, internet culture and other media popular in these areas.
 
 <section>
-  <h2>Resources</h2>
+  <header>
+    <h2>Resources</h2>
+  </header>
       {% for source in site.resource %}
       {%- if source.disabled -%}
           {%- continue -%}
@@ -51,7 +53,9 @@ media, internet culture and other media popular in these areas.
 </section>
 
 <section>
+  <header>
     <h2>Recovery</h2>
+  </header>
 {% assign subjects = site.recovery | group_by: "subject" | sort_natural -%}
 {% for subject in subjects %}
   {%- assign subj = site.subjects[subject.name] -%}
@@ -72,7 +76,9 @@ media, internet culture and other media popular in these areas.
 </section>
 
 <section>
+  <header>
     <h2>Academic</h2>
+  </header>
 {% assign subjects = site.source | group_by: "subject" | sort_natural -%}
 {% for subject in subjects %}
   {%- assign subj = site.subjects[subject.name] -%}
@@ -93,7 +99,10 @@ media, internet culture and other media popular in these areas.
 </section>
 
 <section>
-    <h2>Primary Sources: Far-Right Media, Internet Culture and Other Media</h2>
+  <header>
+    <h2>Primary Sources</h2>
+    <p>Far-right media, internet culture and other media</p>
+  </header>
 {% assign subjects = site.primary | group_by: "subject" | sort_natural -%}
 {% for subject in subjects %}
   {%- assign subj = site.subjects[subject.name] -%}
