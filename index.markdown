@@ -18,13 +18,12 @@ media, internet culture and other media popular in these areas.
     <section class="bib">
       <div class="bib-title">
         <h3 class="bib-heading"><i>{{- source.title -}}</i></h3>.
-          {% if source.link %}
-            <a href="{{- source.link -}}">{{- source.link | replace_first: "https://", "" -}}</a>.
-          {% endif %}
-        </div>
-        <div class="bib-anno">
-          {{- source.content | markdownify -}}
-        </div>
+        {% if source.link %}
+          <a href="{{- source.link -}}">{{- source.link | replace_first: "https://", "" -}}</a>.
+        {% endif %}
+      </div>
+      <div class="bib-anno">
+        {{- source.content | markdownify -}}
       </div>
     </section>
   {% endfor %}
