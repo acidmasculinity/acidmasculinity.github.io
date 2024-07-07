@@ -16,6 +16,8 @@ collections:
   recovery:
     output: false
     sort_by: authors
+  aca_resource:
+    output: false
   source:
     output: false
     sort_by: authors

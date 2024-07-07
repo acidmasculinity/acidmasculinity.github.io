@@ -54,6 +54,28 @@ media, internet culture and other media popular in these areas.
 
 <section>
   <header>
+    <h2>Academic Resources</h2>
+  </header>
+  {% for source in site.aca_resource %}
+    {%- if source.disabled -%}
+      {%- continue -%}
+    {%- endif -%}
+    <section class="bib">
+      <div class="bib-title">
+        <h3 class="bib-heading"><i>{{- source.title -}}</i></h3>.
+        {% if source.link %}
+          <a href="{{- source.link -}}">{{- source.link | replace_first: "https://", "" -}}</a>.
+        {% endif %}
+      </div>
+      <div class="bib-anno">
+        {{- source.content | markdownify -}}
+      </div>
+    </section>
+  {% endfor %}
+</section>
+
+<section>
+  <header>
     <h2>Academic</h2>
   </header>
 {% assign subjects = site.source | group_by: "subject" | sort_natural -%}
