@@ -44,6 +44,8 @@ subjects:
     name: Media
   manga:
     name: Manga
+  fandom:
+    name: Fandom and Otaku
   internet:
     name: Internet
   masculinity:
@@ -124,6 +126,11 @@ defaults:
       path: "collections/_source/manga"
     values:
       subject: manga
+  - scope:
+      type: "source"
+      path: "collections/_source/fandom"
+    values:
+      subject: fandom
   - scope:
       type: "source"
       path: "collections/_source/media_studies"
