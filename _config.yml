@@ -54,6 +54,8 @@ subjects:
     name: Psychology
   queer:
     name: Queer
+  trans:
+    name: Trans
   sociology:
     name: Sociology
   self_injury:
@@ -153,6 +155,11 @@ defaults:
       subject: queer
   - scope:
       type: "source"
+      path: "collections/_source/trans"
+    values:
+      subject: trans
+  - scope:
+      type: "source"
       path: "collections/_source/sociology"
     values:
       subject: sociology
@@ -231,6 +238,11 @@ defaults:
       path: "collections/_recovery/queer"
     values:
       subject: queer
+  - scope:
+      type: "recovery"
+      path: "collections/_recovery/trans"
+    values:
+      subject: trans
 
   - scope:
       type: "primary"
