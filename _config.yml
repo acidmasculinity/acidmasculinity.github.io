@@ -245,6 +245,16 @@ defaults:
       path: "collections/_recovery/trans"
     values:
       subject: trans
+  - scope:
+      type: "recovery"
+      path: "collections/_recovery/lore"
+    values:
+      subject: lore
+  - scope:
+      type: "recovery"
+      path: "collections/_recovery/urban"
+    values:
+      subject: urban
 
   - scope:
       type: "primary"
