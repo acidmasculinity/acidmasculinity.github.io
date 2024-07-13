@@ -2,10 +2,10 @@
 authors:
   - "Akihiro Kitada"
 article: "Japan's Cynical Nationalism"
-title: "Fandom Unbound: Otakue Culture in a Connected World"
+title: "Fandom Unbound: Otaku Culture in a Connected World"
 other: "Edited by Mizuko Ito eta al"
 year: 2012
-pubisher: "Yale University Press"
+publisher: "Yale University Press"
 ---
 
 Uses the book *Train Man* as a jumping off point for discussing
