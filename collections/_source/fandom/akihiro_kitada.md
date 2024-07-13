@@ -8,5 +8,5 @@ year: 2012
 pubisher: "Yale University Press"
 ---
 
-Uses *Train Man* as a ujumping off point for discussing cynicism,
-irony and romanticism on 2channel and in Japanese nationalism.
+Uses the book *Train Man* as a jumping off point for discussing
+cynicism, irony and romanticism in 2channel and Japanese nationalism.
