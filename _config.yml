@@ -71,6 +71,8 @@ subjects:
 
   media:
     name: "Media"
+  original:
+    name: "Original"
   former:
     name: Former
   former_book:
@@ -253,6 +255,11 @@ defaults:
       path: "collections/_primary/media"
     values:
       subject: media
+  - scope:
+      type: "primary"
+      path: "collections/_primary/original"
+    values:
+      subject: original
   - scope:
       type: "primary"
       path: "collections/_primary/other"
