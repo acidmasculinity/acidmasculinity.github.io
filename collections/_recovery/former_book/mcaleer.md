@@ -6,4 +6,4 @@ year: 2019
 publisher: Arsenal Press
 ---
 
-Man (born 1967) from Vancouver, Canada enters and exits neo-Nazism.
+Man born 1967 in Vancouver, Canada enters and exits neo-Nazism.

@@ -6,4 +6,4 @@ year: 2012
 publisher: "Biteback Publishings"
 ---
 
-Man (born 1972) from London, Britain enters and exits far-right.
+Man born 1972 in London, Britain enters and exits far-right.

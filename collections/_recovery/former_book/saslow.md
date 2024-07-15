@@ -6,5 +6,5 @@ publisher: "Doubleday"
 year: 2018
 ---
 
-Enby (born 1989) from West Palm Beach, U.S. is born into
-White Nationalism, publicly exits shortly after college.
+Enby born 1989 in West Palm Beach, U.S. is born into White
+Nationalism, publicly exits shortly after college.

@@ -6,4 +6,4 @@ year: 2017
 publisher: "Hachette Books"
 ---
 
-Man (born 1973) from Blue Island, U.S. enters and exits neo-Nazism.
+Man born 1973 in Blue Island, U.S. enters and exits neo-Nazism.
