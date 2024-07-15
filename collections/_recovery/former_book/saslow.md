@@ -6,5 +6,5 @@ publisher: "Doubleday"
 year: 2018
 ---
 
-Transfem enby (born 1989) from West Palm Beach, U.S. is born into
+Enby (born 1989) from West Palm Beach, U.S. is born into
 White Nationalism, publicly exits shortly after college.
