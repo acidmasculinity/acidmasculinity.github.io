@@ -7,3 +7,4 @@ year: 2009
 publisher: "Hawthorne Books"
 ---
 
+Man (born 1975) from South Philadelphia, U.S. enters and exits neo-Nazism, struggles with drug use.

@@ -6,4 +6,4 @@ year: 2017
 publisher: "Hachette Books"
 ---
 
-<!-- Former neo-Nazi, Christian Picciolini -->
+Man (born 1973) from Blue Island, U.S. enters and exits neo-Nazism.

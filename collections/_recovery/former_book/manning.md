@@ -7,4 +7,4 @@ publisher: "Tidewater Press"
 year: 2021
 ---
 
-Woman gets in and out of White Nationalism.
+Bisexual woman (born 1990) from Toronto, Canada enters and exits White Nationalism.
