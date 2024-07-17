@@ -1,5 +1,6 @@
 ---
 title: "American Psycho"
+other: Directed by Mary Harron
 year: 2000
-disabled: true
+publisher: Lions Gate Films
 ---
