@@ -207,6 +207,11 @@ defaults:
       authors: []
   - scope:
       type: "recovery"
+      path: "collections/_recovery/fandom"
+    values:
+      subject: fandom
+  - scope:
+      type: "recovery"
       path: "collections/_recovery/former"
     values:
       subject: former
