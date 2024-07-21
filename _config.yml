@@ -34,6 +34,8 @@ subjects:
     name: Conspiracy
   crime:
     name: Crime
+  cults:
+    name: Cults
   religion:
     name: Religion
   feminism:
@@ -110,6 +112,11 @@ defaults:
       path: "collections/_source/conspiracy"
     values:
       subject: conspiracy
+  - scope:
+      type: "source"
+      path: "collections/_source/cults"
+    values:
+      subject: cults
   - scope:
       type: "source"
       path: "collections/_source/religion"
@@ -260,6 +267,11 @@ defaults:
       path: "collections/_recovery/urban"
     values:
       subject: urban
+  - scope:
+      type: "recovery"
+      path: "collections/_recovery/cults"
+    values:
+      subject: cults
 
   - scope:
       type: "primary"
