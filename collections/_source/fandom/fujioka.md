@@ -2,7 +2,7 @@
 authors:
   - Fujioka, Brett J. 
   - DeCook, Julia R.
-article: "Subculture as social knowledge: a hopeful reading of otaku culture"
+article: "Digital cynical romanticism: Japan’s 2channel and the precursors to online extremist cultures"
 title: "Internet Histories"
 year: 2021
 page: "287-303"
