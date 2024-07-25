@@ -30,6 +30,8 @@ collections:
     sort_by: authors
 
 subjects:
+  academic:
+    name: Academic
   ability:
     name: Ability
   bodies:
@@ -315,7 +317,7 @@ defaults:
       type: "academic"
       path: "collections/_aca_resource/academic"
     values:
-      subject: lore
+      subject: academic
   - scope:
       type: "academic"
       path: "collections/_aca_resource/other"
