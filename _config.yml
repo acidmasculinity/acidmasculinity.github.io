@@ -16,6 +16,9 @@ collections:
   recovery:
     output: false
     sort_by: authors
+  lore:
+    output: false
+    sort_by: authors
   aca_resource:
     output: false
   source:
@@ -292,3 +295,13 @@ defaults:
       path: "collections/_primary/other"
     values:
       subject: other
+
+  - scope:
+      type: "lore"
+    values:
+      authors: []
+  - scope:
+      type: "lore"
+      path: "collections/_lore/lore"
+    values:
+      subject: lore

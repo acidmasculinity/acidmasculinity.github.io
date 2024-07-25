@@ -54,6 +54,30 @@ media, internet culture and other media popular in these areas.
 
 <section>
   <header>
+    <h2>Lore</h2>
+    <p>History and journalism</p>
+  </header>
+{% assign subjects = site.lore | group_by: "subject" | sort_natural -%}
+{% for subject in subjects %}
+  {%- assign subj = site.subjects[subject.name] -%}
+  {%- if subj.disabled -%}
+    {%- continue -%}
+  {%- endif -%}
+
+  <section>
+    <h3>{{- subj.name | default: subject.name -}}</h3>
+    {% for disengage in subject.items %}
+    {%- if disengage.disabled -%}
+      {%- continue -%}
+    {%- endif -%}
+    {% include entry.html entry=disengage %}
+    {% endfor %}
+  </section>
+{% endfor %}
+</section>
+
+<section>
+  <header>
     <h2>Academic Resources</h2>
   </header>
   {% for source in site.aca_resource %}
