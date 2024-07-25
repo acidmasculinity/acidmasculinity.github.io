@@ -78,24 +78,25 @@ media, internet culture and other media popular in these areas.
 
 <section>
   <header>
-    <h2>Academic Resources</h2>
+    <h2>Research Resources</h2>
   </header>
-  {% for source in site.aca_resource %}
+{% assign subjects = site.aca_resource | group_by: "subject" | sort_natural -%}
+{% for subject in subjects %}
+  {%- assign subj = site.subjects[subject.name] -%}
+  {%- if subj.disabled -%}
+    {%- continue -%}
+  {%- endif -%}
+
+  <section>
+    <h3>{{- subj.name | default: subject.name -}}</h3>
+    {% for source in subject.items %}
     {%- if source.disabled -%}
       {%- continue -%}
     {%- endif -%}
-    <section class="bib">
-      <div class="bib-title">
-        <h3 class="bib-heading"><i>{{- source.title -}}</i></h3>.
-        {% if source.link %}
-          <a href="{{- source.link -}}">{{- source.link | replace_first: "https://", "" -}}</a>.
-        {% endif %}
-      </div>
-      <div class="bib-anno">
-        {{- source.content | markdownify -}}
-      </div>
-    </section>
-  {% endfor %}
+    {% include entry.html entry=source %}
+    {% endfor %}
+  </section>
+{% endfor %}
 </section>
 
 <section>

@@ -21,6 +21,7 @@ collections:
     sort_by: authors
   aca_resource:
     output: false
+    sort_by: authors
   source:
     output: false
     sort_by: authors
@@ -305,3 +306,18 @@ defaults:
       path: "collections/_lore/lore"
     values:
       subject: lore
+
+  - scope:
+      type: "aca_resource"
+    values:
+      authors: []
+  - scope:
+      type: "academic"
+      path: "collections/_aca_resource/academic"
+    values:
+      subject: lore
+  - scope:
+      type: "academic"
+      path: "collections/_aca_resource/other"
+    values:
+      subject: other
