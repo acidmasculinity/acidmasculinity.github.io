@@ -314,12 +314,12 @@ defaults:
     values:
       authors: []
   - scope:
-      type: "academic"
+      type: "aca_resource"
       path: "collections/_aca_resource/academic"
     values:
       subject: academic
   - scope:
-      type: "academic"
+      type: "aca_resource"
       path: "collections/_aca_resource/other"
     values:
       subject: other
