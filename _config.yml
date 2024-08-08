@@ -49,10 +49,14 @@ subjects:
     name: Conspiracy
   crime:
     name: Crime
+  hooligans:
+    name: Hooligans
   cults:
     name: Cults
   religion:
     name: Religion
+  fandom:
+    name: Fandom and Otaku
   feminism:
     name: Feminism
   lore:
@@ -61,8 +65,8 @@ subjects:
     name: Media
   manga:
     name: Manga
-  fandom:
-    name: Fandom and Otaku
+  hooligans:
+    name: Hooligans
   internet:
     name: Internet
   masculinity:
@@ -163,6 +167,11 @@ defaults:
       path: "collections/_deviance/crime"
     values:
       subject: crime
+  - scope:
+      type: "deviance"
+      path: "collections/_deviance/hooligans"
+    values:
+      subject: hooligans
   - scope:
       type: "deviance"
       path: "collections/_deviance/ability"
