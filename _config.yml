@@ -56,7 +56,9 @@ subjects:
   religion:
     name: Religion
   fandom:
-    name: Fandom and Otaku
+    name: Fandom
+  otaku:
+    name: Otaku
   feminism:
     name: Feminism
   lore:
@@ -76,7 +78,7 @@ subjects:
   queer:
     name: Queer
   trans:
-    name: Trans
+    name: "Trans*"
   sociology:
     name: Sociology
   self_injury:
@@ -212,6 +214,11 @@ defaults:
       path: "collections/_leisure/fandom"
     values:
       subject: fandom
+  - scope:
+      type: "leisure"
+      path: "collections/_leisure/otaku"
+    values:
+      subject: otaku
   - scope:
       type: "leisure"
       path: "collections/_leisure/manga"
