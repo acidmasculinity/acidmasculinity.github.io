@@ -105,9 +105,9 @@ Focuses on digital leisure, deviance, cults and fascism.
   <header>
     <h2>Digital Culture</h2>
   </header>
-{% assign subjects = site.source | group_by: "subject" | sort_natural -%}
+{% assign subjects = site.digital | group_by: "subject" | sort_natural -%}
 {% for subject in subjects %}
-  {%- assign subj = site.digital[subject.name] -%}
+  {%- assign subj = site.subjects[subject.name] -%}
   {%- if subj.disabled -%}
     {%- continue -%}
   {%- endif -%}
@@ -128,9 +128,9 @@ Focuses on digital leisure, deviance, cults and fascism.
   <header>
     <h2>Deviant Culture</h2>
   </header>
-{% assign subjects = site.source | group_by: "subject" | sort_natural -%}
+{% assign subjects = site.deviance | group_by: "subject" | sort_natural -%}
 {% for subject in subjects %}
-  {%- assign subj = site.deviant[subject.name] -%}
+  {%- assign subj = site.subjects[subject.name] -%}
   {%- if subj.disabled -%}
     {%- continue -%}
   {%- endif -%}
@@ -151,9 +151,9 @@ Focuses on digital leisure, deviance, cults and fascism.
   <header>
     <h2>Leisure</h2>
   </header>
-{% assign subjects = site.source | group_by: "subject" | sort_natural -%}
+{% assign subjects = site.leisure | group_by: "subject" | sort_natural -%}
 {% for subject in subjects %}
-  {%- assign subj = site.leisure[subject.name] -%}
+  {%- assign subj = site.subjects[subject.name] -%}
   {%- if subj.disabled -%}
     {%- continue -%}
   {%- endif -%}
@@ -174,9 +174,9 @@ Focuses on digital leisure, deviance, cults and fascism.
   <header>
     <h2>Fascism</h2>
   </header>
-{% assign subjects = site.source | group_by: "subject" | sort_natural -%}
+{% assign subjects = site.fascism | group_by: "subject" | sort_natural -%}
 {% for subject in subjects %}
-  {%- assign subj = site.fascism[subject.name] -%}
+  {%- assign subj = site.subjects[subject.name] -%}
   {%- if subj.disabled -%}
     {%- continue -%}
   {%- endif -%}
