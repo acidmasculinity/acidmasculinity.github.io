@@ -22,7 +22,16 @@ collections:
   aca_resource:
     output: false
     sort_by: authors
-  source:
+  digital:
+    output: false
+    sort_by: authors
+  deviance:
+    output: false
+    sort_by: authors
+  leisure:
+    output: false
+    sort_by: authors
+  fascism:
     output: false
     sort_by: authors
   primary:
@@ -98,121 +107,110 @@ defaults:
       type: "source"
     values:
       authors: []
+
   - scope:
-      type: "source"
-      path: "collections/_source/ability"
-    values:
-      subject: ability
-  - scope:
-      type: "source"
-      path: "collections/_source/bodies"
+      type: "fascism"
+      path: "collections/_fascism/bodies"
     values:
       subject: bodies
   - scope:
-      type: "source"
-      path: "collections/_source/crime"
-    values:
-      subject: crime
-  - scope:
-      type: "source"
-      path: "collections/_source/conspiracy"
+      type: "fascism"
+      path: "collections/_fascism/conspiracy"
     values:
       subject: conspiracy
   - scope:
-      type: "source"
-      path: "collections/_source/cults"
+      type: "fascism"
+      path: "collections/_fascism/cults"
     values:
       subject: cults
   - scope:
-      type: "source"
-      path: "collections/_source/religion"
+      type: "fascism"
+      path: "collections/_fascism/religion"
     values:
       subject: religion
   - scope:
-      type: "source"
-      path: "collections/_source/feminism"
+      type: "fascism"
+      path: "collections/_fascism/feminism"
     values:
       subject: feminism
   - scope:
-      type: "source"
-      path: "collections/_source/lore"
-    values:
-      subject: lore
-  - scope:
-      type: "source"
-      path: "collections/_source/manga"
-    values:
-      subject: manga
-  - scope:
-      type: "source"
-      path: "collections/_source/fandom"
-    values:
-      subject: fandom
-  - scope:
-      type: "source"
-      path: "collections/_source/media_studies"
-    values:
-      subject: media_studies
-  - scope:
-      type: "source"
-      path: "collections/_source/masculinity"
+      type: "fascism"
+      path: "collections/_fascism/masculinity"
     values:
       subject: masculinity
   - scope:
-      type: "source"
-      path: "collections/_source/psychology"
+      type: "fascism"
+      path: "collections/_fascism/psychology"
     values:
       subject: psychology
   - scope:
-      type: "source"
-      path: "collections/_source/queer"
-    values:
-      subject: queer
-  - scope:
-      type: "source"
-      path: "collections/_source/trans"
-    values:
-      subject: trans
-  - scope:
-      type: "source"
-      path: "collections/_source/sociology"
+      type: "fascism"
+      path: "collections/_fascism/sociology"
     values:
       subject: sociology
   - scope:
-      type: "source"
-      path: "collections/_source/theory"
+      type: "fascism"
+      path: "collections/_fascism/theory"
     values:
       subject: theory
   - scope:
-      type: "source"
-      path: "collections/_source/sex"
-    values:
-      subject: "sex"
-  - scope:
-      type: "source"
-      path: "collections/_source/internet"
-    values:
-      subject: "internet"
-  - scope:
-      type: "source"
-      path: "collections/_source/self_injury"
-    values:
-      subject: "self_injury"
-  - scope:
-      type: "source"
-      path: "collections/_source/urban"
+      type: "fascism"
+      path: "collections/_fascism/urban"
     values:
       subject: "urban"
   - scope:
-      type: "source"
-      path: "collections/_source/other"
+      type: "fascism"
+      path: "collections/_fascism/other"
     values:
       subject: "other"
+
   - scope:
-      type: "source"
-      path: "collections/_source/primary"
+      type: "digital"
+      path: "collections/_digital/internet"
     values:
-      subject: "primary"
+      subject: "internet"
+
+  - scope:
+      type: "deviance"
+      path: "collections/_deviance/crime"
+    values:
+      subject: crime
+  - scope:
+      type: "deviance"
+      path: "collections/_deviance/ability"
+    values:
+      subject: ability
+  - scope:
+      type: "deviance"
+      path: "collections/_deviance/sex"
+    values:
+      subject: "sex"
+  - scope:
+      type: "deviance"
+      path: "collections/_deviance/self_injury"
+    values:
+      subject: "self_injury"
+  - scope:
+      type: "deviance"
+      path: "collections/_deviance/queer"
+    values:
+      subject: queer
+  - scope:
+      type: "deviance"
+      path: "collections/_deviance/trans"
+    values:
+      subject: trans
+
+  - scope:
+      type: "leisure"
+      path: "collections/_leisure/fandom"
+    values:
+      subject: fandom
+  - scope:
+      type: "leisure"
+      path: "collections/_leisure/manga"
+    values:
+      subject: manga
 
   - scope:
       type: "recovery"

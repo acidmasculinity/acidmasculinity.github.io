@@ -7,7 +7,7 @@ Resources, recovery material and academic sources that I recommend to
 other anons.  There is also a list of primary sources of far-right
 media, internet culture and other media popular in these areas.
 
-Focuses on digital leisure, deviant subcultures and fascism.
+Focuses on digital leisure, deviance, cults and fascism.
 
 <section>
   <header>
@@ -103,11 +103,80 @@ Focuses on digital leisure, deviant subcultures and fascism.
 
 <section>
   <header>
-    <h2>Academic</h2>
+    <h2>Digital Culture</h2>
   </header>
 {% assign subjects = site.source | group_by: "subject" | sort_natural -%}
 {% for subject in subjects %}
-  {%- assign subj = site.subjects[subject.name] -%}
+  {%- assign subj = site.digital[subject.name] -%}
+  {%- if subj.disabled -%}
+    {%- continue -%}
+  {%- endif -%}
+
+  <section>
+    <h3>{{- subj.name | default: subject.name -}}</h3>
+    {% for source in subject.items %}
+    {%- if source.disabled -%}
+      {%- continue -%}
+    {%- endif -%}
+    {% include entry.html entry=source %}
+    {% endfor %}
+  </section>
+{% endfor %}
+</section>
+
+<section>
+  <header>
+    <h2>Deviant Culture</h2>
+  </header>
+{% assign subjects = site.source | group_by: "subject" | sort_natural -%}
+{% for subject in subjects %}
+  {%- assign subj = site.deviant[subject.name] -%}
+  {%- if subj.disabled -%}
+    {%- continue -%}
+  {%- endif -%}
+
+  <section>
+    <h3>{{- subj.name | default: subject.name -}}</h3>
+    {% for source in subject.items %}
+    {%- if source.disabled -%}
+      {%- continue -%}
+    {%- endif -%}
+    {% include entry.html entry=source %}
+    {% endfor %}
+  </section>
+{% endfor %}
+</section>
+
+<section>
+  <header>
+    <h2>Leisure</h2>
+  </header>
+{% assign subjects = site.source | group_by: "subject" | sort_natural -%}
+{% for subject in subjects %}
+  {%- assign subj = site.leisure[subject.name] -%}
+  {%- if subj.disabled -%}
+    {%- continue -%}
+  {%- endif -%}
+
+  <section>
+    <h3>{{- subj.name | default: subject.name -}}</h3>
+    {% for source in subject.items %}
+    {%- if source.disabled -%}
+      {%- continue -%}
+    {%- endif -%}
+    {% include entry.html entry=source %}
+    {% endfor %}
+  </section>
+{% endfor %}
+</section>
+
+<section>
+  <header>
+    <h2>Fascism</h2>
+  </header>
+{% assign subjects = site.source | group_by: "subject" | sort_natural -%}
+{% for subject in subjects %}
+  {%- assign subj = site.fascism[subject.name] -%}
   {%- if subj.disabled -%}
     {%- continue -%}
   {%- endif -%}
