@@ -126,7 +126,7 @@ Focuses on digital leisure, deviance, cults and fascism.
 
 <section>
   <header>
-    <h2>Deviant Culture</h2>
+    <h2>Deviant and Marginalized Cultures</h2>
   </header>
 {% assign subjects = site.deviance | group_by: "subject" | sort_natural -%}
 {% for subject in subjects %}

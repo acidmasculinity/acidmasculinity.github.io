@@ -109,11 +109,6 @@ defaults:
       authors: []
   - scope:
       type: "fascism"
-      path: "collections/_fascism/bodies"
-    values:
-      subject: bodies
-  - scope:
-      type: "fascism"
       path: "collections/_fascism/conspiracy"
     values:
       subject: conspiracy
@@ -122,11 +117,6 @@ defaults:
       path: "collections/_fascism/cults"
     values:
       subject: cults
-  - scope:
-      type: "fascism"
-      path: "collections/_fascism/religion"
-    values:
-      subject: religion
   - scope:
       type: "fascism"
       path: "collections/_fascism/feminism"
@@ -147,11 +137,6 @@ defaults:
       path: "collections/_fascism/sociology"
     values:
       subject: sociology
-  - scope:
-      type: "fascism"
-      path: "collections/_fascism/theory"
-    values:
-      subject: theory
   - scope:
       type: "fascism"
       path: "collections/_fascism/urban"
@@ -210,6 +195,11 @@ defaults:
       authors: []
   - scope:
       type: "leisure"
+      path: "collections/_leisure/bodies"
+    values:
+      subject: bodies
+  - scope:
+      type: "leisure"
       path: "collections/_leisure/fandom"
     values:
       subject: fandom
@@ -218,6 +208,11 @@ defaults:
       path: "collections/_leisure/manga"
     values:
       subject: manga
+  - scope:
+      type: "leisure"
+      path: "collections/_leisure/religion"
+    values:
+      subject: religion
 
   - scope:
       type: "recovery"
