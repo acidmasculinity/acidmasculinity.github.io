@@ -104,10 +104,9 @@ defaults:
       authors: []
 
   - scope:
-      type: "source"
+      type: "fascism"
     values:
       authors: []
-
   - scope:
       type: "fascism"
       path: "collections/_fascism/bodies"
@@ -166,6 +165,10 @@ defaults:
 
   - scope:
       type: "digital"
+    values:
+      authors: []
+  - scope:
+      type: "digital"
       path: "collections/_digital/internet"
     values:
       subject: "internet"
@@ -201,6 +204,10 @@ defaults:
     values:
       subject: trans
 
+  - scope:
+      type: "leisure"
+    values:
+      authors: []
   - scope:
       type: "leisure"
       path: "collections/_leisure/fandom"
