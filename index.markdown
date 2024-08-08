@@ -7,8 +7,7 @@ Resources, recovery material and academic sources that I recommend to
 other anons.  There is also a list of primary sources of far-right
 media, internet culture and other media popular in these areas.
 
-Focused on the intersection of digital culture, deviant leisure
-activities and the far-right.
+Focuses on digital leisure, deviant subcultures and fascism.
 
 <section>
   <header>
