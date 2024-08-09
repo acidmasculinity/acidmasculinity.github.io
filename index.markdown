@@ -7,7 +7,8 @@ Resources, recovery material and academic sources that I recommend to
 other anons.  There is also a list of primary sources of far-right
 media, internet culture and other media popular in these areas.
 
-Focuses on digital leisure, deviance, cults and fascism.
+Focuses on digital culture, leisure, invisible minorities, deviant
+subcultures and totalism.
 
 <section>
   <header>
@@ -195,7 +196,7 @@ Focuses on digital leisure, deviance, cults and fascism.
 
 <section>
   <header>
-    <h2>Fascism</h2>
+    <h2>Totalism</h2>
   </header>
 {% assign subjects = site.fascism | group_by: "subject" | sort_natural -%}
 {% for subject in subjects %}
