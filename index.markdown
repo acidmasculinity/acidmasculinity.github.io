@@ -126,7 +126,30 @@ Focuses on digital leisure, deviance, cults and fascism.
 
 <section>
   <header>
-    <h2>Deviant and Marginalized Cultures</h2>
+    <h2>Invisible Minorities</h2>
+  </header>
+{% assign subjects = site.invisible | group_by: "subject" | sort_natural -%}
+{% for subject in subjects %}
+  {%- assign subj = site.subjects[subject.name] -%}
+  {%- if subj.disabled -%}
+    {%- continue -%}
+  {%- endif -%}
+
+  <section>
+    <h3>{{- subj.name | default: subject.name -}}</h3>
+    {% for source in subject.items %}
+    {%- if source.disabled -%}
+      {%- continue -%}
+    {%- endif -%}
+    {% include entry.html entry=source %}
+    {% endfor %}
+  </section>
+{% endfor %}
+</section>
+
+<section>
+  <header>
+    <h2>Deviant Subcultures</h2>
   </header>
 {% assign subjects = site.deviance | group_by: "subject" | sort_natural -%}
 {% for subject in subjects %}

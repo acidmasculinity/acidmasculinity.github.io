@@ -28,6 +28,9 @@ collections:
   deviance:
     output: false
     sort_by: authors
+  invisible:
+    output: false
+    sort_by: authors
   leisure:
     output: false
     sort_by: authors
@@ -176,11 +179,6 @@ defaults:
       subject: hooligans
   - scope:
       type: "deviance"
-      path: "collections/_deviance/ability"
-    values:
-      subject: ability
-  - scope:
-      type: "deviance"
       path: "collections/_deviance/sex"
     values:
       subject: "sex"
@@ -189,14 +187,24 @@ defaults:
       path: "collections/_deviance/self_injury"
     values:
       subject: "self_injury"
+
   - scope:
-      type: "deviance"
-      path: "collections/_deviance/queer"
+      type: "invisible"
+    values:
+      authors: []
+  - scope:
+      type: "invisible"
+      path: "collections/_invisible/ability"
+    values:
+      subject: ability
+  - scope:
+      type: "invisible"
+      path: "collections/_invisible/queer"
     values:
       subject: queer
   - scope:
-      type: "deviance"
-      path: "collections/_deviance/trans"
+      type: "invisible"
+      path: "collections/_invisible/trans"
     values:
       subject: trans
 
