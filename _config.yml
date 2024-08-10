@@ -92,6 +92,8 @@ subjects:
     name: "Sex"
   urban:
     name: "Urban"
+  philosophy:
+    name: "Philosophy"
   "other":
     name: "Other"
 
@@ -166,6 +168,11 @@ defaults:
       path: "collections/_digital/internet"
     values:
       subject: "internet"
+  - scope:
+      type: "digital"
+      path: "collections/_digital/philosophy"
+    values:
+      subject: "philosophy"
 
   - scope:
       type: "deviance"
