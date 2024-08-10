@@ -94,6 +94,8 @@ subjects:
     name: "Urban"
   philosophy:
     name: "Philosophy"
+  literary:
+    name: "Literary Theory"
   "other":
     name: "Other"
 
@@ -168,6 +170,11 @@ defaults:
       path: "collections/_digital/internet"
     values:
       subject: "internet"
+  - scope:
+      type: "digital"
+      path: "collections/_digital/literary"
+    values:
+      subject: "literary"
   - scope:
       type: "digital"
       path: "collections/_digital/philosophy"
