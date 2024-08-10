@@ -156,11 +156,6 @@ defaults:
       subject: sociology
   - scope:
       type: "fascism"
-      path: "collections/_fascism/urban"
-    values:
-      subject: "urban"
-  - scope:
-      type: "fascism"
       path: "collections/_fascism/other"
     values:
       subject: "other"
@@ -169,11 +164,6 @@ defaults:
       path: "collections/_fascism/urbanism"
     values:
       subject: "urbanism"
-  - scope:
-      type: "fascism"
-      path: "collections/_fascism/propaganda"
-    values:
-      subject: "propaganda"
 
   - scope:
       type: "digital"
@@ -347,9 +337,9 @@ defaults:
       subject: original
   - scope:
       type: "primary"
-      path: "collections/_primary/other"
+      path: "collections/_primary/propaganda"
     values:
-      subject: other
+      subject: propaganda
 
   - scope:
       type: "lore"
