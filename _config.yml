@@ -350,6 +350,11 @@ defaults:
       path: "collections/_lore/lore"
     values:
       subject: lore
+  - scope:
+      type: "lore"
+      path: "collections/_lore/journalism"
+    values:
+      subject: journalism
 
   - scope:
       type: "aca_resource"
