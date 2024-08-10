@@ -98,6 +98,8 @@ subjects:
     name: "Literary Theory"
   "other":
     name: "Other"
+  propaganda:
+    name: Propaganda
 
   media:
     name: "Media"
@@ -160,6 +162,11 @@ defaults:
       path: "collections/_fascism/other"
     values:
       subject: "other"
+  - scope:
+      type: "fascism"
+      path: "collections/_fascism/propaganda"
+    values:
+      subject: "propaganda"
 
   - scope:
       type: "digital"
