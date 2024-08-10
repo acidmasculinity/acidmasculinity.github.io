@@ -90,8 +90,8 @@ subjects:
     name: Theory
   sex:
     name: "Sex"
-  urban:
-    name: "Urban"
+  urbanism:
+    name: "Urbanism"
   philosophy:
     name: "Philosophy"
   literary:
@@ -162,6 +162,11 @@ defaults:
       path: "collections/_fascism/other"
     values:
       subject: "other"
+  - scope:
+      type: "fascism"
+      path: "collections/_fascism/urbanism"
+    values:
+      subject: "urbanism"
   - scope:
       type: "fascism"
       path: "collections/_fascism/propaganda"
