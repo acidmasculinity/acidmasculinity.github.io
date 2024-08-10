@@ -6,4 +6,5 @@ title: "Post-Digital Cultures of the Far Right: Online Actions and Offline Conse
 year: 2019
 publisher: "transcript Verlag"
 doi: "10.1515/9783839446706"
+disabled: true
 ---
