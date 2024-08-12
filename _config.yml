@@ -75,7 +75,7 @@ subjects:
   hooligans:
     name: Hooligans
   internet:
-    name: Internet
+    name: "Digital Culture"
   masculinity:
     name: Masculinity
   psychology:
@@ -184,6 +184,11 @@ defaults:
       path: "collections/_digital/philosophy"
     values:
       subject: "philosophy"
+  - scope:
+      type: "digital"
+      path: "collections/_digital/other"
+    values:
+      subject: "other"
 
   - scope:
       type: "deviance"

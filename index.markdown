@@ -104,7 +104,7 @@ subcultures and totalism.
 
 <section>
   <header>
-    <h2>Digital Culture</h2>
+    <h2>Internet</h2>
   </header>
 {% assign subjects = site.digital | group_by: "subject" | sort_natural -%}
 {% for subject in subjects %}
