@@ -202,11 +202,6 @@ defaults:
       subject: hooligans
   - scope:
       type: "deviance"
-      path: "collections/_deviance/sex"
-    values:
-      subject: "sex"
-  - scope:
-      type: "deviance"
       path: "collections/_deviance/self_injury"
     values:
       subject: "self_injury"
@@ -260,6 +255,11 @@ defaults:
       path: "collections/_leisure/religion"
     values:
       subject: religion
+  - scope:
+      type: "leisure"
+      path: "collections/_leisure/sex"
+    values:
+      subject: "sex"
 
   - scope:
       type: "recovery"
