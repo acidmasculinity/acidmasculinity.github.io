@@ -6,5 +6,5 @@ title: "International Journal of Sexuality and Gender Studies"
 volume: 2
 pages: "47–64"
 year: 1007
-doi: "10.1023/A:102638913235"
+doi: "10.1023/A:1026389132350"
 ---
