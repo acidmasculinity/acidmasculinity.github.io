@@ -113,6 +113,8 @@ subjects:
     name: Biographies
   self_help:
     name: Self-Help
+  gaming:
+    name: Gaming
 
 defaults:
   - scope:
@@ -250,6 +252,11 @@ defaults:
       path: "collections/_leisure/manga"
     values:
       subject: manga
+  - scope:
+      type: "leisure"
+      path: "collections/_leisure/gaming"
+    values:
+      subject: gaming
   - scope:
       type: "leisure"
       path: "collections/_leisure/religion"
