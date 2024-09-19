@@ -74,8 +74,8 @@ subjects:
     name: Manga
   hooligans:
     name: Hooligans
-  internet:
-    name: "Digital Culture"
+  network:
+    name: "Network Culture"
   masculinity:
     name: Masculinity
   psychology:
@@ -173,22 +173,22 @@ defaults:
       authors: []
   - scope:
       type: "digital"
-      path: "collections/_digital/internet"
+      path: "collections/_network/internet"
     values:
       subject: "internet"
   - scope:
       type: "digital"
-      path: "collections/_digital/literary"
+      path: "collections/_network/literary"
     values:
       subject: "literary"
   - scope:
       type: "digital"
-      path: "collections/_digital/philosophy"
+      path: "collections/_network/philosophy"
     values:
       subject: "philosophy"
   - scope:
       type: "digital"
-      path: "collections/_digital/other"
+      path: "collections/_network/other"
     values:
       subject: "other"
 
