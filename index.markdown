@@ -104,9 +104,9 @@ subcultures and totalism.
 
 <section>
   <header>
-    <h2>Internet</h2>
+    <h2>Network</h2>
   </header>
-{% assign subjects = site.digital | group_by: "subject" | sort_natural -%}
+{% assign subjects = site.network | group_by: "subject" | sort_natural -%}
 {% for subject in subjects %}
   {%- assign subj = site.subjects[subject.name] -%}
   {%- if subj.disabled -%}
