@@ -22,7 +22,7 @@ collections:
   aca_resource:
     output: false
     sort_by: authors
-  digital:
+  network:
     output: false
     sort_by: authors
   deviance:
@@ -168,26 +168,26 @@ defaults:
       subject: "urbanism"
 
   - scope:
-      type: "digital"
+      type: "network"
     values:
       authors: []
   - scope:
-      type: "digital"
+      type: "network"
       path: "collections/_network/internet"
     values:
       subject: "internet"
   - scope:
-      type: "digital"
+      type: "network"
       path: "collections/_network/literary"
     values:
       subject: "literary"
   - scope:
-      type: "digital"
+      type: "network"
       path: "collections/_network/philosophy"
     values:
       subject: "philosophy"
   - scope:
-      type: "digital"
+      type: "network"
       path: "collections/_network/other"
     values:
       subject: "other"
