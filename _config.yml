@@ -178,6 +178,16 @@ defaults:
       subject: "internet"
   - scope:
       type: "network"
+      path: "collections/_network/network"
+    values:
+      subject: "network"
+  - scope:
+      type: "network"
+      path: "collections/_network/economics"
+    values:
+      subject: "economy"
+  - scope:
+      type: "network"
       path: "collections/_network/literary"
     values:
       subject: "literary"
