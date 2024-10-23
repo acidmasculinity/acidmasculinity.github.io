@@ -86,8 +86,8 @@ subjects:
     name: Psychology
   queer:
     name: Queer
-  marginalized_men:
-    name: Marginalized Men
+  men:
+    name: Men
   trans:
     name: "Trans*"
   sociology:
@@ -121,6 +121,8 @@ subjects:
     name: Self-Help
   gaming:
     name: Gaming
+  whiteness:
+    name: Whiteness (Anglo-American Culture)
 
 defaults:
   - scope:
@@ -174,6 +176,11 @@ defaults:
       subject: "gaming"
   - scope:
       type: "fascism"
+      path: "collections/_fascism/whiteness"
+    values:
+      subject: "whiteness"
+  - scope:
+      type: "fascism"
       path: "collections/_fascism/queer"
     values:
       subject: "queer"
@@ -194,9 +201,9 @@ defaults:
       subject: "women"
   - scope:
       type: "fascism"
-      path: "collections/_fascism/marginalized_men"
+      path: "collections/_fascism/men"
     values:
-      subject: marginalized_men
+      subject: men
 
   - scope:
       type: "network"
@@ -212,11 +219,6 @@ defaults:
       path: "collections/_network/network"
     values:
       subject: "network"
-  - scope:
-      type: "network"
-      path: "collections/_network/economics"
-    values:
-      subject: "economics"
   - scope:
       type: "network"
       path: "collections/_network/literary"
