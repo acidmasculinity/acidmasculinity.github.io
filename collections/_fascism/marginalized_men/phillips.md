@@ -6,4 +6,7 @@ year: 2016
 publisher: "MIT Press"
 ---
 
+Unfortunately, because of anonymity it is not really possible to
+"prove" troll culture is or is not marginalized in some way.
+
 <!-- Media studies scholar and author Whitney Phillips ... -->
