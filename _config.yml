@@ -64,6 +64,8 @@ subjects:
     name: Otaku
   feminism:
     name: Feminism
+  women:
+    name: Women
   journalism:
     name: Journalism
   lore:
@@ -165,9 +167,19 @@ defaults:
       subject: "other"
   - scope:
       type: "fascism"
+      path: "collections/_fascism/queer"
+    values:
+      subject: "queer"
+  - scope:
+      type: "fascism"
       path: "collections/_fascism/urbanism"
     values:
       subject: "urbanism"
+  - scope:
+      type: "fascism"
+      path: "collections/_fascism/women"
+    values:
+      subject: "women"
 
   - scope:
       type: "network"
