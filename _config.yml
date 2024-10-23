@@ -169,9 +169,19 @@ defaults:
       subject: "other"
   - scope:
       type: "fascism"
+      path: "collections/_fascism/gaming"
+    values:
+      subject: "gaming"
+  - scope:
+      type: "fascism"
       path: "collections/_fascism/queer"
     values:
       subject: "queer"
+  - scope:
+      type: "fascism"
+      path: "collections/_fascism/otaku"
+    values:
+      subject: "otaku"
   - scope:
       type: "fascism"
       path: "collections/_fascism/urbanism"
