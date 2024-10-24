@@ -226,21 +226,6 @@ defaults:
       subject: ability
   - scope:
       type: "other"
-      path: "collections/_other/anglo_america"
-    values:
-      subject: trans
-  - scope:
-      type: "other"
-      path: "collections/_other/crime"
-    values:
-      subject: crime
-  - scope:
-      type: "other"
-      path: "collections/_other/self_injury"
-    values:
-      subject: "self_injury"
-  - scope:
-      type: "other"
       path: "collections/_other/network"
     values:
       subject: "network"
@@ -249,11 +234,6 @@ defaults:
       path: "collections/_other/literary"
     values:
       subject: "literary"
-  - scope:
-      type: "other"
-      path: "collections/_other/philosophy"
-    values:
-      subject: "philosophy"
   - scope:
       type: "other"
       path: "collections/_other/anglo_america"
