@@ -9,5 +9,3 @@ link: "https://gamestudies.org/2003/articles/bjorkelo"
 volume: 20
 issue: 3
 ---
-
-Oddly fascinating.
