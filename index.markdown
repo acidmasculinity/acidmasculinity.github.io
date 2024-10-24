@@ -52,7 +52,7 @@ subcultures and totalism.
 {% endfor %}
 </section>
 
-<h2>Semischolarly Sources</h2>
+<h2>Semiserious</h2>
 
 <section>
   <header>
@@ -91,7 +91,7 @@ subcultures and totalism.
 {% endfor %}
 </section>
 
-<h2>Scholarly Resources and Sources</h2>
+<h2>Serious Business</h2>
 
 <section>
   <header>
