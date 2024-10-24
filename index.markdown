@@ -38,7 +38,7 @@ subcultures and totalism.
   <header>
     <h2>Recovery</h2>
   </header>
-{% assign subjects = site.recovery | where: "disabled", false  | group_by: "subject" | sort_natural -%}
+{% assign subjects = site.recovery | group_by: "subject" | sort_natural -%}
 {% for subject in subjects %}
   {%- assign subj = site.subjects[subject.name] -%}
   {%- assign items = subject.items | where: "disabled", false -%}
@@ -83,7 +83,7 @@ subcultures and totalism.
   <header>
     <h2>Research Resources</h2>
   </header>
-{% assign subjects = site.aca_resource | where: "disabled", false  | group_by: "subject" | sort_natural -%}
+{% assign subjects = site.aca_resource | group_by: "subject" | sort_natural -%}
 {% for subject in subjects %}
   {%- assign subj = site.subjects[subject.name] -%}
   {%- assign items = subject.items | where: "disabled", false -%}
@@ -103,7 +103,7 @@ subcultures and totalism.
   <header>
     <h2>Background</h2>
   </header>
-{% assign subjects = site.other | where: "disabled", false  | group_by: "subject" | sort_natural -%}
+{% assign subjects = site.other | group_by: "subject" | sort_natural -%}
 {% for subject in subjects %}
   {%- assign subj = site.subjects[subject.name] -%}
   {%- assign items = subject.items | where: "disabled", false -%}
@@ -124,16 +124,11 @@ subcultures and totalism.
 {% assign subjects = site.leisure | group_by: "subject" | sort_natural -%}
 {% for subject in subjects %}
   {%- assign subj = site.subjects[subject.name] -%}
-  {%- if subj.disabled -%}
-    {%- continue -%}
-  {%- endif -%}
+  {%- assign items = subject.items | where: "disabled", false -%}
 
   <section>
     <h3>{{- subj.name | default: subject.name -}}</h3>
-    {% for source in subject.items %}
-    {%- if source.disabled -%}
-      {%- continue -%}
-    {%- endif -%}
+    {% for source in items %}
     {% include entry.html entry=source %}
     {% endfor %}
   </section>
@@ -145,7 +140,7 @@ subcultures and totalism.
     <h2>Totalism</h2>
     <p>(Self-)destructive and controlling groups</p>
   </header>
-{% assign subjects = site.fascism | where: "disabled", false  | group_by: "subject" | sort_natural -%}
+{% assign subjects = site.fascism | group_by: "subject" | sort_natural -%}
 {% for subject in subjects %}
   {%- assign subj = site.subjects[subject.name] -%}
   {%- assign items = subject.items | where: "disabled", false -%}
@@ -166,7 +161,7 @@ subcultures and totalism.
     <h2>Primary Sources</h2>
     <p>Far-right media, networked culture and other media</p>
   </header>
-{% assign subjects = site.primary | where: "disabled", false  | group_by: "subject" | sort_natural -%}
+{% assign subjects = site.primary | group_by: "subject" | sort_natural -%}
 {% for subject in subjects %}
   {%- assign subj = site.subjects[subject.name] -%}
   {%- assign items = subject.items | where: "disabled", false -%}
