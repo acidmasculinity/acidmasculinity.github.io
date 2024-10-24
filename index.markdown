@@ -10,6 +10,8 @@ media, internet culture and other media popular in these areas.
 Focuses on networked culture, leisure, invisible minorities, deviant
 subcultures and totalism.
 
+<hr>
+
 <section>
   <header>
     <h2>Resources</h2>
@@ -102,28 +104,7 @@ subcultures and totalism.
 {% endfor %}
 </section>
 
-<section>
-  <header>
-    <h2>Network</h2>
-  </header>
-{% assign subjects = site.network | group_by: "subject" | sort_natural -%}
-{% for subject in subjects %}
-  {%- assign subj = site.subjects[subject.name] -%}
-  {%- if subj.disabled -%}
-    {%- continue -%}
-  {%- endif -%}
-
-  <section>
-    <h3>{{- subj.name | default: subject.name -}}</h3>
-    {% for source in subject.items %}
-    {%- if source.disabled -%}
-      {%- continue -%}
-    {%- endif -%}
-    {% include entry.html entry=source %}
-    {% endfor %}
-  </section>
-{% endfor %}
-</section>
+<hr>
 
 <section>
   <header>
