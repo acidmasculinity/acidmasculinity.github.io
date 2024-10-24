@@ -378,6 +378,11 @@ defaults:
       subject: original
   - scope:
       type: "primary"
+      path: "collections/_primary/other"
+    values:
+      subject: other
+  - scope:
+      type: "primary"
       path: "collections/_primary/propaganda"
     values:
       subject: propaganda
