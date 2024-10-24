@@ -61,17 +61,12 @@ subcultures and totalism.
 {% assign subjects = site.lore | group_by: "subject" | sort_natural -%}
 {% for subject in subjects %}
   {%- assign subj = site.subjects[subject.name] -%}
-  {%- if subj.disabled -%}
-    {%- continue -%}
-  {%- endif -%}
+  {%- assign items = subject.items | where: "disabled", false -%}
 
   <section>
     <h3>{{- subj.name | default: subject.name -}}</h3>
-    {% for disengage in subject.items %}
-    {%- if disengage.disabled -%}
-      {%- continue -%}
-    {%- endif -%}
-    {% include entry.html entry=disengage %}
+    {% for source in items %}
+    {% include entry.html entry=source %}
     {% endfor %}
   </section>
 {% endfor %}
