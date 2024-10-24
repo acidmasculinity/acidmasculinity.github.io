@@ -1,3 +1,10 @@
+hr {
+    height: 1em;
+}
+hr::after {
+    content: "***";
+}
+
 .site-header, .site-footer {
     border: unset;
 }
