@@ -16,16 +16,15 @@ collections:
   recovery:
     output: false
     sort_by: authors
+
   lore:
     output: false
     sort_by: authors
+  media:
+    output: false
+    sort_by: authors
+
   aca_resource:
-    output: false
-    sort_by: authors
-  network:
-    output: false
-    sort_by: authors
-  deviance:
     output: false
     sort_by: authors
   background:
@@ -35,9 +34,6 @@ collections:
     output: false
     sort_by: authors
   fascism:
-    output: false
-    sort_by: authors
-  primary:
     output: false
     sort_by: authors
 
