@@ -163,11 +163,6 @@ defaults:
       subject: psychology
   - scope:
       type: "fascism"
-      path: "collections/_fascism/sociology"
-    values:
-      subject: sociology
-  - scope:
-      type: "fascism"
       path: "collections/_fascism/other"
     values:
       subject: "other"
@@ -191,6 +186,11 @@ defaults:
       path: "collections/_fascism/otaku"
     values:
       subject: "otaku"
+  - scope:
+      type: "fascism"
+      path: "collections/_fascism/religion"
+    values:
+      subject: religion
   - scope:
       type: "fascism"
       path: "collections/_fascism/urbanism"
@@ -247,11 +247,6 @@ defaults:
       path: "collections/_deviance/crime"
     values:
       subject: crime
-  - scope:
-      type: "deviance"
-      path: "collections/_deviance/hooligans"
-    values:
-      subject: hooligans
   - scope:
       type: "deviance"
       path: "collections/_deviance/self_injury"
