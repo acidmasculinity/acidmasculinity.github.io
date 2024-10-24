@@ -16,6 +16,9 @@ collections:
   recovery:
     output: false
     sort_by: authors
+  media:
+    output: false
+    sort_by: authors
   lore:
     output: false
     sort_by: authors
@@ -306,19 +309,9 @@ defaults:
       subject: ability
   - scope:
       type: "recovery"
-      path: "collections/_recovery/former_book"
-    values:
-      subject: former_book
-  - scope:
-      type: "recovery"
       path: "collections/_recovery/self_help"
     values:
       subject: self_help
-  - scope:
-      type: "recovery"
-      path: "collections/_recovery/media"
-    values:
-      subject: media
   - scope:
       type: "recovery"
       path: "collections/_recovery/masculinity"
@@ -349,6 +342,22 @@ defaults:
       path: "collections/_recovery/cults"
     values:
       subject: cults
+
+  - scope:
+      type: "media"
+    values:
+      authors: []
+      disabled: false
+  - scope:
+      type: "media"
+      path: "collections/_media/media"
+    values:
+      subject: media
+  - scope:
+      type: "media"
+      path: "collections/_media/former_book"
+    values:
+      subject: former_book
 
   - scope:
       type: "primary"
