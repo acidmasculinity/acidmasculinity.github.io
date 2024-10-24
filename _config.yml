@@ -133,6 +133,7 @@ defaults:
       type: "resource"
     values:
       authors: []
+      disabled: false
 
   - scope:
       type: "fascism"
