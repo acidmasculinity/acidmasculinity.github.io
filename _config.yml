@@ -252,6 +252,7 @@ defaults:
       type: "leisure"
     values:
       authors: []
+      disabled: false
   - scope:
       type: "leisure"
       path: "collections/_leisure/bodies"
