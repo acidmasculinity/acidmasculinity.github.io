@@ -78,6 +78,8 @@ subjects:
     name: Hooligans
   network:
     name: "Network Culture"
+  networked:
+    name: "Networked Culture"
   economics:
     name: "Economics"
   masculinity:
@@ -204,6 +206,11 @@ defaults:
       path: "collections/_fascism/men"
     values:
       subject: men
+  - scope:
+      type: "fascism"
+      path: "collections/_fascism/networked"
+    values:
+      subject: networked
 
   - scope:
       type: "network"
