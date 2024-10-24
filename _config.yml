@@ -28,7 +28,7 @@ collections:
   deviance:
     output: false
     sort_by: authors
-  invisible:
+  other:
     output: false
     sort_by: authors
   leisure:
@@ -110,6 +110,8 @@ subjects:
     name: "Other"
   propaganda:
     name: Propaganda
+  anglo_america:
+    name: "Anglo-America (Whiteness?)"
 
   media:
     name: "Media"
@@ -124,7 +126,7 @@ subjects:
   gaming:
     name: Gaming
   whiteness:
-    name: Whiteness (Anglo-American Culture)
+    name: Whiteness
 
 defaults:
   - scope:
@@ -212,66 +214,56 @@ defaults:
     values:
       subject: networked
 
+
   - scope:
-      type: "network"
+      type: "other"
     values:
       authors: []
   - scope:
-      type: "network"
-      path: "collections/_network/internet"
-    values:
-      subject: "internet"
-  - scope:
-      type: "network"
-      path: "collections/_network/network"
-    values:
-      subject: "network"
-  - scope:
-      type: "network"
-      path: "collections/_network/literary"
-    values:
-      subject: "literary"
-  - scope:
-      type: "network"
-      path: "collections/_network/philosophy"
-    values:
-      subject: "philosophy"
-  - scope:
-      type: "network"
-      path: "collections/_network/other"
-    values:
-      subject: "other"
-
-  - scope:
-      type: "deviance"
-      path: "collections/_deviance/crime"
-    values:
-      subject: crime
-  - scope:
-      type: "deviance"
-      path: "collections/_deviance/self_injury"
-    values:
-      subject: "self_injury"
-
-  - scope:
-      type: "invisible"
-    values:
-      authors: []
-  - scope:
-      type: "invisible"
-      path: "collections/_invisible/ability"
+      type: "other"
+      path: "collections/_other/ability"
     values:
       subject: ability
   - scope:
-      type: "invisible"
-      path: "collections/_invisible/queer"
-    values:
-      subject: queer
-  - scope:
-      type: "invisible"
-      path: "collections/_invisible/trans"
+      type: "other"
+      path: "collections/_other/anglo_america"
     values:
       subject: trans
+  - scope:
+      type: "other"
+      path: "collections/_other/crime"
+    values:
+      subject: crime
+  - scope:
+      type: "other"
+      path: "collections/_other/self_injury"
+    values:
+      subject: "self_injury"
+  - scope:
+      type: "other"
+      path: "collections/_other/network"
+    values:
+      subject: "network"
+  - scope:
+      type: "other"
+      path: "collections/_other/literary"
+    values:
+      subject: "literary"
+  - scope:
+      type: "other"
+      path: "collections/_other/philosophy"
+    values:
+      subject: "philosophy"
+  - scope:
+      type: "other"
+      path: "collections/_other/anglo_america"
+    values:
+      subject: "anglo_america"
+  - scope:
+      type: "other"
+      path: "collections/_other/other"
+    values:
+      subject: "other"
 
   - scope:
       type: "leisure"
