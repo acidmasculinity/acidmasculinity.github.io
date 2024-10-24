@@ -7,7 +7,7 @@ Resources, recovery material and academic sources that I recommend to
 other anons.  There is also a list of primary sources of far-right
 media, internet culture and other media popular in these areas.
 
-Focuses on digital culture, leisure, invisible minorities, deviant
+Focuses on networked culture, leisure, invisible minorities, deviant
 subcultures and totalism.
 
 <section>
@@ -197,6 +197,7 @@ subcultures and totalism.
 <section>
   <header>
     <h2>Totalism</h2>
+    <p>(Self-)destructive and controlling groups</p>
   </header>
 {% assign subjects = site.fascism | group_by: "subject" | sort_natural -%}
 {% for subject in subjects %}
@@ -220,7 +221,7 @@ subcultures and totalism.
 <section>
   <header>
     <h2>Primary Sources</h2>
-    <p>Far-right media, internet culture and other media</p>
+    <p>Far-right media, networked culture and other media</p>
   </header>
 {% assign subjects = site.primary | group_by: "subject" | sort_natural -%}
 {% for subject in subjects %}
