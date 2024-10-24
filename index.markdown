@@ -52,10 +52,11 @@ subcultures and totalism.
 {% endfor %}
 </section>
 
+<hr>
+
 <section>
   <header>
     <h2>Lore</h2>
-    <p>History and journalism</p>
   </header>
 {% assign subjects = site.lore | group_by: "subject" | sort_natural -%}
 {% for subject in subjects %}
@@ -75,6 +76,8 @@ subcultures and totalism.
   </section>
 {% endfor %}
 </section>
+
+<hr>
 
 <section>
   <header>
