@@ -10,6 +10,8 @@ media, internet culture and other media popular in these areas.
 Focuses on networked culture, leisure, invisible minorities, deviant
 subcultures and totalism.
 
+<hr>
+
 <h2>Resources and Recovery</h2>
 
 <section>
@@ -70,6 +72,8 @@ subcultures and totalism.
 {% endfor %}
 </section>
 
+<hr>
+
 <h2>Semiserious</h2>
 
 <section>
@@ -109,7 +113,9 @@ subcultures and totalism.
 {% endfor %}
 </section>
 
-<h2>Serious Business</h2>
+<hr>
+
+<h2>Serious</h2>
 
 <section>
   <header>
