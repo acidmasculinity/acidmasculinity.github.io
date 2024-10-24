@@ -10,11 +10,11 @@ media, internet culture and other media popular in these areas.
 Focuses on networked culture, leisure, invisible minorities, deviant
 subcultures and totalism.
 
-<hr>
+<h2>Resources and Recovery</h2>
 
 <section>
   <header>
-    <h2>Resources</h2>
+    <h3>Resources</h3>
   </header>
   {% for source in site.resource %}
     {%- if source.disabled -%}
@@ -22,7 +22,7 @@ subcultures and totalism.
     {%- endif -%}
     <section class="bib">
       <div class="bib-title">
-        <h3 class="bib-heading"><i>{{- source.title -}}</i></h3>.
+        <h4 class="bib-heading"><i>{{- source.title -}}</i></h4>.
         {% if source.link %}
           <a href="{{- source.link -}}">{{- source.link | replace_first: "https://", "" -}}</a>.
         {% endif %}
@@ -36,7 +36,7 @@ subcultures and totalism.
 
 <section>
   <header>
-    <h2>Recovery</h2>
+    <h3>Recovery</h3>
   </header>
 {% assign subjects = site.recovery | group_by: "subject" | sort_natural -%}
 {% for subject in subjects %}
@@ -44,7 +44,7 @@ subcultures and totalism.
   {%- assign items = subject.items | where: "disabled", false -%}
 
   <section>
-    <h3>{{- subj.name | default: subject.name -}}</h3>
+    <h4>{{- subj.name | default: subject.name -}}</h4>
     {% for source in items %}
     {% include entry.html entry=source %}
     {% endfor %}
@@ -52,11 +52,11 @@ subcultures and totalism.
 {% endfor %}
 </section>
 
-<hr>
+<h2>Semischolarly Sources</h2>
 
 <section>
   <header>
-    <h2>Lore</h2>
+    <h3>Lore</h3>
   </header>
 {% assign subjects = site.lore | group_by: "subject" | sort_natural -%}
 {% for subject in subjects %}
@@ -72,11 +72,30 @@ subcultures and totalism.
 {% endfor %}
 </section>
 
-<hr>
+<section>
+  <header>
+    <h3>Primary Sources</h3>
+    <p>Far-right media, networked culture and other media</p>
+  </header>
+{% assign subjects = site.primary | group_by: "subject" | sort_natural -%}
+{% for subject in subjects %}
+  {%- assign subj = site.subjects[subject.name] -%}
+  {%- assign items = subject.items | where: "disabled", false -%}
+
+  <section>
+    <h4>{{- subj.name | default: subject.name -}}</h4>
+    {% for source in items %}
+    {% include entry.html entry=source %}
+    {% endfor %}
+  </section>
+{% endfor %}
+</section>
+
+<h2>Scholarly Resources and Sources</h2>
 
 <section>
   <header>
-    <h2>Research Resources</h2>
+    <h3>Research Resources</h3>
   </header>
 {% assign subjects = site.aca_resource | group_by: "subject" | sort_natural -%}
 {% for subject in subjects %}
@@ -84,7 +103,7 @@ subcultures and totalism.
   {%- assign items = subject.items | where: "disabled", false -%}
 
   <section>
-    <h3>{{- subj.name | default: subject.name -}}</h3>
+    <h4>{{- subj.name | default: subject.name -}}</h4>
     {% for source in items %}
     {% include entry.html entry=source %}
     {% endfor %}
@@ -92,11 +111,9 @@ subcultures and totalism.
 {% endfor %}
 </section>
 
-<hr>
-
 <section>
   <header>
-    <h2>Background</h2>
+    <h3>Background</h3>
   </header>
 {% assign subjects = site.other | group_by: "subject" | sort_natural -%}
 {% for subject in subjects %}
@@ -104,7 +121,7 @@ subcultures and totalism.
   {%- assign items = subject.items | where: "disabled", false -%}
 
   <section>
-    <h3>{{- subj.name | default: subject.name -}}</h3>
+    <h4>{{- subj.name | default: subject.name -}}</h4>
     {% for source in items %}
     {% include entry.html entry=source %}
     {% endfor %}
@@ -114,7 +131,7 @@ subcultures and totalism.
 
 <section>
   <header>
-    <h2>Leisure</h2>
+    <h3>Leisure</h3>
   </header>
 {% assign subjects = site.leisure | group_by: "subject" | sort_natural -%}
 {% for subject in subjects %}
@@ -122,7 +139,7 @@ subcultures and totalism.
   {%- assign items = subject.items | where: "disabled", false -%}
 
   <section>
-    <h3>{{- subj.name | default: subject.name -}}</h3>
+    <h4>{{- subj.name | default: subject.name -}}</h4>
     {% for source in items %}
     {% include entry.html entry=source %}
     {% endfor %}
@@ -132,31 +149,10 @@ subcultures and totalism.
 
 <section>
   <header>
-    <h2>Totalism</h2>
+    <h3>Totalism</h3>
     <p>(Self-)destructive and controlling groups</p>
   </header>
 {% assign subjects = site.fascism | group_by: "subject" | sort_natural -%}
-{% for subject in subjects %}
-  {%- assign subj = site.subjects[subject.name] -%}
-  {%- assign items = subject.items | where: "disabled", false -%}
-
-  <section>
-    <h3>{{- subj.name | default: subject.name -}}</h3>
-    {% for source in items %}
-    {% include entry.html entry=source %}
-    {% endfor %}
-  </section>
-{% endfor %}
-</section>
-
-<hr>
-
-<section>
-  <header>
-    <h2>Primary Sources</h2>
-    <p>Far-right media, networked culture and other media</p>
-  </header>
-{% assign subjects = site.primary | group_by: "subject" | sort_natural -%}
 {% for subject in subjects %}
   {%- assign subj = site.subjects[subject.name] -%}
   {%- assign items = subject.items | where: "disabled", false -%}
