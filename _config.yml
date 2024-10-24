@@ -205,6 +205,11 @@ defaults:
       path: "collections/_fascism/networked"
     values:
       subject: networked
+  - scope:
+      type: "fascism"
+      path: "collections/_fascism/lore"
+    values:
+      subject: lore
 
 
   - scope:
