@@ -54,24 +54,6 @@ subcultures and totalism.
 {% endfor %}
 </section>
 
-<section>
-  <header>
-    <h3>Media</h3>
-  </header>
-{% assign subjects = site.media | group_by: "subject" | sort_natural -%}
-{% for subject in subjects %}
-  {%- assign subj = site.subjects[subject.name] -%}
-  {%- assign items = subject.items | where: "disabled", false -%}
-
-  <section>
-    <h4>{{- subj.name | default: subject.name -}}</h4>
-    {% for source in items %}
-    {% include entry.html entry=source %}
-    {% endfor %}
-  </section>
-{% endfor %}
-</section>
-
 <hr>
 
 <h2>Semiserious</h2>
