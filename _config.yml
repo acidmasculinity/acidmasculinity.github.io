@@ -118,6 +118,8 @@ subjects:
 
   media:
     name: "Media"
+  media_popular:
+    name: "Media Popular on the Far-Right"
   original:
     name: "Original"
   former:
@@ -366,7 +368,7 @@ defaults:
       disabled: false
   - scope:
       type: "primary"
-      path: "collections/_primary/media"
+      path: "collections/_primary/media_popular"
     values:
       subject: media
   - scope:
