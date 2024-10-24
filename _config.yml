@@ -138,6 +138,7 @@ defaults:
       type: "fascism"
     values:
       authors: []
+      disabled: false
   - scope:
       type: "fascism"
       path: "collections/_fascism/conspiracy"
@@ -219,6 +220,7 @@ defaults:
       type: "other"
     values:
       authors: []
+      disabled: false
   - scope:
       type: "other"
       path: "collections/_other/ability"
@@ -289,6 +291,7 @@ defaults:
       type: "recovery"
     values:
       authors: []
+      disabled: false
   - scope:
       type: "recovery"
       path: "collections/_recovery/fandom"
@@ -354,6 +357,7 @@ defaults:
       type: "primary"
     values:
       authors: []
+      disabled: false
   - scope:
       type: "primary"
       path: "collections/_primary/media"
@@ -374,6 +378,7 @@ defaults:
       type: "lore"
     values:
       authors: []
+      disabled: false
   - scope:
       type: "lore"
       path: "collections/_lore/lore"
@@ -389,6 +394,7 @@ defaults:
       type: "aca_resource"
     values:
       authors: []
+      disabled: false
   - scope:
       type: "aca_resource"
       path: "collections/_aca_resource/academic"
