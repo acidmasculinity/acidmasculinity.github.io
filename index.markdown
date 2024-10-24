@@ -78,10 +78,10 @@ subcultures and totalism.
 
 <section>
   <header>
-    <h3>Primary Sources</h3>
+    <h3>Media and Primary Sources</h3>
     <p>Far-right media, networked culture and other media</p>
   </header>
-{% assign subjects = site.primary | group_by: "subject" | sort_natural -%}
+{% assign subjects = site.media | group_by: "subject" | sort_natural -%}
 {% for subject in subjects %}
   {%- assign subj = site.subjects[subject.name] -%}
   {%- assign items = subject.items | where: "disabled", false -%}

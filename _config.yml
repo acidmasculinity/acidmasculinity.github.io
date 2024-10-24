@@ -114,9 +114,9 @@ subjects:
     name: "Anglo-America (Whiteness?)"
 
   media_about:
-    name: "Media About or Relevant to the Right"
+    name: "Media About or Relevant to Chan Culture and the Right"
   media_popular:
-    name: "Media Popular in Chan Culture"
+    name: "Media Popular in Chan Culture and the Right"
   original:
     name: "Original"
   former:
@@ -343,38 +343,38 @@ defaults:
       subject: cults
 
   - scope:
-      type: "primary"
+      type: "media"
     values:
       authors: []
       disabled: false
   - scope:
       type: "media"
-      path: "collections/_primary/media_about"
+      path: "collections/_media/media_about"
     values:
       subject: media_about
   - scope:
       type: "media"
-      path: "collections/_primary/former_book"
+      path: "collections/_media/former_book"
     values:
       subject: former_book
   - scope:
-      type: "primary"
-      path: "collections/_primary/media_popular"
+      type: "media"
+      path: "collections/_media/media_popular"
     values:
       subject: media_popular
   - scope:
-      type: "primary"
-      path: "collections/_primary/original"
+      type: "media"
+      path: "collections/_media/original"
     values:
       subject: original
   - scope:
-      type: "primary"
-      path: "collections/_primary/other"
+      type: "media"
+      path: "collections/_media/other"
     values:
       subject: other
   - scope:
-      type: "primary"
-      path: "collections/_primary/propaganda"
+      type: "media"
+      path: "collections/_media/propaganda"
     values:
       subject: propaganda
 
