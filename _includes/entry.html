@@ -3,7 +3,7 @@
 {%- assign article = entry.article -%}
 <section class="bib">
   <div class="bib-title">
-    <h4 class="bib-heading">
+    <h5 class="bib-heading">
       {% if authors and authors.size > 0 %}
       {{ authors | array_to_sentence_string }}.
       {% endif %}
@@ -15,7 +15,7 @@
       {%- if entry.version -%}, {{ entry.version -}}{%- endif -%}
       {%- if entry.other -%}, {{ entry.other -}}{%- endif -%}
       {%- if entry.publisher -%}, {{ entry.publisher -}}{%- endif -%}
-    </h4>
+    </h5>
 
     {%- if entry.volume -%}, vol. {{ entry.volume -}}{%- endif -%}
     {%- if entry.issue -%}, no. {{ entry.issue -}}{%- endif -%}
