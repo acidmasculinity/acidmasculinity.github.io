@@ -1,5 +1,6 @@
 hr {
-    height: 1em;
+    border: unset;
+    text-align: center;
 }
 hr::after {
     content: "***";
