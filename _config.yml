@@ -152,11 +152,6 @@ defaults:
       subject: cults
   - scope:
       type: "fascism"
-      path: "collections/_fascism/feminism"
-    values:
-      subject: feminism
-  - scope:
-      type: "fascism"
       path: "collections/_fascism/masculinity"
     values:
       subject: masculinity
@@ -195,11 +190,6 @@ defaults:
       path: "collections/_fascism/religion"
     values:
       subject: religion
-  - scope:
-      type: "fascism"
-      path: "collections/_fascism/urbanism"
-    values:
-      subject: "urbanism"
   - scope:
       type: "fascism"
       path: "collections/_fascism/women"
