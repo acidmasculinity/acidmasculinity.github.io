@@ -116,8 +116,8 @@ subjects:
   anglo_america:
     name: "Anglo-America (Whiteness?)"
 
-  media:
-    name: "Media"
+  media_about:
+    name: "Media About or Relevant to the Right"
   media_popular:
     name: "Media Popular on the Far-Right"
   original:
@@ -352,9 +352,9 @@ defaults:
       disabled: false
   - scope:
       type: "media"
-      path: "collections/_media/media"
+      path: "collections/_media/media_about"
     values:
-      subject: media
+      subject: media_about
   - scope:
       type: "media"
       path: "collections/_media/former_book"
@@ -370,7 +370,7 @@ defaults:
       type: "primary"
       path: "collections/_primary/media_popular"
     values:
-      subject: media
+      subject: media_popular
   - scope:
       type: "primary"
       path: "collections/_primary/original"
