@@ -28,7 +28,7 @@ collections:
   deviance:
     output: false
     sort_by: authors
-  other:
+  background:
     output: false
     sort_by: authors
   leisure:
@@ -213,33 +213,38 @@ defaults:
 
 
   - scope:
-      type: "other"
+      type: "background"
     values:
       authors: []
       disabled: false
   - scope:
-      type: "other"
-      path: "collections/_other/ability"
+      type: "background"
+      path: "collections/_background/ability"
     values:
       subject: ability
   - scope:
-      type: "other"
-      path: "collections/_other/network"
+      type: "background"
+      path: "collections/_background/bodies"
+    values:
+      subject: bodies
+  - scope:
+      type: "background"
+      path: "collections/_background/network"
     values:
       subject: "network"
   - scope:
-      type: "other"
-      path: "collections/_other/literary"
+      type: "background"
+      path: "collections/_background/literary"
     values:
       subject: "literary"
   - scope:
-      type: "other"
-      path: "collections/_other/anglo_america"
+      type: "background"
+      path: "collections/_background/anglo_america"
     values:
       subject: "anglo_america"
   - scope:
-      type: "other"
-      path: "collections/_other/other"
+      type: "background"
+      path: "collections/_background/other"
     values:
       subject: "other"
 
@@ -248,11 +253,6 @@ defaults:
     values:
       authors: []
       disabled: false
-  - scope:
-      type: "leisure"
-      path: "collections/_leisure/bodies"
-    values:
-      subject: bodies
   - scope:
       type: "leisure"
       path: "collections/_leisure/fandom"

@@ -115,7 +115,7 @@ subcultures and totalism.
   <header>
     <h3>Background</h3>
   </header>
-{% assign subjects = site.other | group_by: "subject" | sort_natural -%}
+{% assign subjects = site.background | group_by: "subject" | sort_natural -%}
 {% for subject in subjects %}
   {%- assign subj = site.subjects[subject.name] -%}
   {%- assign items = subject.items | where: "disabled", false -%}
