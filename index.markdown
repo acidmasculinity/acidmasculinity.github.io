@@ -68,7 +68,7 @@ subcultures and totalism.
   {%- assign items = subject.items | where: "disabled", false -%}
 
   <section>
-    <h3>{{- subj.name | default: subject.name -}}</h3>
+    <h4>{{- subj.name | default: subject.name -}}</h4>
     {% for source in items %}
     {% include entry.html entry=source %}
     {% endfor %}
