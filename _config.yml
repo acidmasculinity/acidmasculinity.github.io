@@ -107,7 +107,7 @@ subjects:
   propaganda:
     name: Propaganda
   anglo_america:
-    name: "Anglo-America (Whiteness?)"
+    name: "Anglo-America"
 
   media_about:
     name: "Media About or Relevant to Chan Culture and the Right"
@@ -240,6 +240,16 @@ defaults:
       path: "collections/_background/anglo_america"
     values:
       subject: "anglo_america"
+  - scope:
+      type: "background"
+      path: "collections/_background/trans"
+    values:
+      subject: "trans"
+  - scope:
+      type: "background"
+      path: "collections/_background/whiteness"
+    values:
+      subject: "whiteness"
   - scope:
       type: "background"
       path: "collections/_background/other"
