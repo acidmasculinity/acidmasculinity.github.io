@@ -31,7 +31,10 @@
     <a href="{{- entry.link -}}">{{- entry.link | replace_first: "https://", "" -}}</a>.
     {% endif %}
   </div>
-  <div class="bib-anno">
-    {{- entry.content | markdownify -}}
-  </div>
+  <details>
+    <summary>Details</summary>
+    <div class="bib-anno">
+      {{- entry.content | markdownify -}}
+    </div>
+  </details>
 </section>
