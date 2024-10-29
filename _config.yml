@@ -257,38 +257,33 @@ defaults:
       subject: "other"
 
   - scope:
-      type: "leisure"
-    values:
-      authors: []
-      disabled: false
-  - scope:
-      type: "leisure"
-      path: "collections/_leisure/fandom"
+      type: "background"
+      path: "collections/_background/fandom"
     values:
       subject: fandom
   - scope:
-      type: "leisure"
-      path: "collections/_leisure/otaku"
+      type: "background"
+      path: "collections/_background/otaku"
     values:
       subject: otaku
   - scope:
-      type: "leisure"
-      path: "collections/_leisure/manga"
+      type: "background"
+      path: "collections/_background/manga"
     values:
       subject: manga
   - scope:
-      type: "leisure"
-      path: "collections/_leisure/gaming"
+      type: "background"
+      path: "collections/_background/gaming"
     values:
       subject: gaming
   - scope:
-      type: "leisure"
-      path: "collections/_leisure/religion"
+      type: "background"
+      path: "collections/_background/religion"
     values:
       subject: religion
   - scope:
-      type: "leisure"
-      path: "collections/_leisure/sex"
+      type: "background"
+      path: "collections/_background/sex"
     values:
       subject: "sex"
 
