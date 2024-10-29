@@ -62,6 +62,8 @@ subjects:
     name: Feminism
   women:
     name: Women
+  incels:
+    name: incels
   journalism:
     name: Journalism
   lore:
@@ -198,6 +200,11 @@ defaults:
       path: "collections/_fascism/men"
     values:
       subject: men
+  - scope:
+      type: "fascism"
+      path: "collections/_fascism/incels"
+    values:
+      subject: incels
   - scope:
       type: "fascism"
       path: "collections/_fascism/networked"
