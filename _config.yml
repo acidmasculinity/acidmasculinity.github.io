@@ -127,6 +127,8 @@ subjects:
     name: Gaming
   whiteness:
     name: Whiteness
+  settlers:
+    name: Settlers
 
 defaults:
   - scope:
@@ -257,6 +259,11 @@ defaults:
       path: "collections/_background/whiteness"
     values:
       subject: "whiteness"
+  - scope:
+      type: "background"
+      path: "collections/_background/settlers"
+    values:
+      subject: "settlers"
   - scope:
       type: "background"
       path: "collections/_background/other"
