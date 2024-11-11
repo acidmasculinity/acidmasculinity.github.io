@@ -217,6 +217,11 @@ defaults:
       path: "collections/_fascism/lore"
     values:
       subject: lore
+  - scope:
+      type: "background"
+      path: "collections/_fascism/settlers"
+    values:
+      subject: "settlers"
 
 
   - scope:
@@ -259,11 +264,6 @@ defaults:
       path: "collections/_background/whiteness"
     values:
       subject: "whiteness"
-  - scope:
-      type: "background"
-      path: "collections/_background/settlers"
-    values:
-      subject: "settlers"
   - scope:
       type: "background"
       path: "collections/_background/other"
