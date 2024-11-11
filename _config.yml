@@ -218,7 +218,7 @@ defaults:
     values:
       subject: lore
   - scope:
-      type: "background"
+      type: "fascism"
       path: "collections/_fascism/settlers"
     values:
       subject: "settlers"
