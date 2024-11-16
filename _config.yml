@@ -98,6 +98,8 @@ subjects:
     name: Theory
   sex:
     name: "Sex"
+  terrorism:
+    name: "Terrorism"
   urbanism:
     name: "Urbanism"
   philosophy:
@@ -217,6 +219,16 @@ defaults:
       path: "collections/_fascism/lore"
     values:
       subject: lore
+  - scope:
+      type: "fascism"
+      path: "collections/_fascism/terrorism"
+    values:
+      subject: terrorism
+  - scope:
+      type: "fascism"
+      path: "collections/_fascism/crime"
+    values:
+      subject: crime
   - scope:
       type: "fascism"
       path: "collections/_fascism/settlers"
