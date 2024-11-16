@@ -249,6 +249,11 @@ defaults:
       path: "collections/_fascism/whiteness"
     values:
       subject: "whiteness"
+  - scope:
+      type: "background"
+      path: "collections/_background/violence"
+    values:
+      subject: violence
 
 
   - scope:
@@ -256,11 +261,6 @@ defaults:
     values:
       authors: []
       disabled: false
-  - scope:
-      type: "background"
-      path: "collections/_background/ability"
-    values:
-      subject: ability
   - scope:
       type: "background"
       path: "collections/_background/bodies"
