@@ -226,6 +226,11 @@ defaults:
       subject: lore
   - scope:
       type: "fascism"
+      path: "collections/_fascism/bodies"
+    values:
+      subject: bodies
+  - scope:
+      type: "fascism"
       path: "collections/_fascism/terrorism"
     values:
       subject: terrorism
