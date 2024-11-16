@@ -234,6 +234,11 @@ defaults:
       path: "collections/_fascism/settlers"
     values:
       subject: "settlers"
+  - scope:
+      type: "fascism"
+      path: "collections/_fascism/whiteness"
+    values:
+      subject: "whiteness"
 
 
   - scope:
