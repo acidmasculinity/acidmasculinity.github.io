@@ -216,6 +216,11 @@ defaults:
       subject: networked
   - scope:
       type: "fascism"
+      path: "collections/_fascism/anglo_america"
+    values:
+      subject: anglo_america
+  - scope:
+      type: "fascism"
       path: "collections/_fascism/lore"
     values:
       subject: lore
