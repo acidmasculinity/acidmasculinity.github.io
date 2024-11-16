@@ -137,8 +137,12 @@ subcultures and totalism.
 
 <section>
   <header>
-    <h3>Totalism</h3>
-    <p>(Self-)destructive and controlling groups</p>
+    <h3>Fascism</h3>
+    <p>Fascism is notoriously difficult to define.
+    For the purpose of this bibliography,
+    the line between fascism and not-fascism is drawn when a system, culture or group
+    becomes not just destructive to others but self-destructive.
+    </p>
   </header>
 {% assign subjects = site.fascism | group_by: "subject" | sort_natural -%}
 {% for subject in subjects %}
