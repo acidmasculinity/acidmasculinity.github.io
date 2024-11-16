@@ -1,8 +1,8 @@
 ---
 authors:
   - Bastani, Niyousha
-title: "Counter-Extremism and ‘Critical Thinking’ as a Measure of the Human"
-publisher: "Theory, Culture & Society"
+article: "Counter-Extremism and ‘Critical Thinking’ as a Measure of the Human"
+title: "Theory, Culture & Society"
 volume: 0
 issue: 0
 year: 2024
