@@ -8,6 +8,4 @@ year: 2023
 publisher: "Random House Canada"
 ---
 
-
-
-
+FIXME is this really academic?
