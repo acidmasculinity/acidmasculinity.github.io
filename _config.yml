@@ -250,6 +250,11 @@ defaults:
     values:
       subject: "whiteness"
   - scope:
+      type: "fascism"
+      path: "collections/_recovery/fascism"
+    values:
+      subject: fascism
+  - scope:
       type: "background"
       path: "collections/_background/violence"
     values:
