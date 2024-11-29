@@ -1,5 +1,5 @@
 ---
-title: "The Colonized and the Colonized"
+title: "The Colonizer and the Colonized"
 publisher: Beacon Press
 year: 1964
 authors:
