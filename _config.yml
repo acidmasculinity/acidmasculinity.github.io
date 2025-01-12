@@ -62,6 +62,8 @@ subjects:
     name: Feminism
   women:
     name: Women
+  mad:
+    name: mad
   incels:
     name: incels
   journalism:
@@ -273,6 +275,11 @@ defaults:
       path: "collections/_background/violence"
     values:
       subject: violence
+  - scope:
+      type: "background"
+      path: "collections/_background/mad"
+    values:
+      subject: mad
 
   - scope:
       type: "background"
