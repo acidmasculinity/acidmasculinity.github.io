@@ -48,6 +48,8 @@ subjects:
     name: Conspiracy
   crime:
     name: Crime
+  cis:
+    name: Cis
   hooligans:
     name: Hooligans
   cults:
@@ -240,6 +242,11 @@ defaults:
       path: "collections/_fascism/lore"
     values:
       subject: lore
+  - scope:
+      type: "fascism"
+      path: "collections/_fascism/cis"
+    values:
+      subject: cis
   - scope:
       type: "fascism"
       path: "collections/_fascism/bodies"
