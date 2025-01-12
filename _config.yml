@@ -146,6 +146,11 @@ defaults:
       disabled: false
   - scope:
       type: "fascism"
+      path: "collections/_fascism/ability"
+    values:
+      subject: ability
+  - scope:
+      type: "fascism"
       path: "collections/_fascism/conspiracy"
     values:
       subject: conspiracy
