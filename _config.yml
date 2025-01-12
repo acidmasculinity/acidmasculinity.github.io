@@ -133,6 +133,8 @@ subjects:
     name: Whiteness
   settlers:
     name: Settlers
+  straight:
+    name: Straight
 
 defaults:
   - scope:
@@ -211,6 +213,11 @@ defaults:
       path: "collections/_fascism/men"
     values:
       subject: men
+  - scope:
+      type: "fascism"
+      path: "collections/_fascism/straight"
+    values:
+      subject: straight
   - scope:
       type: "fascism"
       path: "collections/_fascism/incels"
