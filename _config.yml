@@ -106,6 +106,8 @@ subjects:
     name: "Terrorism"
   theology:
     name: "Theology"
+  police:
+    name: "Police"
   urbanism:
     name: "Urbanism"
   philosophy:
@@ -272,6 +274,11 @@ defaults:
       path: "collections/_fascism/whiteness"
     values:
       subject: "whiteness"
+  - scope:
+      type: "fascism"
+      path: "collections/_fascism/police"
+    values:
+      subject: "police"
   - scope:
       type: "fascism"
       path: "collections/_recovery/fascism"
