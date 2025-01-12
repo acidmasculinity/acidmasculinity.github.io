@@ -100,6 +100,8 @@ subjects:
     name: "Sex"
   terrorism:
     name: "Terrorism"
+  theology:
+    name: "Theology"
   urbanism:
     name: "Urbanism"
   philosophy:
@@ -265,12 +267,16 @@ defaults:
     values:
       subject: violence
 
-
   - scope:
       type: "background"
     values:
       authors: []
       disabled: false
+  - scope:
+      type: "background"
+      path: "collections/_background/theology"
+    values:
+      subject: theology
   - scope:
       type: "background"
       path: "collections/_background/bodies"
