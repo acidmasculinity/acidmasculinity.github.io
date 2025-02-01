@@ -176,6 +176,11 @@ defaults:
       subject: masculinity
   - scope:
       type: "fascism"
+      path: "collections/_fascism/economics"
+    values:
+      subject: economics
+  - scope:
+      type: "fascism"
       path: "collections/_fascism/psychology"
     values:
       subject: psychology
