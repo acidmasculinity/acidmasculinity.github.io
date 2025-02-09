@@ -296,16 +296,6 @@ defaults:
       path: "collections/_recovery/fascism"
     values:
       subject: fascism
-  - scope:
-      type: "background"
-      path: "collections/_background/violence"
-    values:
-      subject: violence
-  - scope:
-      type: "background"
-      path: "collections/_background/mad"
-    values:
-      subject: mad
 
   - scope:
       type: "background"
@@ -352,6 +342,16 @@ defaults:
       path: "collections/_background/other"
     values:
       subject: "other"
+  - scope:
+      type: "background"
+      path: "collections/_background/violence"
+    values:
+      subject: violence
+  - scope:
+      type: "background"
+      path: "collections/_background/ability"
+    values:
+      subject: ability
 
   - scope:
       type: "background"
