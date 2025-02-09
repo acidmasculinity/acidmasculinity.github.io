@@ -48,6 +48,8 @@ subjects:
     name: Conspiracy
   crime:
     name: Crime
+  state:
+    name: State
   cis:
     name: Cis
   hooligans:
@@ -269,6 +271,11 @@ defaults:
       path: "collections/_fascism/crime"
     values:
       subject: crime
+  - scope:
+      type: "fascism"
+      path: "collections/_fascism/state"
+    values:
+      subject: state
   - scope:
       type: "fascism"
       path: "collections/_fascism/settlers"
