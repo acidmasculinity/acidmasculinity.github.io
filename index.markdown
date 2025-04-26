@@ -18,22 +18,18 @@ subcultures and totalism.
   <header>
     <h3>Resources</h3>
   </header>
-  {% for source in site.resource %}
-    {%- if source.disabled -%}
-      {%- continue -%}
-    {%- endif -%}
-    <section class="bib">
-      <div class="bib-title">
-        <h4 class="bib-heading"><i>{{- source.title -}}</i></h4>.
-        {% if source.link %}
-          <a href="{{- source.link -}}">{{- source.link | replace_first: "https://", "" -}}</a>.
-        {% endif %}
-      </div>
-      <div class="bib-anno">
-        {{- source.content | markdownify -}}
-      </div>
-    </section>
-  {% endfor %}
+{% assign subjects = site.resource | group_by: "subject" | sort_natural -%}
+{% for subject in subjects %}
+  {%- assign subj = site.subjects[subject.name] -%}
+  {%- assign items = subject.items | where: "disabled", false -%}
+
+  <section>
+    <h4>{{- subj.name | default: subject.name -}}</h4>
+    {% for source in items %}
+    {% include entry.html entry=source %}
+    {% endfor %}
+  </section>
+{% endfor %}
 </section>
 
 <section>

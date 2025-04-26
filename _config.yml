@@ -13,8 +13,6 @@ collections_dir: collections
 collections:
   resource:
     output: false
-  organize:
-    output: false
   recovery:
     output: false
     sort_by: authors
@@ -68,6 +66,10 @@ subjects:
     name: Feminism
   women:
     name: Women
+  resource:
+    name: Resource
+  organize:
+    name: Organize
   mad:
     name: mad
   incels:
@@ -385,6 +387,23 @@ defaults:
       path: "collections/_background/sex"
     values:
       subject: "sex"
+
+
+  - scope:
+      type: "resource"
+    values:
+      authors: []
+      disabled: false
+  - scope:
+      type: "resource"
+      path: "collections/_resource/resource"
+    values:
+      subject: resource
+  - scope:
+      type: "organize"
+      path: "collections/_resource/organize"
+    values:
+      subject: organize
 
   - scope:
       type: "recovery"
