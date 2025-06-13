@@ -1,0 +1,62 @@
+.wrapper, .table, .thead, .tfoot, .tbody, .tr, .th, .td, .colgroup, .col, .caption, .cell {
+    box-sizing: border-box;
+}
+
+.wrapper {
+    margin-block: var(--line);
+    overflow: auto;
+}
+.table {
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+.td, .th {
+    position: relative;
+}
+
+.td .cell::after {
+  margin-block: calc(0.1 * var(--line)) calc(0.2 * var(--line));
+
+  position: absolute;
+  inset-inline-end: 0;
+  inset-block: 0 0;
+  content: " ";
+  inline-size: 0.25em;
+  border-width: 1px;
+  border-style: none;
+  border-inline-end-style: solid;
+  border-radius: 8em;
+}
+
+.th[scope="row"] {
+    border-width: 1px;
+    border-style: none;
+    border-inline-end-style: solid;
+}
+.th:is([scope="colgroup"], [scope="col"]) {
+    border-width: 1px;
+    border-style: none;
+    border-block-end-style: solid;
+}
+
+.th {
+    font-weight: inherit;
+}
+
+
+.th, .td {
+    font-variant-numeric: lining-nums tabular-nums;
+    vertical-align: top;
+}
+.th, .td, .caption {
+    text-align: start;
+}
+
+.caption {
+    color: var(--emphasis-text);
+}
+
+
+.cell {
+    margin-inline: 0.5em;
+}

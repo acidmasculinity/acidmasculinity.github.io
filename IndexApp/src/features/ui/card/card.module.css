@@ -1,0 +1,12 @@
+.card {
+    contain: style ;
+
+    scroll-snap-align: start ;
+    scroll-margin-block: calc(1.37 * var(--line)) ;
+}
+
+@media screen {
+    .card {
+        padding-inline: 0.82rem ;
+    }
+}

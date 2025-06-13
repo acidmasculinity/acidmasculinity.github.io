@@ -1,0 +1,8 @@
+.row {
+    display: flex ;
+    flex-direction: row ;
+    row-gap: var(--line) ;
+    column-gap: 1em ;
+    contain: style ;
+    flex-wrap: wrap ;
+}

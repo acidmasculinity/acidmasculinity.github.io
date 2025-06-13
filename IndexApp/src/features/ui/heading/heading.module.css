@@ -1,0 +1,18 @@
+.heading, .heading1, .heading2 {
+    all: unset;
+    display: flow-root;
+    contain: layout style;
+    break-inside: avoid;
+    break-after: avoid;
+    color: var(--emphasis-text);
+    font-variant-numeric: proportional-nums lining-nums;
+    border-radius: 0.001ch;
+}
+
+.heading1 {
+    font-size: 1.5625rem;
+}
+
+.heading2 {
+    font-size: 1.25rem;
+}

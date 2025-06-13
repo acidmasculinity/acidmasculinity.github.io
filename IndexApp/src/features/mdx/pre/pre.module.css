@@ -1,0 +1,36 @@
+.figure {
+    all: unset;
+    display: flow-root;
+    contain: layout style;
+
+    margin-block: var(--line);
+    break-inside: avoid;
+
+    scroll-snap-align: start;
+    scroll-margin-block: calc(0.25 * var(--line));
+}
+
+.figcaption {
+    color: var(--emphasis-text);
+}
+
+.pre {
+    all: unset;
+    font-variant-numeric: lining-nums tabular-nums;
+    contain: layout;
+    display: flow-root;
+    white-space: pre;
+
+    outline-color: var(--highlight-text, HighlightText) ;
+    outline-offset: 0.1em ;
+    outline-width: 0.1em ;
+}
+.pre:focus {
+    outline-style: solid ;
+}
+
+@media screen {
+    .pre {
+        overflow: auto ;
+    }
+}

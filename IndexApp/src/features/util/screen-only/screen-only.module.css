@@ -1,0 +1,8 @@
+.screen {
+    display: contents;
+}
+@media print {
+    .screen {
+        display: none;
+    }
+}

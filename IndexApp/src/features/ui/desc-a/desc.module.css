@@ -1,0 +1,5 @@
+.wrapper {
+    position: relative ;
+    inline-size: fit-content ;
+    max-inline-size: 100% ;
+}

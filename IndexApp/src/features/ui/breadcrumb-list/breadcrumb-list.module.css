@@ -1,0 +1,18 @@
+@counter-style breadcrumb {
+  system: cyclic;
+  symbols: "/";
+  suffix: "";
+}
+
+.breadcrumblist {
+    all: unset;
+
+    contain: layout style;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 0.5em;
+
+    inline-size: fit-content;
+    max-inline-size: 100%;
+    list-style: breadcrumb;
+}

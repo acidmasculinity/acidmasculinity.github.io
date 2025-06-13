@@ -1,0 +1,6 @@
+.hr {
+    all: unset;
+    display: flow-root;
+    block-size: 0;
+    break-before: avoid;
+}

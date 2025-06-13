@@ -1,0 +1,32 @@
+.a {
+    all: unset;
+    display: inline-block;
+    border-radius: 0.001ch ;
+    box-decoration-break: clone;
+    text-underline-position: under;
+
+    outline-color: currentcolor;
+    outline-width: 0.1rem;
+    outline-offset: 0.2em;
+}
+
+.a:focus {
+    outline-style: solid ;
+}
+.a:focus-visible {
+    outline-color: var(--highlight-text) ;
+}
+
+.a:link {
+    cursor: pointer;
+}
+.a:is(:focus-visible, :hover):link {
+    text-decoration: underline;
+    color: var(--link-text);
+}
+.a:is(:focus-visible, :hover):visited {
+    color: var(--visited-text);
+}
+.a:is(:focus-visible, :hover):any-link:active {
+    color: var(--active-text);
+}
