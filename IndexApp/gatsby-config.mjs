@@ -74,6 +74,8 @@ const sources = [
     ['Pages', './src/pages'],
     ['Content', './content/meta'],
 
+    ['Anon', './content/anon'],
+
     ['Prose', './content/blog/prose'],
     ['Poem', './content/blog/poem'],
     ['Web', './content/blog/web']
@@ -137,6 +139,7 @@ const plugins = [
     "post",
     "site",
     "transformer-poem",
+    "transformer-bib",
     ...posts.map(name => ({
         resolve: "transformer-post-mdx",
         options: { name }

@@ -1,0 +1,7 @@
+type Bib implements Node @childOf(types: ["File"]) {
+  id: ID!
+  relativeDirectory: String!
+  title: String!
+  authors: [String!]!
+  content: String!
+}
