@@ -5,22 +5,29 @@ const useBibListRaw = () => useStaticQuery(graphql`
 query UseBibList
 {
   allBib {
-    group(field: {relativeDirectory: SELECT}) {
+    group(field: {section: SELECT}) {
       fieldValue
-      nodes {
-        title
-        content
+      group(field: {subsection: SELECT}) {
+        fieldValue
+        nodes {
+          title
+          content
+
+          article
+          link
+        }
       }
     }
   }
-}`);
+}
+`);
 
 export const useBibList = () => {
     const raw = useBibListRaw();
     return useMemo(() =>
         Object.fromEntries(
             raw.allBib.group
-                .map(({ fieldValue, nodes }) =>
-                    [fieldValue, nodes])),
+                .map(({ fieldValue, group }) =>
+                    [fieldValue, group.map(({ fieldValue, nodes }) => [ fieldValue, nodes ])])),
         [raw]);
 }

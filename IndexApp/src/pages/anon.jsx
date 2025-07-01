@@ -1,17 +1,16 @@
-import { useId } from "react";
+import { Fragment } from "react";
 import { useLocation } from "@gatsbyjs/reach-router";
 import {
     useBibList
 } from "@features/bibliography";
 import {
-    A,
     BreadcrumbList, BreadcrumbA, BreadcrumbItem,
     Card,
+    A,
     H2A,
     H3A,
-    Hgroup,
-    Ul,
-    Li
+    H4A,
+    Hgroup
 } from "@features/ui";
 import { ViewportPage } from "@features/page";
 import { SeoBasic } from "../components/seo-basic.jsx";
@@ -36,19 +35,18 @@ export const Head = () => {
 
 const BlogPage = () => {
     const bibsByCat = useBibList();
-    const navId = useId();
     return <ViewportPage
                breadcrumbs={
                    <BreadcrumbList>
                        <BreadcrumbA href="/">Home</BreadcrumbA>
                        <BreadcrumbItem>
-                           <span aria-current="page">Anon: A Bibiliography</span>
+                           <span aria-current="page">Anon: A Bibliography</span>
                        </BreadcrumbItem>
                    </BreadcrumbList>
                }
-               heading="Anon: A Bibiliography"
+               heading="Anon: A Bibliography"
            >{
-            Object.entries(bibsByCat).map(([dir, bibs]) =>
+               Object.entries(bibsByCat).map(([dir, sec]) =>
                    <nav key={dir} aria-labelledby={dir}>
                        <Card>
                            <header>
@@ -58,20 +56,38 @@ const BlogPage = () => {
                                    </H2A>
                                </Hgroup>
                            </header>
-                           {
-                               bibs.map(({title, content}) =>
-                                   <Card key={title}>
+                       </Card>
+                       {
+                           sec.map(([subsec, bibs]) =>
+                               <Fragment key={subsec}>
+                                   <Card>
                                        <header>
                                            <Hgroup>
-                                               <H3A id={title}>
-                                                   {title}
+                                               <H3A id={subsec}>
+                                                   {subsec}
                                                </H3A>
                                            </Hgroup>
                                        </header>
-                                       {content}
-                                   </Card>)
-                           }
-                       </Card>
+                                   </Card>
+                                   {
+                                       bibs.map(({title, content, article, link}) =>
+                                           <Card key={title}>
+                                               <header>
+                                                   <Hgroup>
+                                                       <H4A id={title}>
+                                                           {title}
+                                                       </H4A>
+                                                       {article}
+                                                       {link &&
+                                                        <A href={link}>{link}</A>}
+                                                   </Hgroup>
+                                               </header>
+                                               {content}
+                                           </Card>)
+                                   }
+                               </Fragment>
+                           )
+                       }
                    </nav>
                )}
            </ViewportPage>;

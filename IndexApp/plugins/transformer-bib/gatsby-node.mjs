@@ -32,11 +32,21 @@ const entryNodeOfFile = async ({ node, loadNodeContent }) => {
 
     const { content, data } = frontmatter(await loadNodeContent(node));
 
+    const dirs = relativeDirectory.split('/');
+    const section = dirs[0] ?? "etc";
+    const subsection = dirs[1] ?? "etc";
     const {
         title = "What no title?",
-        authors = []
+        authors = [],
+        article = null,
+        link = null
     } = data;
-    return { relativeDirectory, title, content };
+    return { section, subsection,
+             title,
+             content,
+             authors,
+             article,
+             link };
 };
 
 export const createSchemaCustomization = async ({
