@@ -88,18 +88,19 @@ const BlogPage = () => {
                                        </header>
                                    </Card>
                                    {
-                                       bibs.map(({title, content, disabled, ...xs}) =>
+                                       bibs.map(({title, disabled, html, ...xs}) =>
                                            !disabled &&
-                                               <Section key={title}
-                                                        heading={
-                                                            <Heading
-                                                                {...xs}
-                                                                id={title}
-                                                            >
-                                                                {title}
-                                                            </Heading>
-                                                        }>
-                                                   {content}
+                                               <Section
+                                                   key={title}
+                                                   heading={
+                                                       <Heading
+                                                           {...xs}
+                                                           id={title}
+                                                       >
+                                                           {title}
+                                                       </Heading>
+                                                   }>
+                                                   <div dangerouslySetInnerHTML={{ __html: html }} />
                                                </Section>)
                                    }
                                </Fragment>

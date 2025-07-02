@@ -1,5 +1,4 @@
 import { promises as fs } from "fs";
-import grayMatter from "gray-matter";
 import { mkResolve } from "../../src/utils/resolve.mjs";
 
 const resolve = mkResolve(import.meta);
@@ -7,66 +6,14 @@ const resolve = mkResolve(import.meta);
 const typeDefs =  fs.readFile(resolve('./type-defs.gql'),
                               { encoding: 'utf-8' });
 
-const frontmatter = source => {
-    return grayMatter(source, {
-        language: 'yaml',
-        engines: {
-            js: () => {
-                return {}
-            },
-            javascript: () => {
-                return {}
-            },
-            json: () => {
-                return {}
-            },
-        }
-    });
-};
-
-
-const entryNodeOfFile = async ({ node, loadNodeContent }) => {
-    const name = node.name;
-
-    const { relativeDirectory = "" } = node;
-
-    const { content, data } = frontmatter(await loadNodeContent(node));
-
-    const dirs = relativeDirectory.split('/');
-    const section = dirs[0] ?? "etc";
-    const subsection = dirs[1] ?? "etc";
-    const {
-        title = "What no title?",
-        authors = [],
-        article = null,
-        link = null,
-        year = null,
-        disabled = false
-    } = data;
-    return {
-        disabled,
-        section, subsection,
-        title,
-        content,
-        authors,
-        article,
-        link,
-        year: parseInt(year)
-    };
-};
-
 export const createSchemaCustomization = async ({
     actions: { createTypes }
 }) => await createTypes(await typeDefs);
 
-export const shouldOnCreateNode = ({node: {
-    internal: { type },
-    sourceInstanceName,
-    extension
-}}) =>
-'File' === type && 'Anon' == sourceInstanceName && 'md' === extension;
+export const shouldOnCreateNode = ({node: { internal: { type } }}) =>
+'MarkdownRemark' === type;
 
-export const onCreateNode = async props => {
+export const onCreateNode = async (props, { name }) => {
     const {
         node,
         actions: { createNode, createParentChildLink },
@@ -75,9 +22,34 @@ export const onCreateNode = async props => {
         getNode
     } = props;
 
+    const file = getNode(node.parent);
+    const {
+        sourceInstanceName,
+        relativeDirectory = ""
+    } = file;
+    if (name !== sourceInstanceName) {
+        return;
+    }
+
     const id = createNodeId(`${node.id} >>> Bib`);
 
-    const entry = await entryNodeOfFile(props);
+    const dirs = relativeDirectory.split('/');
+    const section = dirs[0] ?? "etc";
+    const subsection = dirs[1] ?? "etc";
+
+    const {
+        title = "What no title?",
+        authors = [],
+        article = null,
+        link = null,
+        year = null,
+        disabled = false
+    } = node.frontmatter;
+    const entry = {
+        section, subsection,
+        disabled,
+        title, authors, article, link, year, disabled
+    };
 
     const entryNode = {
             ...entry,
@@ -92,3 +64,7 @@ export const onCreateNode = async props => {
     await Promise.all([createNode(entryNode),
                        createParentChildLink({ parent: node, child: entryNode })]);
 };
+
+export const pluginOptionsSchema = ({ Joi }) => Joi.object({
+    name: Joi.string().required()
+});

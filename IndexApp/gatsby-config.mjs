@@ -131,6 +131,8 @@ const plugins = [
     "gatsby-transformer-sharp",
     "gatsby-plugin-image",
     "gatsby-transformer-yaml",
+    `gatsby-transformer-remark`,
+
     ...sources.map(([name, path]) => ({
         resolve: "gatsby-source-filesystem",
         options: { path, name }
@@ -139,7 +141,10 @@ const plugins = [
     "post",
     "site",
     "transformer-poem",
-    "transformer-bib",
+    {
+        resolve: "transformer-bib",
+        options: { name: 'Anon' }
+    },
     ...posts.map(name => ({
         resolve: "transformer-post-mdx",
         options: { name }

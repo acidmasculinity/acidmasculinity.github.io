@@ -1,16 +1,14 @@
-type Bib implements Node @childOf(types: ["File"]) {
+type Bib implements Node @childOf(types: ["MarkdownRemark"]) {
   id: ID!
   section: String!
   subsection: String!
 
+  disabled: Boolean!
+
   title: String!
-  content: String!
   authors: [String!]!
 
   article: String
   link: String
-
   year: Int
-
-  disabled: Boolean
 }
