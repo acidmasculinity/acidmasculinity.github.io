@@ -156,8 +156,7 @@ const plugins = [
     "rmannoounce",
     "focus",
     "layout",
-    "root",
-    "preload"
+    "root"
 ];
 
 const config = {
