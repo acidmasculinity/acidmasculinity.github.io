@@ -10,13 +10,14 @@ query UseBibList
       group(field: {subsection: SELECT}) {
         fieldValue
         nodes {
+          disabled
           title
           content
 
+          authors
           article
           link
           year
-          disabled
         }
       }
     }

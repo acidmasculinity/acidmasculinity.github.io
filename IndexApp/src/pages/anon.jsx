@@ -23,8 +23,12 @@ import { headingInner, heading } from "./bib.module.css";
 const H4 = ({children, ...props}) => <h4 className={headingInner} {...props}>{children}</h4>;
 const H4A = withA(H4);
 
-const Heading = ({children, article, link, year, ...props}) =>
+const Heading = ({children, authors, article, link, year, ...props}) =>
 <div className={heading}>
+    {
+        authors.length > 0 &&
+            <>{authors.join(' ')}, </>
+    }
     <H4A {...props}>{children}</H4A>
     {article && <>, {article}</>}
     {year && <>, {year}</>}
