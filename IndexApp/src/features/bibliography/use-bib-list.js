@@ -15,6 +15,8 @@ query UseBibList
 
           article
           link
+          year
+          disabled
         }
       }
     }
@@ -28,6 +30,8 @@ export const useBibList = () => {
         Object.fromEntries(
             raw.allBib.group
                 .map(({ fieldValue, group }) =>
-                    [fieldValue, group.map(({ fieldValue, nodes }) => [ fieldValue, nodes ])])),
+                    [
+                        fieldValue,
+                        group.map(({ fieldValue, nodes }) => [ fieldValue, nodes ])])),
         [raw]);
 }

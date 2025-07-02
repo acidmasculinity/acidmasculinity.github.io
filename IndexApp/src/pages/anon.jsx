@@ -9,13 +9,27 @@ import {
     A,
     H2A,
     H3A,
-    H4A,
-    Hgroup
+    withA,
+    Hgroup,
+    Section,
 } from "@features/ui";
 import { ViewportPage } from "@features/page";
 import { SeoBasic } from "../components/seo-basic.jsx";
 import { useTitle } from "../components/title.jsx";
 import { useAbsolute } from "../hooks/use-absolute.js";
+import { headingInner, heading } from "./bib.module.css";
+
+
+const H4 = ({children, ...props}) => <h4 className={headingInner} {...props}>{children}</h4>;
+const H4A = withA(H4);
+
+const Heading = ({children, article, link, year, ...props}) =>
+<div className={heading}>
+    <H4A {...props}>{children}</H4A>
+    {article && <>, {article}</>}
+    {year && <>, {year}</>}
+    {link && <>, <A href={link}>{link}</A></>}
+</div>;
 
 const title = "Anon: A Bibliography";
 
@@ -70,20 +84,19 @@ const BlogPage = () => {
                                        </header>
                                    </Card>
                                    {
-                                       bibs.map(({title, content, article, link}) =>
-                                           <Card key={title}>
-                                               <header>
-                                                   <Hgroup>
-                                                       <H4A id={title}>
-                                                           {title}
-                                                       </H4A>
-                                                       {article}
-                                                       {link &&
-                                                        <A href={link}>{link}</A>}
-                                                   </Hgroup>
-                                               </header>
-                                               {content}
-                                           </Card>)
+                                       bibs.map(({title, content, disabled, ...xs}) =>
+                                           !disabled &&
+                                               <Section key={title}
+                                                        heading={
+                                                            <Heading
+                                                                {...xs}
+                                                                id={title}
+                                                            >
+                                                                {title}
+                                                            </Heading>
+                                                        }>
+                                                   {content}
+                                               </Section>)
                                    }
                                </Fragment>
                            )
@@ -92,6 +105,5 @@ const BlogPage = () => {
                )}
            </ViewportPage>;
 };
-
 
 export default BlogPage;

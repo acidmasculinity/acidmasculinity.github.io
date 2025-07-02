@@ -9,4 +9,8 @@ type Bib implements Node @childOf(types: ["File"]) {
 
   article: String
   link: String
+
+  year: Int
+
+  disabled: Boolean
 }

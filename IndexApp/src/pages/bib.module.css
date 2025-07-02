@@ -1,0 +1,15 @@
+.heading {
+    all: unset;
+    display: flow-root;
+    contain: layout style;
+    break-inside: avoid;
+    break-after: avoid;
+    color: var(--emphasis-text);
+    font-variant-numeric: proportional-nums lining-nums;
+}
+
+.headingInner {
+    all: unset;
+    display: inline;
+    border-radius: 0.001ch;
+}

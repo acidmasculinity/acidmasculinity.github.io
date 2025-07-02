@@ -1,6 +1,6 @@
 .a {
     all: unset;
-    display: inline-block;
+    display: inline;
     border-radius: 0.001ch ;
     box-decoration-break: clone;
     text-underline-position: under;

@@ -39,14 +39,20 @@ const entryNodeOfFile = async ({ node, loadNodeContent }) => {
         title = "What no title?",
         authors = [],
         article = null,
-        link = null
+        link = null,
+        year = null,
+        disabled = false
     } = data;
-    return { section, subsection,
-             title,
-             content,
-             authors,
-             article,
-             link };
+    return {
+        disabled,
+        section, subsection,
+        title,
+        content,
+        authors,
+        article,
+        link,
+        year: parseInt(year)
+    };
 };
 
 export const createSchemaCustomization = async ({
