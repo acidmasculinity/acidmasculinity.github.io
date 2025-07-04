@@ -1,6 +1,5 @@
-import { createElement, Fragment, useState, useEffect } from "react";
+import { Fragment } from "react";
 import rehypeReact from "rehype-react";
-import {unified} from 'unified';
 import { useLocation } from "@gatsbyjs/reach-router";
 import {
     useBibList
@@ -23,23 +22,12 @@ import { useAbsolute } from "../hooks/use-absolute.js";
 import { headingInner, heading } from "./bib.module.css";
 import production from 'react/jsx-runtime';
 
-const processor = unified().use(rehypeReact, production);
-console.log(processor);
-
-const Render = (ast) => {
-    const [Content, setContent] = useState(createElement(Fragment))
-
-    useEffect(
-        function () {
-            ;(async function () {
-                const file = await processor(ast);
-                setContent(file.result);
-            })()
-        },
-        [ast]
-    );
-    return <Content />;
-};
+const renderAst = new rehypeReact({
+    ...production,
+    components: {
+        p: P
+    }
+});
 
 const H4 = ({children, ...props}) => <h4 className={headingInner} {...props}>{children}</h4>;
 const H4A = withA(H4);
@@ -111,7 +99,6 @@ const BlogPage = () => {
                                    {
                                        bibs.map(({title, htmlAst, ...xs}) =>
                                            <Section
-                                               key={title}
                                                heading={
                                                    <Heading
                                                        {...xs}
@@ -120,7 +107,9 @@ const BlogPage = () => {
                                                        {title}
                                                    </Heading>
                                                }>
-                                               <Render ast={htmlAst} />
+                                               {
+                                                   renderAst.compiler(htmlAst, { filePath: '' })
+                                               }
                                            </Section>)
                                    }
                                </Fragment>
