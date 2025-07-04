@@ -32,13 +32,18 @@ const renderAst = new rehypeReact({
 const H4 = ({children, ...props}) => <h4 className={headingInner} {...props}>{children}</h4>;
 const H4A = withA(H4);
 
-const Heading = ({children, authors, article, link, year, ...props}) =>
+const Heading = ({
+    children,
+    authors, article, site, link, year,
+    ...props
+}) =>
 <div className={heading}>
     {
         authors.length > 0 &&
             <>{authors.join(' ')}, </>
     }
     <H4A {...props}>{children}</H4A>
+    {site && <>, {site}</>}
     {article && <>, {article}</>}
     {year && <>, {year}</>}
     {link && <>, <A href={link}>{link}</A></>}

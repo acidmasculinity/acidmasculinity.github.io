@@ -9,6 +9,7 @@ type Bib implements Node @childOf(types: ["MarkdownRemark"]) {
   authors: [String!]!
 
   article: String
+  site: String
   link: String
   year: Int
 }

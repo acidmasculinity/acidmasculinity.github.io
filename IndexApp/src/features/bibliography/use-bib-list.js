@@ -12,6 +12,7 @@ query UseBibList {
           htmlAst
           childBib {
             title
+            site
             link
             authors
             year
