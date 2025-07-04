@@ -1,17 +1,15 @@
 import { useMemo } from "react";
 import { graphql, useStaticQuery } from "gatsby";
 
-// FIXME debug sectioning error
 const useBibListRaw = () => useStaticQuery(graphql`
-query UseBibList
-{
-  allMarkdownRemark {
+query UseBibList {
+  allMarkdownRemark(filter: {childBib: {disabled: {eq: false}}}) {
     group(field: {childBib: {section: SELECT}}) {
       fieldValue
-      group(field: {childBib: {section: SELECT}}) {
+      group(field: {childBib: {subsection: SELECT}}) {
         fieldValue
         nodes {
-          html
+          htmlAst
           childBib {
             title
             link
@@ -34,7 +32,7 @@ export const useBibList = () => {
                         fieldValue,
                         group.map(({ fieldValue, nodes }) => [
                             fieldValue,
-                            nodes.map(({ html, childBib }) => ({ ...childBib, html }))
+                            nodes.map(({ htmlAst, childBib }) => ({ ...childBib, htmlAst }))
                         ])])),
         [raw]);
 }

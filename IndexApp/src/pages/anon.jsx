@@ -1,4 +1,6 @@
-import { Fragment } from "react";
+import { createElement, Fragment, useState, useEffect } from "react";
+import rehypeReact from "rehype-react";
+import {unified} from 'unified';
 import { useLocation } from "@gatsbyjs/reach-router";
 import {
     useBibList
@@ -9,6 +11,7 @@ import {
     A,
     H2A,
     H3A,
+    P,
     withA,
     Hgroup,
     Section,
@@ -18,7 +21,25 @@ import { SeoBasic } from "../components/seo-basic.jsx";
 import { useTitle } from "../components/title.jsx";
 import { useAbsolute } from "../hooks/use-absolute.js";
 import { headingInner, heading } from "./bib.module.css";
+import production from 'react/jsx-runtime';
 
+const processor = unified().use(rehypeReact, production);
+console.log(processor);
+
+const Render = (ast) => {
+    const [Content, setContent] = useState(createElement(Fragment))
+
+    useEffect(
+        function () {
+            ;(async function () {
+                const file = await processor(ast);
+                setContent(file.result);
+            })()
+        },
+        [ast]
+    );
+    return <Content />;
+};
 
 const H4 = ({children, ...props}) => <h4 className={headingInner} {...props}>{children}</h4>;
 const H4A = withA(H4);
@@ -88,20 +109,19 @@ const BlogPage = () => {
                                        </header>
                                    </Card>
                                    {
-                                       bibs.map(({title, disabled, html, ...xs}) =>
-                                           !disabled &&
-                                               <Section
-                                                   key={title}
-                                                   heading={
-                                                       <Heading
-                                                           {...xs}
-                                                           id={title}
-                                                       >
-                                                           {title}
-                                                       </Heading>
-                                                   }>
-                                                   <div dangerouslySetInnerHTML={{ __html: html }} />
-                                               </Section>)
+                                       bibs.map(({title, htmlAst, ...xs}) =>
+                                           <Section
+                                               key={title}
+                                               heading={
+                                                   <Heading
+                                                       {...xs}
+                                                       id={title}
+                                                   >
+                                                       {title}
+                                                   </Heading>
+                                               }>
+                                               <Render ast={htmlAst} />
+                                           </Section>)
                                    }
                                </Fragment>
                            )
