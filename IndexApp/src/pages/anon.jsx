@@ -109,7 +109,7 @@ const BlogPage = () => {
                                                        {...xs}
                                                        id={title}
                                                    >
-                                                       {title}
+                                                       <i>{title}</i>
                                                    </Heading>
                                                }>
                                                {

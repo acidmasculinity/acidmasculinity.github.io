@@ -9,6 +9,7 @@ query UseBibList {
        childBib {
          section
          subsection
+         article
          title
          site
          link
