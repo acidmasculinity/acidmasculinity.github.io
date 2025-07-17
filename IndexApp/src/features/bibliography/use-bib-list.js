@@ -9,11 +9,15 @@ query UseBibList {
        childBib {
          section
          subsection
+
+         authors
          article
+
          title
+         volume
+         issue
          site
          link
-         authors
          year
        }
     }

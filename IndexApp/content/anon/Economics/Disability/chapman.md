@@ -6,4 +6,5 @@ publisher: Pluto Press
 year: 2023
 ---
 
-<!-- Philosopher, Robert Chapman ... -->
+I think psychocentrism and the commodification of the laborer under
+capitalism is under-explored as a problem today.

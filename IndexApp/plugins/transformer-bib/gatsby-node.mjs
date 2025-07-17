@@ -41,6 +41,8 @@ export const onCreateNode = async (props, { name }) => {
         title = "What no title?",
         authors = [],
         article = null,
+        volume = null,
+        issue = null,
         site = null,
         link = null,
         year = null,
@@ -49,7 +51,7 @@ export const onCreateNode = async (props, { name }) => {
     const entry = {
         section, subsection,
         disabled,
-        title, authors, article, site, link, year, disabled
+        volume, issue, title, authors, article, site, link, year, disabled
     };
 
     const entryNode = {

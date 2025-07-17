@@ -5,4 +5,3 @@ title: "The Wages of Whiteness: Race and the Making of the American Working Clas
 publisher: Verso
 year: 1991
 ---
-
