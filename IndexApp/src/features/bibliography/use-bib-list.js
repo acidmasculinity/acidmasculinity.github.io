@@ -4,36 +4,37 @@ import { graphql, useStaticQuery } from "gatsby";
 const useBibListRaw = () => useStaticQuery(graphql`
 query UseBibList {
   allMarkdownRemark(filter: {childBib: {disabled: {eq: false}}}) {
-    group(field: {childBib: {section: SELECT}}) {
-      fieldValue
-      group(field: {childBib: {subsection: SELECT}}) {
-        fieldValue
-        nodes {
-          htmlAst
-          childBib {
-            title
-            site
-            link
-            authors
-            year
-          }
-        }
-      }
+     nodes {
+       htmlAst
+       childBib {
+         section
+         subsection
+         title
+         site
+         link
+         authors
+         year
+       }
     }
   }
 }`);
 
+const group = (x, f) =>
+      Object.entries(Object.groupBy(x, f));
+
+const bySection = x => group(x, node => node.section);
+const bySubsection = x => group(x, node => node.subsection);
+
+const flatten = raw => raw.allMarkdownRemark.nodes.map(({ htmlAst, childBib }) => ({ htmlAst, ...childBib }));
+
+const process = raw =>
+      bySection(flatten(raw))
+      .map(([k, v]) => [k, bySubsection(v)]);
+
 export const useBibList = () => {
     const raw = useBibListRaw();
-    return useMemo(() =>
-        Object.fromEntries(
-            raw.allMarkdownRemark.group
-                .map(({ fieldValue, group }) =>
-                    [
-                        fieldValue,
-                        group.map(({ fieldValue, nodes }) => [
-                            fieldValue,
-                            nodes.map(({ htmlAst, childBib }) => ({ ...childBib, htmlAst }))
-                        ])])),
-        [raw]);
+    return useMemo(() => {
+        const result = process(raw);
+        return result;
+    }, [raw]);
 }

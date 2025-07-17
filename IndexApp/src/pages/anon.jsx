@@ -78,7 +78,7 @@ const BlogPage = () => {
                }
                heading="Anon: A Bibliography"
            >{
-               Object.entries(bibsByCat).map(([dir, sec]) =>
+               bibsByCat.map(([dir, sec]) =>
                    <nav key={dir} aria-labelledby={dir}>
                        <Card>
                            <header>
@@ -91,7 +91,7 @@ const BlogPage = () => {
                        </Card>
                        {
                            sec.map(([subsec, bibs]) =>
-                               <Fragment key={subsec}>
+                               <Fragment>
                                    <Card>
                                        <header>
                                            <Hgroup>
