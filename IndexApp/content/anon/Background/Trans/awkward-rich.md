@@ -1,4 +1,5 @@
 ---
+disabled: true
 authors:
   - Awkward-Rich, Cameron
 article: "Trans, Feminism: Or, Reading like a Depressed Transsexual"
