@@ -1,4 +1,5 @@
 ---
+disabled: true
 authors:
   - Procknow, Greg
 article: "I, 'Madman': An Autosomatography of Schizoaffective Disorder and Mad Subjectivity"

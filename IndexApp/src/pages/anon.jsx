@@ -46,8 +46,8 @@ const Heading = ({
     <H4A {...props}>{children}</H4A>
     {site && <>, {site}</>}
     {article && <>, {article}</>}
-    {volume && <>vol. {volume}</>}
-    {issue && <>no. {issue}</>}
+    {volume && <>{' '}vol. {volume}</>}
+    {issue && <>{' '}no. {issue}</>}
     {year && <>, {year}</>}
     {link && <>, <A href={link}>{link}</A></>}
 </div>;

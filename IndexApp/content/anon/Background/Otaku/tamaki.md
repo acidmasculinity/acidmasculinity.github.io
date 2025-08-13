@@ -1,4 +1,5 @@
 ---
+disabled: true
 authors:
   - Saitō Tamaki
 title: "Beautiful Fighting Girl"

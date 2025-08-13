@@ -1,4 +1,5 @@
 ---
+disabled: true
 authors:
   - Theweleit, Klaus
 title: "Male Fantasies"

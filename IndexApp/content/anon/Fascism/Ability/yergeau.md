@@ -1,4 +1,5 @@
 ---
+disabled: true
 authors:
   - Yergeau, Melanie
 title: "Authoring Autism: On Rhetoric and Neurological Queerness"

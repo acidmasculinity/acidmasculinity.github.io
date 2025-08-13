@@ -1,4 +1,5 @@
 ---
+disabled: true
 authors:
   - "Bhatt, Talia"
 article: "The Third Sex"

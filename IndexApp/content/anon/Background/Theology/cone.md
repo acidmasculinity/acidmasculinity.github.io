@@ -1,4 +1,5 @@
 ---
+disabled: true
 authors:
   - Cone, James H.
 title: "Black Theology & Black Power"

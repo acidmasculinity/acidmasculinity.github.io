@@ -1,4 +1,5 @@
 ---
+disabled: true
 authors:
   - Bavinka, Tim
 article: "/Co/operation and /co/mmunity in /co/mics: 4chan's Hypercrisis"

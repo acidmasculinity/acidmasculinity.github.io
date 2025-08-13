@@ -1,4 +1,5 @@
 ---
+disabled: true
 authors:
   - Bratich, Jack Z.
 title: "On Microfascism: Gender, War, and Death"

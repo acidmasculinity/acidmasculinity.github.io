@@ -1,4 +1,5 @@
 ---
+disabled: true
 authors:
   - Granata, Yvette
 article: "Meme Dankness: Floating Glittery Trash for an Economic Heresy"

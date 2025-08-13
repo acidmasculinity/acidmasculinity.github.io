@@ -1,4 +1,5 @@
 ---
+disabled: true
 authors:
 - J. Sakai
 title: "Settlers: The Mythology of the White Proletariat"

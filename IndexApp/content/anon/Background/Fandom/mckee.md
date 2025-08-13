@@ -1,4 +1,5 @@
 ---
+disabled: true
 authors:
   - McKee, Alan
 article: "Porn Consumers as Fans"

@@ -1,4 +1,5 @@
 ---
+disabled: true
 authors:
   - "Akihiro Kitada"
 article: "Japan's Cynical Nationalism"
