@@ -8,4 +8,4 @@ publisher: "Verso Books"
 
 I like this book but it probably requires a background reading in
 "Labor and Monopoly Capital" first.  The real subsumption of labor is
-critically import to analyze in the digital age.
+critically important to analyze in the digital age.
